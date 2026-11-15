@@ -37,7 +37,7 @@ TOPICS = {"dai_so_giai_tich": "Đại số và Giải tích", "hinh_hoc_do_luong
           "thong_ke_xac_suat": "Thống kê và Xác suất"}
 TF_POINTS = {0: Decimal("0"), 1: Decimal("0.1"), 2: Decimal("0.25"), 3: Decimal("0.5"), 4: Decimal("1")}
 PROMPT_VERSION = "P1.0"  # mã phiên bản prompt (mục 1.2.3); đổi khi sửa prompt
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
 # ----------------------------------------------------------------- prompt (mục 3.1.4)
 SYSTEM_PROMPT = (
