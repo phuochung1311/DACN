@@ -1,0 +1,137 @@
+﻿exam,id,format,topic,has_figure,pred,key,correct,tf_k,points,ma_loi,summary,latency,tok_in,tok_out
+D25-MH,I.1,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Nguyên hàm của hàm số $f(x) = \text{e}^x$ là $\int \text{e}^x \text{d}x = \text{e}^x + C$. Do đó, phương án đúng là B.",22.2,223,73
+D25-MH,I.2,mcq,dai_so_giai_tich,False,null,"""D""",False,,0,E8,,2.8,332,104
+D25-MH,I.3,mcq,thong_ke_xac_suat,False,"""A""","""A""",True,,0.25,,"Tần số của từng nhóm ở mẫu số liệu $M_2$ gấp 2 lần tần số của từng nhóm tương ứng ở mẫu số liệu $M_1$ (kéo theo kích thước mẫu $n_2 = 2n_1$). 
+
+Do giá trị đại diện của các nhóm ở hai mẫu số liệu là như nhau, nên:
+- Số trung bình của hai mẫu bằng nhau: $\bar{x}_1 = \bar{x}_2$.
+- Phương sai của hai mẫu bằng nhau: $s_2^2 = \frac{1}{n_2} \sum m_{2,i}(x_i - \bar{x}_2)^2 = \frac{1}{2n_1} \sum 2m_{1,i}(x_i - \bar{x}_1)^2 = s_1^2$.
+
+Suy ra độ lệch chuẩn của hai mẫu số liệu bằng nhau, tức là $s_1 = s_2$.",4.4,473,233
+D25-MH,I.4,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Phương trình chính tắc của đường thẳng đi qua điểm $M(x_0; y_0; z_0)$ và có một vectơ chỉ phương $\vec{u}(a; b; c)$ với $a, b, c \neq 0$ là:
+$$\frac{x - x_0}{a} = \frac{y - y_0}{b} = \frac{z - z_0}{c}$$
+Thay tọa độ điểm $M(1; -3; 5)$ và vectơ chỉ phương $\vec{u}(2; -1; 1)$ vào công thức, ta được:
+$$\frac{x - 1}{2} = \frac{y + 3}{-1} = \frac{z - 5}{1}$$
+Do đó, phương án đúng là C.",3.1,311,198
+D25-MH,I.5,mcq,dai_so_giai_tich,True,"""C""","""B""",False,,0,,"Dựa vào đồ thị hàm số $y = \frac{ax+b}{cx+d}$:
+- Đường tiệm cận ngang là đường thẳng song song (hoặc trùng) với trục hoành và nằm phía dưới trục hoành ($y < 0$).
+- Từ hình vẽ, đường tiệm cận ngang có phương trình là $y = -1$.
+
+Do đó, đáp án đúng là C.",14.8,1357,107
+D25-MH,I.6,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"1. Điều kiện xác định: $x - 1 > 0 \iff x > 1$.
+2. Giải bất phương trình: $\log_2(x-1) < 3 \iff x - 1 < 2^3 \iff x - 1 < 8 \iff x < 9$.
+3. Kết hợp điều kiện ta được $1 < x < 9$.
+Vậy tập nghiệm của bất phương trình là $(1;9)$.",2.5,191,115
+D25-MH,I.7,mcq,hinh_hoc_do_luong,False,"""B""","""B""",True,,0.25,,"Mặt phẳng $(P)$ có phương trình $x - 3y - z + 8 = 0$, suy ra một vectơ pháp tuyến của $(P)$ là $\vec{n_2} = (1; -3; -1)$.",1.9,252,71
+D25-MH,I.8,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,Vì $SA \perp (ABCD)$ và đường thẳng $SA$ nằm trong mặt phẳng $(SAB)$ nên mặt phẳng $(SAB)$ vuông góc với mặt phẳng $(ABCD)$.,2.7,203,55
+D25-MH,I.9,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Theo định nghĩa của lôgarit, phương trình $2^x = 6$ có nghiệm duy nhất là $x = \log_2 6$.",1.9,195,53
+D25-MH,I.10,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Công sai của cấp số cộng là $d = u_2 - u_1 = 3 - 1 = 2$.
+Số hạng thứ 5 của cấp số cộng là $u_5 = u_1 + 4d = 1 + 4 \cdot 2 = 9$.",1.7,200,84
+D25-MH,I.11,mcq,hinh_hoc_do_luong,True,"""D""","""D""",True,,0.25,,"Áp dụng quy tắc hình hộp cho ba vectơ xuất phát từ đỉnh $A$ của hình hộp $ABCD.A'B'C'D'$, ta có:
+$$\vec{AB} + \vec{AD} + \vec{AA'} = \vec{AC'}$$ 
+Hoặc có thể cộng từng bước: $\vec{AB} + \vec{AD} = \vec{AC}$, suy ra $\vec{AB} + \vec{AA'} + \vec{AD} = \vec{AC} + \vec{AA'} = \vec{AC} + \vec{CC'} = \vec{AC'}$.
+Do đó, phát biểu ở phương án D là đúng.",9.4,1404,170
+D25-MH,I.12,mcq,dai_so_giai_tich,True,null,"""C""",False,,0,E8,,5.6,1320,172
+D25-MH,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Xét hàm số $f(x) = 2\cos x + x$ trên đoạn $\left[0;\frac{\pi}{2}\right]$:
+a) $f(0) = 2\cos 0 + 0 = 2$ và $f\left(\frac{\pi}{2}\right) = 2\cos\frac{\pi}{2} + \frac{\pi}{2} = \frac{\pi}{2}$. (Đúng)
+b) $f'(x) = -2\sin x + 1$. Mệnh đề cho $f'(x) = 2\sin x + 1$ là Sai. (Sai)
+c) $f'(x) = 0 \Leftrightarrow \sin x = \frac{1}{2}$. Trên đoạn $\left[0;\frac{\pi}{2}\right]$, nghiệm duy nhất là $x = \frac{\pi}{6}$. (Đúng)
+d) Ta có $f(0) = 2$, $f\left(\frac{\pi}{6}\right) = 2\cos\frac{\pi}{6} + \frac{\pi}{6} = \sqrt{3} + \frac{\pi}{6} \approx 2.256$, và $f\left(\frac{\pi}{2}\right) = \frac{\pi}{2} \approx 1.571$. Giá trị lớn nhất của $f(x)$ trên đoạn $\left[0;\frac{\pi}{2}\right]$ là $\sqrt{3} + \frac{\pi}{6}$. (Đúng)",4.3,314,411
+D25-MH,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"1. Đổi $36\text{ km/h} = 10\text{ m/s}$. Trong 2 giây đầu trước khi tăng tốc, ô tô đi được $10 \times 2 = 20\text{ m}$. Do đó, quãng đường từ khi bắt đầu tăng tốc đến khi nhập làn là $200 - 20 = 180\text{ m}$. Mệnh đề a ĐÚNG.
+2. Tại thời điểm bắt đầu tăng tốc ($t = 0$), vận tốc của xe là $10\text{ m/s}$, suy ra $v(0) = a(0) + b = 10 \implies b = 10$. Mệnh đề b ĐÚNG.
+3. Quãng đường ô tô đi được trong thời gian $t$ giây kể từ khi tăng tốc được tính bằng công thức $S(t) = \int_0^t v(x)\text{d}x$, không phải $\int_0^{24} v(t)\text{d}t$ (là hằng số). Mệnh đề c SAI.
+4. Từ $S(12) = \int_0^{12} (at + 10)\text{d}t = 72a + 120 = 180 \implies a = \frac{5}{6}\text{ m/s}^2$. Sau 24 giây, vận tốc ô tô là $v(24) = \frac{5}{6} \times 24 + 10 = 30\text{ m/s} = 108\text{ km/h} > 100\text{ km/h}$ (vượt quá 100 km/h). Mệnh đề d SAI.",8.7,459,443
+D25-MH,II.3,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,"Dựa vào các dữ kiện đề bài:
+- Tổng số người phỏng vấn: 200.
+- Biến cố $B$: Trả lời ""sẽ mua"" $\Rightarrow P(B) = \frac{105}{200} = \frac{21}{40} = 0,525$.
+- Biến cố $\overline{B}$: Trả lời ""không mua"" $\Rightarrow P(\overline{B}) = \frac{95}{200} = \frac{19}{40} = 0,475$.
+Do đó, mệnh đề a) Đúng.
+
+- Theo bài ra, tỉ lệ người thực sự sẽ mua tương ứng với câu trả lời ""sẽ mua"" là $70\%$, tức là $P(A|B) = 0,7$. Do đó, mệnh đề b) Sai (đề cho $0,3$).
+
+- Tỉ lệ người thực sự sẽ mua tương ứng với câu trả lời ""không mua"" là $30\%$, tức là $P(A|\overline{B}) = 0,3$.
+- Áp dụng công thức xác suất toàn phần:
+$P(A) = P(B) \cdot P(A|B) + P(\overline{B}) \cdot P(A|\overline{B}) = 0,525 \cdot 0,7 + 0,475 \cdot 0,3 = 0,3675 + 0,1425 = 0,51$.
+Do đó, mệnh đề c) Đúng.
+
+- Xác suất để người thực sự mua sản phẩm đã trả lời ""sẽ mua"" là $P(B|A)$:
+$P(B|A) = \frac{P(A \cap B)}{P(A)} = \frac{P(B) \cdot P(A|B)}{P(A)} = \frac{0,3675}{0,51} \approx 0,7206 = 72\%$.
+Do đó, mệnh đề d) Sai (đề cho $70\%$).",6.0,435,534
+D25-MH,II.4,tf,hinh_hoc_do_luong,True,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"a) Vectơ chỉ phương của đường thẳng $MN$ là $\overrightarrow{MN} = (-12; -32; 16) = -4(3; 8; -4)$. Đường thẳng $MN$ đi qua $M(6; 20; 0)$ có phương trình tham số $\begin{cases} x = 6 + 3t \ y = 20 + 8t \ z = -4t \end{cases} (t \in \mathbb{R})$. Mệnh đề này ĐÚNG.
+
+b) Phạm vi theo dõi là khối cầu tâm $O(0;0;0)$ bán kính $R = (6400 + 6600)/1000 = 13$ (đơn vị độ dài). Phương trình mặt cầu là $x^2 + y^2 + z^2 = 169$.
+Thay phương trình $MN$ vào phương trình mặt cầu:
+$(6+3t)^2 + (20+8t)^2 + (-4t)^2 = 169 \iff 89t^2 + 356t + 267 = 0 \iff \begin{bmatrix} t = -1 \\ t = -3 \end{bmatrix}$.
+Vì thiên thạch di chuyển từ $M$ (ứng với $t=0$) đến $N$ (ứng với $t=-4$) nên điểm đầu tiên di chuyển vào phạm vi theo dõi tương ứng với $t = -1$, tức là $A_1(3; 12; 4)$. Điểm $A(-3; -4; 12)$ tương ứng với $t = -3$ là vị trí cuối cùng trước khi rời khỏi phạm vi. Mệnh đề này SAI.
+
+c) Khoảng cách giữa hai điểm giao nhau trong hệ tọa độ là $d = \sqrt{(-3-3)^2 + (-4-12)^2 + (12-4)^2} = \sqrt{356} = 2\sqrt{89} \approx 18,868$ đơn vị.
+Khoảng cách thực tế là $18,868 \times 1000 = 18868\text{ km}$, làm tròn đến hàng trăm là $18900\text{ km}$. Mệnh đề này ĐÚNG.
+
+d) Đoạn đường di chuyển trong phạm vi quan sát ứng với $\Delta t = |-1 - (-3)| = 2$, còn đoạn $MN$ ứng với $\Delta t = |0 - (-4)| = 4$. Do tốc độ không đổi nên thời gian di chuyển từ $M$ đến $N$ gấp 2 lần thời gian di chuyển trong phạm vi quan sát, tức là $3 \times 2 = 6$ phút. Mệnh đề này ĐÚNG.",17.4,1734,675
+D25-MH,III.1,short,hinh_hoc_do_luong,False,"""4,9""","""4,9""",True,,0.5,,"Vì $ABC.A'B'C'$ là hình lăng trụ đứng nên $AA' \perp (ABC)$. Khoảng cách giữa hai đường thẳng $AA'$ và $BC$ bằng khoảng cách từ điểm $A$ đến đường thẳng $BC$ trong mặt phẳng $(ABC)$, tức là chiều cao $h_a$ kẻ từ $A$ của tam giác $ABC$.
+
+Nửa chu vi tam giác $ABC$ là:
+$s = \frac{AB + BC + CA}{2} = \frac{5 + 6 + 7}{2} = 9$.
+
+Diện tích tam giác $ABC$ theo công thức Heron là:
+$S = \sqrt{s(s-AB)(s-BC)(s-CA)} = \sqrt{9 \cdot (9-5) \cdot (9-6) \cdot (9-7)} = \sqrt{216} = 6\sqrt{6}$.
+
+Khoảng cách cần tìm là:
+$d(AA', BC) = h_a = \frac{2S}{BC} = \frac{12\sqrt{6}}{6} = 2\sqrt{6} \approx 4,8989... \approx 4,9$.",206.6,205,297
+D25-MH,III.2,short,dai_so_giai_tich,True,"""43""","""43""",True,,0.5,,"Bài toán yêu cầu tìm chu trình Hamilton có tổng độ dài (số thử thách) nhỏ nhất trong đồ thị đầy đủ 4 đỉnh $A, B, C, D$.
+
+Các độ dài cạnh giữa các cặp trụ:
+- $AB = 10$
+- $AC = 11$
+- $BC = 12$
+- $AD = 9$
+- $BD = 11$
+- $CD = 14$
+
+Có 3 chu trình Hamilton không hướng xuất phát từ một trụ bất kỳ đi qua tất cả các trụ khác và quay về trụ ban đầu:
+1. Chu trình $A - B - C - D - A$ có tổng số thử thách: $10 + 12 + 14 + 9 = 45$.
+2. Chu trình $A - B - D - C - A$ có tổng số thử thách: $10 + 11 + 14 + 11 = 46$.
+3. Chu trình $A - C - B - D - A$ có tổng số thử thách: $11 + 12 + 11 + 9 = 43$.
+
+Giá trị nhỏ nhất của tổng số thử thách là 43.",71.7,1388,292
+D25-MH,III.3,short,hinh_hoc_do_luong,False,null,"""3""",False,,0,E8,,68.7,325,432
+D25-MH,III.4,short,dai_so_giai_tich,True,"""3200""","""3200""",True,,0.5,,"Diện tích hình chữ nhật là $S_{	ext{HCN}} = 60 	imes 80 = 4800	ext{ m}^2$.
+
+Mỗi phần trồng hoa là một hình phẳng giới hạn bởi cạnh của hình chữ nhật và một parabol có chiều cao $h = 20	ext{ m}$ và độ dài đáy $b = 60	ext{ m}$.
+Diện tích một phần trồng hoa được tính bằng công thức diện tích vòm parabol: 
+$S_1 = rac{2}{3} 	imes b 	imes h = rac{2}{3} 	imes 60 	imes 20 = 800	ext{ m}^2$.
+
+Tổng diện tích hai phần trồng hoa là:
+$S_{	ext{hoa}} = 2 	imes 800 = 1600	ext{ m}^2$.
+
+Diện tích của phần sân chơi (tô màu đậm) là:
+$S_{	ext{sân chơi}} = S_{	ext{HCN}} - S_{	ext{hoa}} = 4800 - 1600 = 3200	ext{ m}^2$.",12.1,1399,286
+D25-MH,III.5,short,dai_so_giai_tich,False,"""333""","""333""",True,,0.5,,"Tổng chi phí sản xuất $x$ sản phẩm là:
+$C(x) = x \cdot G(x) = x\left(x + 1000 + \frac{250000}{x}\right) = x^2 + 1000x + 250000$ (đồng).
+
+Hàm lợi nhuận thu được là:
+$P(x) = F(x) - C(x) = x^3 - 2000x^2 + 1000000x$.
+
+Xét $P(x)$ trên đoạn $[1; 500]$:
+$P'(x) = 3x^2 - 4000x + 1000000 = 0 \iff \left[ \begin{Phi} x = 1000 \notin [1; 500] \\ x = \frac{1000}{3} \approx 333,33 \in [1; 500] \end{Phi} \right.$
+
+Vì số lượng sản phẩm $x$ phải là số nguyên dương, ta so sánh lợi nhuận tại $x = 333$ và $x = 334$:
+- $P(333) = 333 \cdot (1000 - 333)^2 = 148148037$ (đồng)
+- $P(334) = 334 \cdot (1000 - 334)^2 = 148147704$ (đồng)
+
+Do $P(333) > P(334)$, doanh nghiệp cần sản xuất 333 sản phẩm để lợi nhuận thu được là lớn nhất.",8.1,297,434
+D25-MH,III.6,short,thong_ke_xac_suat,False,"""0,08""","""0,08""",True,,0.5,,"Ký hiệu các biến cố:
+- $A$: Quả bóng lấy từ hộp I sang hộp II là màu đỏ. $P(A) = \frac{6}{10} = 0,6 \Rightarrow P(\overline{A}) = 0,4$.
+- $B$: Quả bóng lấy ra từ hộp II là màu đỏ.
+- $T$: Quả bóng lấy ra từ hộp II là quả bóng được chuyển từ hộp I sang.
+
+Tính xác suất $P(B)$:
+$P(B) = P(B|A)P(A) + P(B|\overline{A})P(\overline{A}) = \frac{8}{11} \cdot \frac{6}{10} + \frac{7}{11} \cdot \frac{4}{10} = \frac{76}{110} = \frac{38}{55}$.
+
+Biến cố quả bóng lấy từ hộp II là quả bóng được chuyển sang và có màu đỏ chính là $T \cap A$. Xác suất của biến cố này là:
+$P(T \cap B) = P(T \cap A) = P(T|A)P(A) = \frac{1}{11} \cdot \frac{6}{10} = \frac{6}{110} = \frac{3}{55}$.
+
+Xác suất cần tìm là xác suất có điều kiện $P(T|B)$:
+$P(T|B) = \frac{P(T \cap B)}{P(B)} = \frac{3/55}{38/55} = \frac{3}{38} \approx 0,0789$.
+
+Làm tròn đến hàng phần trăm thu được kết quả $0,08$.",11.1,265,430
