@@ -1,0 +1,123 @@
+﻿exam,id,format,topic,has_figure,pred,key,correct,tf_k,points,ma_loi,summary,latency,tok_in,tok_out
+D26-G3,I.1,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Điều kiện xác định: $x - 1 > 0 \iff x > 1$.
+Ta có:
+$\log_3(x - 1) = 1 \iff x - 1 = 3^1 \iff x = 4$ (thỏa mãn điều kiện).
+Vậy nghiệm của phương trình là $x = 4$.",2.5,192,97
+D26-G3,I.2,mcq,hinh_hoc_do_luong,True,"""B""","""B""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, hai đoạn thẳng $AB$ và $D'C'$ song song, bằng nhau và các hướng từ $A$ đến $B$ cùng hướng với từ $D'$ đến $C'$. Do đó $\vec{D'C'} = \vec{AB}$.",8.0,1331,88
+D26-G3,I.3,mcq,thong_ke_xac_suat,False,null,"""C""",False,,0,E8,,2.0,217,67
+D26-G3,I.4,mcq,dai_so_giai_tich,True,"""C""","""C""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số, ta có:
+- $\lim_{x \to -\infty} y = -2$
+- $\lim_{x \to +\infty} y = -2$
+
+Do đó, đường tiệm cận ngang của đồ thị hàm số có phương trình là $y = -2$.
+
+Vậy phương án đúng là C.",9.2,1356,102
+D26-G3,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Áp dụng tính chất của nguyên hàm, ta có:
+$$\int [3 + f(x)]\,dx = \int 3\,dx + \int f(x)\,dx = 3x + \sin x + C.$$
+Do đó, phương án đúng là B.",2.1,258,84
+D26-G3,I.6,mcq,thong_ke_xac_suat,False,"""C""","""C""",True,,0.25,,"Tổng số học sinh là $n = 42$. Vị trí của trung vị tương ứng với giá trị thứ $\frac{n}{2} = 21$.
+Ta tính tần số tích lũy cho các nhóm:
+- Nhóm [10; 20): 4
+- Nhóm [20; 30): 4 + 8 = 12
+- Nhóm [30; 40): 12 + 14 = 26
+
+Vì $12 < 21 \le 26$ nên trung vị của mẫu số liệu thuộc nhóm [30; 40).",3.3,346,161
+D26-G3,I.7,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Áp dụng công thức tính số hạng tổng quát của cấp số cộng $u_n = u_1 + (n-1)d$, ta có $u_2 = u_1 + d = 5 + (-1) = 4$.",1.7,195,73
+D26-G3,I.8,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Đạo hàm của hàm số $y = f(x) + g(x)$ là $y' = f'(x) + g'(x)$. Theo giả thiết $f'(x) = x$ và $g'(x) = x^2$, suy ra $y' = x + x^2$.",8.4,243,84
+D26-G3,I.9,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Tọa độ của vectơ $\vec{AB}$ được tính theo công thức $\vec{AB} = (x_B - x_A; y_B - y_A; z_B - z_A)$.
+Với $A(1; 5; 1)$ và $B(3; 3; 1)$, ta có:
+$\vec{AB} = (3 - 1; 3 - 5; 1 - 1) = (2; -2; 0)$.
+Do đó, phương án đúng là C.",22.1,231,142
+D26-G3,I.10,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Thay lần lượt tọa độ các cặp số vào hệ bất phương trình $\begin{cases} x + y - 3 < 0 \\ x - y + 1 > 0 \end{cases}$:
+- Với cặp số $(1; 0)$ ở phương án D:
+  + $1 + 0 - 3 = -2 < 0$ (đúng)
+  + $1 - 0 + 1 = 2 > 0$ (đúng)
+Vậy cặp số $(1; 0)$ là nghiệm của hệ bất phương trình.",28.6,214,142
+D26-G3,I.11,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Hàm số $F(x)$ là một nguyên hàm của hàm số $f(x)$ khi và chỉ khi $f(x) = F'(x)$.
+Ta có: $F'(x) = (4x^3)' = 12x^2$.
+Do đó, $F(x) = 4x^3$ là một nguyên hàm của hàm số $f_3(x) = 12x^2$.",23.9,228,117
+D26-G3,I.12,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Công thức số hạng tổng quát của cấp số nhân có số hạng đầu $u_1$ và công bội $q$ là $u_n = u_1 \cdot q^{n-1}$. Khi đó, số hạng thứ 4 là $u_4 = u_1 \cdot q^3$.",3.1,249,85
+D26-G3,II.1,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"a) Ta có $\vec{MN} = (14 - 5; -2 - 10; 4 - 4) = (9; -12; 0)$. Do đó mệnh đề a) Đúng.
+
+b) Đường thẳng $MN$ đi qua $M(5; 10; 4)$ và có vectơ chỉ phương $\vec{u} = \frac{1}{3}\vec{MN} = (3; -4; 0)$ nên phương trình tham số của $MN$ là $\begin{cases} x = 5 + 3t \ y = 10 - 4t \ z = 4 \end{cases} (t \in \mathbb{R})$. Do mệnh đề ghi $z = 0$ nên mệnh đề b) Sai.
+
+c) Vành đai bảo vệ là đường tròn $(C)$ tâm $O(0;0;0)$, bán kính $R = 7$ nằm trong mặt phẳng $(Oxy)$ ($z = 0$).
+Xét điểm $P(x; y; z)$ thuộc đoạn thẳng $MN$ ứng với $t \in [0; 3]$ có tọa độ $P(5 + 3t; 10 - 4t; 4)$.
+Khoảng cách từ $P$ đến vành đai bảo vệ là $d(P, (C)) = \sqrt{(\sqrt{x^2 + y^2} - R)^2 + z^2}$.
+Ta có $\sqrt{x^2 + y^2} = \sqrt{(5 + 3t)^2 + (10 - 4t)^2} = \sqrt{25t^2 - 50t + 125} = 5\sqrt{(t-1)^2 + 4} \ge 5\sqrt{4} = 10$.
+Do $\sqrt{x^2 + y^2} \ge 10 > 7$, nên $d(P, (C)) = \sqrt{(5\sqrt{(t-1)^2 + 4} - 7)^2 + 4^2} \ge \sqrt{(10 - 7)^2 + 4^2} = 5$ (đơn vị).
+Đổi ra mét: $5 \times 10 = 50$ mét. Do đó mệnh đề c) Đúng.
+
+d) Khoảng cách từ máy bay đến vành đai bảo vệ là ngắn nhất khi $t = 1$.
+Khi $t = 1$, máy bay ở vị trí $P(5 + 3(1); 10 - 4(1); 4) = (8; 6; 4)$. Do đó mệnh đề d) Đúng.",26.4,507,656
+D26-G3,II.2,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Tổng số người khảo sát là $N = 10000$.
+Gọi $A$ là biến cố ""Người đó nhận được cảnh báo"", $\overline{A}$ là biến cố ""Người đó không nhận được cảnh báo"".
+Gọi $B$ là biến cố ""Người đó có bệnh"", $\overline{B}$ là biến cố ""Người đó không có bệnh"".
+
+Theo đề bài:
+- Số người không nhận được cảnh báo là $n(\overline{A}) = 9000$.
+- Số người có nhận được cảnh báo là $n(A) = 1000$.
+- Số người không nhận cảnh báo và không có bệnh là $n(\overline{A} \cap \overline{B}) = 8900$.
+- Số người nhận cảnh báo và không có bệnh là $n(A \cap \overline{B}) = 300$.
+- Tổng số người không có bệnh là $n(\overline{B}) = 8900 + 300 = 9200$.
+
+Xét từng mệnh đề:
+a) Xác suất không nhận được cảnh báo: $P(\overline{A}) = \frac{9000}{10000} = 0,9$. Mệnh đề Đúng.
+b) Xác suất không có bệnh, biết không nhận được cảnh báo: $P(\overline{B} | \overline{A}) = \frac{8900}{9000} = \frac{89}{90} \approx 0,9889 > 0,98$. Mệnh đề Đúng.
+c) Xác suất không có bệnh: $P(\overline{B}) = \frac{9200}{10000} = 0,92 \neq 0,9$. Mệnh đề Sai.
+d) Xác suất không nhận được cảnh báo, biết không có bệnh: $P(\overline{A} | \overline{B}) = \frac{8900}{9200} = \frac{89}{92} \approx 0,9674 > 0,95$. Do đó mệnh đề ""nhỏ hơn 0,95"" là Sai.",9.8,483,536
+D26-G3,II.3,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Xét từng mệnh đề:
+a) Ta có $F(t) = \int f(t)\,dt = \int (-0,3t^2 + 3,6t)\,dt = -0,1t^3 + 1,8t^2 + C$. Vì $F(0) = 0$ nên $C = 0$, suy ra $F(t) = -0,1t^3 + 1,8t^2$ với $0 \le t \le 12$. Do đó mệnh đề a) Đúng.
+
+b) Năng lượng điện lưu trữ được từ thời điểm $t = a$ đến $t = b$ là $F(b) - F(a) = \int_a^b f(t)\,dt$. Do đó mệnh đề b) Đúng.
+
+c) Năng lượng điện lưu trữ từ $t = 1$ đến $t = 4$ là $\int_1^4 f(t)\,dt = F(4) - F(1) = (-0,1 \cdot 4^3 + 1,8 \cdot 4^2) - (-0,1 \cdot 1^3 + 1,8 \cdot 1^2) = 22,4 - 1,7 = 20,7$ kWh. Vì $20,7 > 20,6$ nên mệnh đề c) Sai.
+
+d) Năng lượng điện lưu trữ từ $t = 1$ đến $t = 7$ là $F(7) - F(1) = 53,9 - 1,7 = 52,2$ kWh.
+Năng lượng điện lưu trữ từ $t = 1$ đến $t = 5$ là $F(5) - F(1) = 32,5 - 1,7 = 30,8$ kWh.
+Vì $52,2 \neq 2 \times 30,8 = 61,6$ nên mệnh đề d) Sai.",6.1,557,500
+D26-G3,II.4,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": true, ""d"": false}","{""a"": true, ""b"": true, ""c"": true, ""d"": false}",True,4,1,,"Xét hàm số $f(x) = \frac{1}{3}x^3 - 5x^2 + 9x + 8$:
+a) Ta có $f'(x) = x^2 - 10x + 9$. (Đúng)
+b) $f'(x) = 0 \Leftrightarrow x^2 - 10x + 9 = 0 \Leftrightarrow x = 1$ hoặc $x = 9$. Tập nghiệm $S = \{1; 9\}$. (Đúng)
+c) $f'(x) < 0 \Leftrightarrow x \in (1; 9)$, nên hàm số nghịch biến trên khoảng $(1; 9)$. (Đúng)
+d) Hàm số đạt cực tiểu tại $x = 9$, giá trị cực tiểu $f(9) = -73$. Giá trị $\frac{37}{3}$ là giá trị cực đại tại $x = 1$. (Sai)",4.1,284,256
+D26-G3,III.1,short,thong_ke_xac_suat,True,null,"""1856""",False,,0,E8,,33.1,1435,437
+D26-G3,III.2,short,dai_so_giai_tich,False,"""1275""","""1275""",True,,0.5,,"Gọi $x, y, z$ (nghìn đồng/kg) lần lượt là đơn giá của Rau muống, Bí xanh, Cà chua.
+
+Từ bảng số liệu của thứ Tư, thứ Năm, thứ Sáu, ta có hệ phương trình:
+$$\begin{cases} 19x + 14y + 10z = 600 \\ 20x + 12y + 8z = 540 \\ 25x + 12y + 7z = 570 \end{cases}$$
+
+Giải hệ phương trình trên, ta thu được:
+$$\begin{cases} x = 10 \\ y = 15 \\ z = 20 \end{cases}$$
+
+Tổng số tiền thu được trong ngày thứ Bảy là:
+$$50x + 25y + 20z = 50 \times 10 + 25 \times 15 + 20 \times 20 = 1275 \text{ (nghìn đồng)}$$",10.0,380,267
+D26-G3,III.3,short,dai_so_giai_tich,True,"""5,91""","""5,91""",True,,0.5,,"Phương trình elip là $\frac{x^2}{1,5^2} + \frac{y^2}{1^2} = 1 \implies y^2 = 1 - \frac{4x^2}{9}$.
+Khối trụ lỗ khoan có bán kính $r = 0,2$ cm.
+Hoành độ giao điểm của lỗ khoan và elip thoả mãn $y = 0,2 \implies 1 - \frac{4x^2}{9} = 0,04 \implies x^2 = 2,16 \implies x_0 = \sqrt{2,16}$.
+
+Thể tích của hạt cườm thu được khi quay hình phẳng quanh trục $Ox$ là:
+$$V = \pi \int_{-\sqrt{2,16}}^{\sqrt{2,16}} \left( 1 - \frac{4x^2}{9} - 0,2^2 \right) dx = 2\pi \int_0^{\sqrt{2,16}} \left( 0,96 - \frac{4x^2}{9} \right) dx$$
+$$V = 2\pi \left[ 0,96x - \frac{4x^3}{27} \right]_0^{\sqrt{2,16}} = 2\pi \sqrt{2,16} \left( 0,96 - \frac{4 \cdot 2,16}{27} \right) = 1,28\pi \sqrt{2,16} \approx 5,90998978 \text{ cm}^3$$
+
+Làm tròn đến hàng phần trăm thu được kết quả $5,91$ cm$^3$.",29.5,1491,422
+D26-G3,III.4,short,dai_so_giai_tich,True,null,"""1152""",False,,0,E8,,73.2,1516,508
+D26-G3,III.5,short,dai_so_giai_tich,False,"""1990""","""1990""",True,,0.5,,"Hàm lợi nhuận của công ty tính theo $x$ (tấn) là $P(x) = R(x) - C(x) = -0,001x^3 + 30x - 10$ trên đoạn $[1; 200]$.
+Đạo hàm $P'(x) = -0,003x^2 + 30$.
+Cho $P'(x) = 0 \iff -0,003x^2 + 30 = 0 \iff x^2 = 10000 \iff x = 100$ (do $1 \le x \le 200$).
+Tính giá trị của $P(x)$ tại các điểm xét:
+- $P(1) = 19,999$
+- $P(100) = 1990$
+- $P(200) = -2010$
+Vậy lợi nhuận lớn nhất mà công ty đạt được trong một tháng là 1990 triệu đồng.",14.1,269,261
+D26-G3,III.6,short,hinh_hoc_do_luong,False,"""7,35""","""7,35""",True,,0.5,,"Chọn hệ trục tọa độ $Oxyz$ sao cho $A(0;0;0)$, $B(6;0;0)$, $D(0;6;0)$ và $M(0;0;6)$. Khi đó:
+- $E(3;0;0)$ là trung điểm của $AB$.
+- $P(6;6;6)$.
+
+Mặt phẳng $(MED)$ đi qua $M(0;0;6)$, $E(3;0;0)$, $D(0;6;0)$ có phương trình:
+$$\vec{ME} = (3;0;-6), \quad \vec{MD} = (0;6;-6)$$
+$$\vec{n} = \frac{1}{18} (\vec{ME} \times \vec{MD}) = (2;1;1)$$
+Phương trình mặt phẳng $(MED)$ là: $2x + y + z - 6 = 0$.
+
+Khoảng cách từ điểm $P(6;6;6)$ đến mặt phẳng $(MED)$ là:
+$$d(P, (MED)) = \frac{|2\cdot 6 + 6 + 6 - 6|}{\sqrt{2^2 + 1^2 + 1^2}} = \frac{18}{\sqrt{6}} = 3\sqrt{6} \approx 7,35.$$",7.7,213,334

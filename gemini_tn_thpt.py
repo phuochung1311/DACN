@@ -21,8 +21,9 @@ Lệnh:
   python gemini_tn_thpt.py convert D25-G1          # chuyển 1 đề PDF -> data/D25-G1.json
   python gemini_tn_thpt.py template D25-G1         # tạo file đáp án trống dap_an/D25-G1.json
   python gemini_tn_thpt.py solve D25-G1            # cho Gemini giải từng câu (chạy lại sẽ bỏ qua câu đã có)
-  python gemini_tn_thpt.py solve all               # giải lần lượt cả 9 đề
-  python gemini_tn_thpt.py score                   # chấm + xuất ket_qua/
+  python gemini_tn_thpt.py run D25-G1              # GIẢI + CHẤM đúng 1 đề -> ket_qua/D25-G1/ (khuyên dùng)
+  python gemini_tn_thpt.py score D25-G1            # chỉ chấm lại 1 đề đã giải -> ket_qua/D25-G1/
+  python gemini_tn_thpt.py score                   # tổng hợp tất cả các đề đã giải -> ket_qua/TONG_HOP/
 """
 import argparse, csv, json, os, re, sys, time
 from datetime import datetime
@@ -37,7 +38,7 @@ TOPICS = {"dai_so_giai_tich": "Đại số và Giải tích", "hinh_hoc_do_luong
           "thong_ke_xac_suat": "Thống kê và Xác suất"}
 TF_POINTS = {0: Decimal("0"), 1: Decimal("0.1"), 2: Decimal("0.25"), 3: Decimal("0.5"), 4: Decimal("1")}
 PROMPT_VERSION = "P1.0"  # mã phiên bản prompt (mục 1.2.3); đổi khi sửa prompt
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 
 # ----------------------------------------------------------------- prompt (mục 3.1.4)
 SYSTEM_PROMPT = (
@@ -142,7 +143,10 @@ def question_text(q):
 
 
 def page_png(pdf, page, cache={}):
-    import fitz  # pymupdf
+    try:
+        import pymupdf as fitz
+    except ImportError:
+        import fitz  # pymupdf bản cũ
     key = (str(pdf), page)
     if key not in cache:
         doc = fitz.open(str(pdf))
@@ -165,7 +169,8 @@ def cmd_solve(a):
         rpath.parent.mkdir(exist_ok=True)
         done = set()
         if rpath.exists():
-            done = {json.loads(l)["id"] for l in rpath.read_text(encoding="utf-8").splitlines() if l.strip()}
+            done = {r["id"] for r in (json.loads(l) for l in rpath.read_text(encoding="utf-8-sig").splitlines() if l.strip())
+                    if r.get("raw")}  # câu lỗi API (E9) sẽ được gửi lại
         pdf = ROOT / "de_thi" / f"{ex}.pdf"
         print(f"[{ex}] nạp đề: {len(data['questions'])} câu, đã có {len(done)}")
         for q in data["questions"]:
@@ -187,7 +192,13 @@ def cmd_solve(a):
                 if um:
                     rec["tokens_in"], rec["tokens_out"] = um.prompt_token_count, um.candidates_token_count
             except Exception as e:
-                rec.update(raw=None, api_error=str(e)[:500])
+                msg = str(e)
+                if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                    print(f"\n!! HẾT HẠN MỨC API ở câu {q['id']} – đã DỪNG, không ghi lỗi. "
+                          f"Các câu đã xong vẫn được giữ.\n   Chi tiết: {msg[:300]}\n"
+                          f"   Đợi rồi chạy lại đúng lệnh này (hoặc đổi API key khác) – script làm tiếp từ câu {q['id']}.")
+                    sys.exit(1)
+                rec.update(raw=None, api_error=msg[:500])
             with rpath.open("a", encoding="utf-8") as fh:
                 fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
             print(f"   {q['id']:6s} xong ({rec.get('latency_s', '-')} s)")
@@ -247,6 +258,8 @@ def md_table(header, rows):
 
 
 def cmd_score(a):
+    only = getattr(a, "exam", None)
+    only = None if only in (None, "all") else only
     labels = {}
     lp = ROOT / "nhan_loi.csv"
     if lp.exists():
@@ -255,14 +268,14 @@ def cmd_score(a):
                 if r.get("ma_loi"):
                     labels[(r["exam"], r["id"])] = r["ma_loi"].strip().upper()
     rows, models = [], set()
-    for ex in EXAMS:
+    for ex in ([only] if only else EXAMS):
         dp, kp, rp = (ROOT / "data" / f"{ex}.json", ROOT / "dap_an" / f"{ex}.json", ROOT / "responses" / f"{ex}.jsonl")
         if not (dp.exists() and kp.exists() and rp.exists()):
             print(f"[{ex}] bỏ qua (thiếu data/dap_an/responses)"); continue
         qs = {q["id"]: q for q in json.loads(dp.read_text(encoding="utf-8"))["questions"]}
         key = json.loads(kp.read_text(encoding="utf-8"))
         resp = {}
-        for l in rp.read_text(encoding="utf-8").splitlines():
+        for l in rp.read_text(encoding="utf-8-sig").splitlines():
             if l.strip():
                 r = json.loads(l); resp[r["id"]] = r  # lấy lượt cuối nếu có trùng
         for qid in QIDS:
@@ -294,16 +307,24 @@ def cmd_score(a):
                              tok_out=(r or {}).get("tokens_out")))
     if not rows:
         sys.exit("Chưa có dữ liệu để chấm.")
-    out = ROOT / "ket_qua"; out.mkdir(exist_ok=True)
+    out = ROOT / "ket_qua" / (only or "TONG_HOP"); out.mkdir(parents=True, exist_ok=True)
     with (out / "chi_tiet_tung_cau.csv").open("w", encoding="utf-8-sig", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
     wrong = [r for r in rows if not r["correct"]]
-    if not lp.exists():
+    old = []
+    if lp.exists():
+        with lp.open(encoding="utf-8-sig") as fh:
+            old = list(csv.DictReader(fh))
+    have = {(r["exam"], r["id"]) for r in old}
+    new = [r for r in wrong if (r["exam"], r["id"]) not in have]
+    if new or not lp.exists():
         with lp.open("w", encoding="utf-8-sig", newline="") as fh:
             w = csv.writer(fh); w.writerow(["exam", "id", "ma_loi", "ghi_chu"])
-            for r in wrong:
+            for r in old:
+                w.writerow([r["exam"], r["id"], r.get("ma_loi", ""), r.get("ghi_chu", "")])
+            for r in new:
                 w.writerow([r["exam"], r["id"], r["ma_loi"], ""])
-        print(f"Đã tạo {lp.name}: điền mã lỗi E1–E9 cho {len(wrong)} câu sai rồi chạy lại score.")
+        print(f"nhan_loi.csv: thêm {len(new)} câu sai mới – điền mã lỗi E1–E9 rồi chạy lại score.")
 
     exams = [e for e in EXAMS if any(r["exam"] == e for r in rows)]
     N = len(rows)
@@ -347,7 +368,7 @@ def cmd_score(a):
     md += ["## Bảng 3.15. Tỷ lệ đúng theo dạng bài",
            md_table(["Dạng bài", "Đơn vị", "Tổng số", "Số đúng", "Tỷ lệ đúng (%)", "Điểm TB/đề", "Điểm tối đa/đề"], fmt_rows), ""]
     ex_rows = [[e, v["mcq"], v["tfk"], v["tf"], v["sa"], v["tot"], vn(pct(v["tot"], 22)), vn(v["pts"], 2)] for e, v in per_exam.items()]
-    for lab, pre in [("TB 2025", "D25"), ("TB 2026", "D26"), ("TB 9 đề", "D")]:
+    for lab, pre in [("TB 2025", "D25"), ("TB 2026", "D26"), (f"TB {len(exams)} đề", "D")]:
         vs = [v for e, v in per_exam.items() if e.startswith(pre)]
         if vs:
             m = lambda k: sum(v[k] for v in vs) / len(vs)
@@ -389,7 +410,7 @@ def cmd_score(a):
         ["Tổng số yêu cầu đã gửi", N], ["Số yêu cầu lỗi API (E9)", sum(r["ma_loi"] == "E9" for r in rows)],
         ["Thời gian phản hồi trung bình (giây/câu)", avg(lat)], ["Thời gian phản hồi lớn nhất (giây)", vn(max(lat)) if lat else "–"],
         ["Token đầu vào trung bình/câu", avg(ti)], ["Token đầu ra trung bình/câu", avg(to)],
-        ["Tổng thời gian chạy 9 đề (phút)", vn(sum(lat) / 60) if lat else "–"]]), ""]
+        [f"Tổng thời gian chạy {len(exams)} đề (phút)", vn(sum(lat) / 60) if lat else "–"]]), ""]
     err_names = ["Đọc dữ kiện", "Đọc hình", "Mô hình hóa", "Kiến thức", "Suy luận", "Tính toán", "Kết luận", "Đầu ra", "Kỹ thuật"]
     unl = sum(1 for r in wrong if not r["ma_loi"])
     er = [[f"E{i}", n, sum(r["ma_loi"] == f"E{i}" for r in wrong), vn(pct(sum(r["ma_loi"] == f"E{i}" for r in wrong), len(wrong)))]
@@ -405,7 +426,8 @@ def cmd_score(a):
     fmt_vn = {"mcq": "NLC", "tf": "Đ/S", "short": "TLN"}
     tp_vn = {"dai_so_giai_tich": "ĐS-GT", "hinh_hoc_do_luong": "HH-ĐL", "thong_ke_xac_suat": "TK-XS"}
     show = lambda v: v.replace('"', "").replace("true", "Đ").replace("false", "S").replace("null", "–")
-    for j, e in enumerate(exams, 1):
+    for e in exams:
+        j = EXAMS.index(e) + 1
         md += ["", f"## Bảng C.{j}. Kết quả chi tiết từng câu – đề {e}", md_table(
             ["Câu", "Dạng", "Mạch", "Hình", "Đáp án chính thức", "Trả lời của Gemini", "Kết quả", "Điểm", "Mã lỗi"],
             [[r["id"], fmt_vn[r["format"]], tp_vn.get(r["topic"], ""), "x" if r["has_figure"] else "",
@@ -442,7 +464,26 @@ def cmd_score(a):
     b = ax.bar([f"E{i}" for i in range(1, 10)], ev, color="#C44E52", width=0.55)
     ax.bar_label(b, padding=2, fontsize=9); ax.set_ylabel("Số câu sai"); ax.spines[["top", "right"]].set_visible(False)
     plt.tight_layout(); plt.savefig(out / "fig_3_5_nhom_loi.png"); plt.close()
-    print(f"Xong. Xem {out / 'ket_qua.md'} và 2 biểu đồ trong {out}.")
+    print(f"Xong. Xem {out / 'ket_qua.md'} và các biểu đồ trong {out}.")
+    for e, v in per_exam.items():
+        print(f"   {e}: đúng {v['tot']}/22 câu ({vn(pct(v['tot'], 22))}%) – NLC {v['mcq']}/12, "
+              f"Đ/S {v['tf']}/4 câu ({v['tfk']}/16 ý), TLN {v['sa']}/6 – điểm {vn(v['pts'], 2)}/10")
+
+
+def cmd_xoa(a):
+    rpath = ROOT / "responses" / f"{a.exam}.jsonl"
+    if not rpath.exists():
+        sys.exit(f"Không có {rpath}")
+    recs = [json.loads(l) for l in rpath.read_text(encoding="utf-8-sig").splitlines() if l.strip()]
+    ids = set(a.cau)
+    keep = [r for r in recs if r["id"] not in ids and (a.model_khac is None or r.get("model") == a.model_khac)]
+    rpath.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in keep), encoding="utf-8")
+    print(f"Đã xóa {len(recs) - len(keep)} câu khỏi {rpath.name}; còn {len(keep)} câu. Chạy lại 'run {a.exam}' để giải bù.")
+
+
+def cmd_run(a):
+    cmd_solve(a)
+    cmd_score(a)
 
 
 def main():
@@ -452,9 +493,19 @@ def main():
     s = sp.add_parser("convert"); s.add_argument("exam", choices=EXAMS); s.set_defaults(f=cmd_convert)
     s = sp.add_parser("template"); s.add_argument("exam", choices=EXAMS); s.set_defaults(f=cmd_template)
     s = sp.add_parser("solve"); s.add_argument("exam", choices=EXAMS + ["all"])
-    s.add_argument("--sleep", type=float, default=6.0, help="nghỉ giữa 2 câu (giây) để không vượt hạn mức gói miễn phí")
+    s.add_argument("--sleep", type=float, default=13.0, help="nghỉ giữa 2 câu (giây) để không vượt hạn mức gói miễn phí")
     s.add_argument("--force", action="store_true"); s.set_defaults(f=cmd_solve)
-    s = sp.add_parser("score"); s.set_defaults(f=cmd_score)
+    s = sp.add_parser("score"); s.add_argument("exam", nargs="?", choices=EXAMS + ["all"], default="all")
+    s.set_defaults(f=cmd_score)
+    s = sp.add_parser("xoa", help="xóa kết quả một số câu để giải lại, vd: xoa D25-MH I.1")
+    s.add_argument("exam", choices=EXAMS); s.add_argument("cau", nargs="*", default=[])
+    s.add_argument("--chi-giu-model", dest="model_khac", default=None,
+                   help="chỉ giữ các câu giải bằng mô hình này, xóa các câu của mô hình khác")
+    s.set_defaults(f=cmd_xoa)
+    s = sp.add_parser("run", help="giải + chấm đúng 1 đề")
+    s.add_argument("exam", choices=EXAMS)
+    s.add_argument("--sleep", type=float, default=13.0); s.add_argument("--force", action="store_true")
+    s.set_defaults(f=cmd_run)
     a = p.parse_args(); a.f(a)
 
 

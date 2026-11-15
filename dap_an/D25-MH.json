@@ -1,0 +1,10 @@
+{
+  "I.1": "B", "I.2": "D", "I.3": "A", "I.4": "C", "I.5": "B", "I.6": "A", 
+  "I.7": "B", "I.8": "A", "I.9": "D", "I.10": "C", "I.11": "D", "I.12": "C",
+  "II.1": {"a": true, "b": false, "c": true, "d": true},
+  "II.2": {"a": true, "b": true, "c": false, "d": false},
+  "II.3": {"a": true, "b": false, "c": true, "d": false},
+  "II.4": {"a": true, "b": false, "c": true, "d": true},
+  "III.1": "4,9", "III.2": "43", "III.3": "3",
+  "III.4": "3200", "III.5": "333", "III.6": "0,08"
+}

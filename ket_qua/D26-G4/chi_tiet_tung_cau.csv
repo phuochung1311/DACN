@@ -1,0 +1,110 @@
+﻿exam,id,format,topic,has_figure,pred,key,correct,tf_k,points,ma_loi,summary,latency,tok_in,tok_out
+D26-G4,I.1,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Điều kiện: $3x > 0 \iff x > 0$.
+Phương trình tương đương với:
+$3x = 3^2 \iff 3x = 9 \iff x = 3$ (thoả mãn điều kiện).
+Vậy nghiệm của phương trình là $x = 3$.",11.1,198,87
+D26-G4,I.2,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Áp dụng công thức số hạng tổng quát của cấp số cộng: $u_2 = u_1 + d$.
+Thay số: $u_2 = -2 + 3 = 1$.
+Vậy $u_2 = 1$, chọn phương án C.",6.1,195,75
+D26-G4,I.3,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Ta có $\int (2 + f(x))dx = \int 2dx + \int f(x)dx = 2x + \sin x + C$. Do đó, phương án đúng là D.",13.1,254,66
+D26-G4,I.4,mcq,dai_so_giai_tich,True,null,"""C""",False,,0,E8,,40.6,1356,99
+D26-G4,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Thay lần lượt các cặp số vào hệ bất phương trình:
+- Với $(-3; 0)$: $-3 + 0 - 2 = -5 < 0$ (Đúng) nhưng $-3 - 0 + 2 = -1 
+gtr 0$ (Sai).
+- Với $(1; 0)$: $1 + 0 - 2 = -1 < 0$ (Đúng) và $1 - 0 + 2 = 3 > 0$ (Đúng). Vậy $(1; 0)$ là nghiệm của hệ bất phương trình.
+- Với $(1; 2)$: $1 + 2 - 2 = 1 
+less 0$ (Sai).
+- Với $(0; 3)$: $0 + 3 - 2 = 1 
+less 0$ (Sai).
+
+Do đó, phương án đúng là B.",22.0,214,209
+D26-G4,I.6,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, mặt bên $ADD'A'$ và $BCC'B'$ là các hình vuông song song và bằng nhau.
+Do đó, hai vectơ $\overrightarrow{AD}$ và $\overrightarrow{B'C'}$ có cùng hướng (từ mặt sau ra mặt trước) và cùng độ dài ($AD = B'C'$).
+Vậy $\overrightarrow{AD} = \overrightarrow{B'C'}$, đáp án đúng là A.",9.2,1331,124
+D26-G4,I.7,mcq,dai_so_giai_tich,False,null,"""A""",False,,0,E8,,2.3,244,84
+D26-G4,I.8,mcq,thong_ke_xac_suat,False,"""D""","""D""",True,,0.25,,"Tổng số học sinh là $N = 42$.
+Thứ tự của trung vị là $\frac{N}{2} = \frac{42}{2} = 21$.
+
+Ta tính tần số tích lũy của các nhóm:
+- Nhóm $[10; 20)$: $5$
+- Nhóm $[20; 30)$: $5 + 7 = 12$
+- Nhóm $[30; 40)$: $12 + 15 = 27$
+- Nhóm $[40; 50)$: $27 + 6 = 33$
+- Nhóm $[50; 60)$: $33 + 5 = 38$
+- Nhóm $[60; 70)$: $38 + 4 = 42$
+
+Vì $12 < 21 \le 27$ nên giá trị trung vị thuộc nhóm thứ 3, tức là nhóm $[30; 40)$.",3.5,358,245
+D26-G4,I.9,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Áp dụng quy tắc tính đạo hàm của một tổng: $(f(x) + g(x))' = f'(x) + g'(x)$.
+Theo đề bài, ta có $f'(x) = 2x$ và $g'(x) = x^2$.
+Do đó, đạo hàm của hàm số $y = f(x) + g(x)$ là $y' = 2x + x^2$.",2.1,246,114
+D26-G4,I.10,mcq,thong_ke_xac_suat,False,"""A""","""A""",True,,0.25,,"Vì hai biến cố $A$ và $B$ độc lập nên ta có $P(AB) = P(A) \cdot P(B) = 0,3 \cdot 0,6 = 0,18$.",1.6,218,70
+D26-G4,I.11,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Hàm số $F(x)$ là một nguyên hàm của hàm số $f(x)$ khi và chỉ khi $F'(x) = f(x)$.
+Ta có: $F'(x) = (5x^3)' = 5 \cdot 3x^2 = 15x^2$.
+Do đó, $F(x) = 5x^3$ là một nguyên hàm của hàm số $f_3(x) = 15x^2$.",2.1,234,127
+D26-G4,I.12,mcq,hinh_hoc_do_luong,False,"""B""","""B""",True,,0.25,,"Tọa độ của vectơ $\overrightarrow{AB}$ được tính theo công thức $\overrightarrow{AB} = (x_B - x_A; y_B - y_A; z_B - z_A)$.
+Thay tọa độ $A(2; 3; 1)$ và $B(4; 1; 1)$ vào, ta có:
+$\overrightarrow{AB} = (4 - 2; 1 - 3; 1 - 1) = (2; -2; 0)$.
+Do đó, phương án đúng là B.",1.9,231,144
+D26-G4,II.1,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": true}","{""a"": true, ""b"": true, ""c"": false, ""d"": true}",True,4,1,,"Kí hiệu $W$ là biến cố nhận được cảnh báo, $W'$ là không nhận được cảnh báo, $S$ là có bệnh, $N$ là không có bệnh.
+Từ dữ kiện đề bài, ta có tổng số người là $10000$:
+- $n(W) = 1000$, trong đó $n(W \cap S) = 600$, $n(W \cap N) = 400$.
+- $n(W') = 9000$, trong đó $n(W' \cap S) = 200$, $n(W' \cap N) = 8800$.
+- Tổng số người không có bệnh: $n(N) = 400 + 8800 = 9200$.
+
+Xét các mệnh đề:
+a) $P(W') = \frac{9000}{10000} = 0,9$. (Mệnh đề ĐÚNG)
+b) $P(N | W') = \frac{n(N \cap W')}{n(W')} = \frac{8800}{9000} = \frac{44}{45} \approx 0,9778 > 0,97$. (Mệnh đề ĐÚNG)
+c) $P(N) = \frac{9200}{10000} = 0,92 \neq 0,9$. (Mệnh đề SAI)
+d) $P(W' | N) = \frac{n(W' \cap N)}{n(N)} = \frac{8800}{9200} = \frac{22}{23} \approx 0,9565 > 0,95$. (Mệnh đề ĐÚNG)",4.7,483,462
+D26-G4,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": true, ""d"": false}","{""a"": true, ""b"": true, ""c"": true, ""d"": false}",True,4,1,,"Cho hàm số $f(x) = \frac{1}{3}x^3 - 2x^2 + 3x + 8$.
+
+a) $f'(x) = x^2 - 4x + 3$. Mệnh đề Đúng.
+b) $f'(x) = 0 \iff x^2 - 4x + 3 = 0 \iff x = 1$ hoặc $x = 3$. Tập nghiệm $S = \{1; 3\}$. Mệnh đề Đúng.
+c) $f'(x) < 0 \iff x \in (1; 3)$, do đó hàm số nghịch biến trên khoảng $(1; 3)$. Mệnh đề Đúng.
+d) Hàm số đạt cực tiểu tại $x = 3$ với giá trị cực tiểu $y_{CT} = f(3) = 8$. Giá trị $\frac{28}{3}$ là giá trị cực đại của hàm số tại $x = 1$. Mệnh đề Sai.",4.8,283,267
+D26-G4,II.3,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"a) Đúng: Vì $F'(t) = f(t) = -0,15t^2 + 1,8t$ và $F(0) = 0$, ta có $F(t) = \int (-0,15t^2 + 1,8t)dt = -0,05t^3 + 0,9t^2$ với $0 \le t \le 12$.
+b) Đúng: Năng lượng lưu trữ từ $t = a$ đến $t = b$ được tính theo công thức tích phân $F(b) - F(a) = \int_a^b f(t)dt$.
+c) Sai: Năng lượng điện lưu trữ từ $t = 1$ đến $t = 5$ là $F(5) - F(1) = (-0,05 \cdot 5^3 + 0,9 \cdot 5^2) - (-0,05 \cdot 1^3 + 0,9 \cdot 1^2) = 16,25 - 0,85 = 15,4$ kWh > 15,3 kWh.
+d) Sai: Năng lượng điện lưu trữ từ $t = 1$ đến $t = 9$ là $F(9) - F(1) = 36,45 - 0,85 = 35,6$ kWh. Số này khác $2 \times 15,4 = 30,8$ kWh.",7.4,560,385
+D26-G4,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,"a) Đúng: $\overrightarrow{MN} = (14-2; 2-11; 3-3) = (12; -9; 0)$.
+b) Sai: Phương trình tham số đúng của $MN$ có $z = 3$, không phải $z = 0$.
+c) Sai: Điểm $P(x; y; z)$ trên đường bay có khoảng cách đến vành đai bảo vệ (đường tròn $C: x^2+y^2=36, z=0$) được tính bằng $d = \sqrt{(\sqrt{x^2+y^2} - 6)^2 + z^2}$.
+Với $P(2+4k; 11-3k; 3)$ ($k \in [0; 3]$), ta có $x^2+y^2 = 25(k-1)^2 + 100 \ge 100 \Rightarrow \sqrt{x^2+y^2} \ge 10$.
+Do đó $d \ge \sqrt{(10-6)^2 + 3^2} = 5$ (đơn vị vị trí) = 50 mét. Vậy khoảng cách ngắn nhất là 50 mét, không phải 100 mét.
+d) Đúng: Giá trị nhỏ nhất đạt được khi $k = 1$, ứng với tọa độ máy bay là $(2+4; 11-3; 3) = (6; 8; 3)$.",9.9,508,384
+D26-G4,III.1,short,hinh_hoc_do_luong,False,null,"""17,1""",False,,0,E8,,8.4,216,399
+D26-G4,III.2,short,dai_so_giai_tich,True,"""5,91""","""6,19""",False,,0,,"1. Phương trình nửa trên elip là $y = \sqrt{1 - \frac{x^2}{1,5^2}} = \sqrt{1 - \frac{x^2}{2,25}}$ ($y \ge 0$).
+2. Bán kính lỗ khoan là $r = 0,2\text{ cm}$. Hoành độ giao điểm của lỗ khoan với elip là nghiệm của phương trình $y = 0,2$:
+$$1 - \frac{x^2}{2,25} = 0,2^2 = 0,04 \implies x^2 = 2,25 \times 0,96 = 2,16 \implies x = \pm \sqrt{2,16}.$$
+3. Thể tích của hạt cườm thu được bằng thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi $y = \sqrt{1 - \frac{x^2}{2,25}}$, $y = 0,2$ quanh trục $Ox$:
+$$V = \pi \int_{-\sqrt{2,16}}^{\sqrt{2,16}} \left( 1 - \frac{x^2}{2,25} - 0,04 \right) dx = 2\pi \int_{0}^{\sqrt{2,16}} \left( 0,96 - \frac{x^2}{2,25} \right) dx$$
+$$V = 2\pi \left[ 0,96x - \frac{x^3}{6,75} \right]_0^{\sqrt{2,16}} = 2\pi \left( 0,96\sqrt{2,16} - 0,32\sqrt{2,16} \right) = 1,28\pi \sqrt{2,16} \approx 5,90994788\text{ cm}^3.$$
+4. Làm tròn đến hàng phần trăm thu được kết quả là $5,91\text{ cm}^3$.",127.0,1470,495
+D26-G4,III.3,short,dai_so_giai_tich,True,null,"""3456""",False,,0,E8,,37.2,1515,566
+D26-G4,III.4,short,thong_ke_xac_suat,True,null,"""2656""",False,,0,E8,,46.0,1437,393
+D26-G4,III.5,short,dai_so_giai_tich,False,"""3980""","""3980""",True,,0.5,,"Hàm lợi nhuận của công ty trong một tháng là:
+$P(x) = R(x) - C(x) = 90x - (0,002x^3 + 30x + 20) = -0,002x^3 + 60x - 20$ với $x \in [1; 180]$.
+
+Xét đạo hàm $P'(x) = -0,006x^2 + 60$.
+$P'(x) = 0 \Leftrightarrow -0,006x^2 + 60 = 0 \Leftrightarrow x^2 = 10000 \Rightarrow x = 100$ (do $1 \le x \le 180$).
+
+Tính giá trị hàm số tại các điểm:
+- $P(1) = 39,998$
+- $P(100) = 3980$
+- $P(180) = -884$
+
+Vậy lợi nhuận lớn nhất mà công ty đạt được trong một tháng là 3980 triệu đồng (khi $x = 100$).",17.5,269,295
+D26-G4,III.6,short,dai_so_giai_tich,False,"""1350""","""1350""",True,,0.5,,"Gọi đơn giá ki-lô-gam của rau muống, bí xanh, cà chua lần lượt là $x, y, z$ (nghìn đồng/kg).
+
+Từ số liệu của ba ngày Thứ Tư, Thứ Năm, Thứ Sáu, ta có hệ phương trình:
+$$\begin{cases} 19x + 15y + 10z = 615 \\ 20x + 12y + 8z = 540 \\ 25x + 12y + 7z = 570 \end{cases}$$
+
+Giải hệ phương trình trên:
+- Trừ phương trình thứ hai cho phương trình thứ ba: $(25x + 12y + 7z) - (20x + 12y + 8z) = 570 - 540 \implies 5x - z = 30 \implies z = 5x - 30$.
+- Thay vào phương trình thứ hai: $20x + 12y + 8(5x - 30) = 540 \implies 60x + 12y = 780 \implies y = 65 - 5x$.
+- Thay $y$ và $z$ vào phương trình đầu tiên: $19x + 15(65 - 5x) + 10(5x - 30) = 615 \implies -6x + 675 = 615 \implies x = 10$.
+
+Từ đó suy ra $y = 15$ và $z = 20$.
+
+Tổng số tiền thu được ngày thứ Bảy là:
+$$50x + 30y + 20z = 50 \cdot 10 + 30 \cdot 15 + 20 \cdot 20 = 1350 \text{ (nghìn đồng).}$$",23.4,446,468

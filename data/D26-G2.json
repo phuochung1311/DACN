@@ -1,7 +1,7 @@
 {
   "exam_id": "D26-G2",
   "source_pdf": "D26-G2.pdf",
-  "verified": false,
+  "verified": true,
   "questions": [
     {
       "id": "I.1",
@@ -250,7 +250,7 @@
       "options": null,
       "statements": {
         "a": "$\\overrightarrow{MN} = (12; -9; 0)$.",
-        "b": "Phương trình tham số của đường thẳng $MN$ là $\\begin{cases} x = 2 + 4t \\\\ y = 11 - 3t \\\\ z = 3 \\end{cases}$ với $t \\in \\mathbb{R}$.",
+        "b": "Phương trình tham số của đường thẳng $MN$ là $\\begin{cases} x = 2 + 4t \\\\ y = 11 - 3t \\\\ z = 0 \\end{cases}$ với $t \\in \\mathbb{R}$.",
         "c": "Trong quá trình bay từ $M$ đến $N$, khoảng cách ngắn nhất từ máy bay đến vành đai bảo vệ là 100 mét.",
         "d": "Trong quá trình bay từ $M$ đến $N$, khoảng cách từ máy bay đến vành đai bảo vệ là ngắn nhất khi máy bay ở vị trí có tọa độ là $(6; 8; 3)$."
       },
@@ -306,7 +306,7 @@
     {
       "id": "III.5",
       "part": "III",
-      "content_latex": "Một nông trại cung cấp rau quả cho siêu thị A với số liệu bán hàng của bốn ngày trong tuần được ghi lại trong bảng sau:\n\n| Ngày | Số ki-lô-gam: Rau muống | Số ki-lô-gam: Bí xanh | Số ki-lô-gam: Cà chua | Tổng số tiền (nghìn đồng) |\n| :--- | :---: | :---: | :---: | :---: |\n| Thứ Tư | 19 | 15 | 10 | 615 |\n| Thứ Năm | 20 | 12 | 8 | 540 |\n| Thứ Sáu | 25 | 12 | 7 | 570 |\n| Thứ Bảy | 30 | 50 | 20 | ? |\n\nBiết rằng đơn giá theo ki-lô-gam của mỗi loại rau quả trong bảng trên là không đổi. Tổng số tiền nông trại thu được ở ngày thứ Bảy từ ba loại rau quả trên khi cung cấp cho siêu thị A là bao nhiêu nghìn đồng?",
+      "content_latex": "Một nông trại cung cấp rau quả cho siêu thị A với số liệu bán hàng của bốn ngày trong tuần được ghi lại trong bảng sau:\n\n| Ngày | Số ki-lô-gam: Rau muống | Số ki-lô-gam: Bí xanh | Số ki-lô-gam: Cà chua | Tổng số tiền (nghìn đồng) |\n| :--- | :---: | :---: | :---: | :---: |\n| Thứ Tư | 19 | 15 | 10 | 615 |\n| Thứ Năm | 20 | 12 | 8 | 540 |\n| Thứ Sáu | 25 | 12 | 7 | 570 |\n| Thứ Bảy | 50 | 30 | 20 | ? |\n\nBiết rằng đơn giá theo ki-lô-gam của mỗi loại rau quả trong bảng trên là không đổi. Tổng số tiền nông trại thu được ở ngày thứ Bảy từ ba loại rau quả trên khi cung cấp cho siêu thị A là bao nhiêu nghìn đồng?",
       "options": null,
       "statements": null,
       "has_figure": false,

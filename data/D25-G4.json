@@ -1,0 +1,329 @@
+{
+  "exam_id": "D25-G4",
+  "source_pdf": "D25-G4.pdf",
+  "verified": true,
+  "questions": [
+    {
+      "id": "I.1",
+      "part": "I",
+      "content_latex": "Cho cấp số cộng $(u_n)$ với $u_1 = 2$ và công sai $d = 3$. Giá trị của $u_5$ bằng",
+      "options": {
+        "A": "$14$.",
+        "B": "$17$.",
+        "C": "$15$.",
+        "D": "$12$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "mcq"
+    },
+    {
+      "id": "I.2",
+      "part": "I",
+      "content_latex": "Trong mặt phẳng với hệ tọa độ $Oxy$, diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y = 2x + 1$, trục hoành và hai đường thẳng $x = 1$, $x = 2$ được xác định bằng công thức",
+      "options": {
+        "A": "$S = \\int_{1}^{2} (2x+1)^2 dx$.",
+        "B": "$S = \\pi \\int_{1}^{2} (2x+1)^2 dx$.",
+        "C": "$S = \\int_{1}^{2} (2x+1) dx$.",
+        "D": "$S = \\pi \\int_{1}^{2} (2x+1) dx$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "mcq"
+    },
+    {
+      "id": "I.3",
+      "part": "I",
+      "content_latex": "Cho khối chóp $O.ABC$ có $OA$ vuông góc với mặt phẳng $(ABC)$, tam giác $ABC$ vuông tại $A$ và $OA = 2$, $AB = 3$, $AC = 6$. Thể tích của khối chóp $O.ABC$ bằng",
+      "options": {
+        "A": "$36$.",
+        "B": "$12$.",
+        "C": "$6$.",
+        "D": "$18$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "hinh_hoc_do_luong",
+      "format": "mcq"
+    },
+    {
+      "id": "I.4",
+      "part": "I",
+      "content_latex": "Trong không gian với hệ tọa độ $Oxyz$, cho mặt phẳng $(P): 2x - 4y + 3z - 9 = 0$. Vectơ nào sau đây là một vectơ pháp tuyến của mặt phẳng $(P)$?",
+      "options": {
+        "A": "$\\vec{n}_4 = (2; -4; 3)$.",
+        "B": "$\\vec{n}_3 = (-2; 4; 3)$.",
+        "C": "$\\vec{n}_1 = (2; 4; 3)$.",
+        "D": "$\\vec{n}_2 = (2; 4; -3)$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "hinh_hoc_do_luong",
+      "format": "mcq"
+    },
+    {
+      "id": "I.5",
+      "part": "I",
+      "content_latex": "Cho hình chóp tứ giác đều $S.ABCD$ (xem hình dưới). Gọi $O$ là giao điểm của $AC$ và $BD$. Phát biểu nào sau đây là đúng?",
+      "options": {
+        "A": "$\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD} = \\vec{0}$.",
+        "B": "$\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD} = 2\\vec{SO}$.",
+        "C": "$\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD} = 4\\vec{SO}$.",
+        "D": "$\\vec{SA} + \\vec{SB} + \\vec{SC} + \\vec{SD} = \\vec{SO}$."
+      },
+      "statements": null,
+      "has_figure": true,
+      "page": 1,
+      "topic": "hinh_hoc_do_luong",
+      "format": "mcq"
+    },
+    {
+      "id": "I.6",
+      "part": "I",
+      "content_latex": "Một người chia thời lượng (đơn vị: giây) thực hiện các cuộc gọi điện thoại của mình trong một tuần thành sáu nhóm và lập bảng tần số ghép nhóm như sau:\n\n| Nhóm | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ | $[150; 180)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Tần số | $10$ | $11$ | $8$ | $6$ | $4$ | $1$ |\n\nTứ phân vị thứ ba $Q_3$ (đơn vị: giây) của mẫu số liệu ghép nhóm trên bằng",
+      "options": {
+        "A": "$100$.",
+        "B": "$95$.",
+        "C": "$90$.",
+        "D": "$105$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "thong_ke_xac_suat",
+      "format": "mcq"
+    },
+    {
+      "id": "I.7",
+      "part": "I",
+      "content_latex": "Nghiệm của phương trình $2^{2x+1} = 8$ là",
+      "options": {
+        "A": "$x = \\frac{3}{2}$.",
+        "B": "$x = \\frac{5}{2}$.",
+        "C": "$x = 1$.",
+        "D": "$x = 3$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "mcq"
+    },
+    {
+      "id": "I.8",
+      "part": "I",
+      "content_latex": "Cho hàm số $y = \\frac{ax+b}{cx+d}$ ($ac \\neq 0, ad - bc \\neq 0$) có bảng biến thiên như dưới đây.\nĐường tiệm cận đứng của đồ thị hàm số đã cho có phương trình là",
+      "options": {
+        "A": "$y = -2$.",
+        "B": "$x = 1$.",
+        "C": "$y = 1$.",
+        "D": "$x = -2$."
+      },
+      "statements": null,
+      "has_figure": true,
+      "page": 2,
+      "topic": "dai_so_giai_tich",
+      "format": "mcq"
+    },
+    {
+      "id": "I.9",
+      "part": "I",
+      "content_latex": "Tập nghiệm của phương trình $\\sin x = 1$ là",
+      "options": {
+        "A": "$S = \\left\\{\\frac{\\pi}{2} + k\\pi \\;\\Big|\\; k \\in \\mathbb{Z}\\right\\}$.",
+        "B": "$S = \\left\\{\\frac{\\pi}{2} + k2\\pi \\;\\Big|\\; k \\in \\mathbb{Z}\\right\\}$.",
+        "C": "$S = \\left\\{k\\pi \\;\\Big|\\; k \\in \\mathbb{Z}\\right\\}$.",
+        "D": "$S = \\left\\{k2\\pi \\;\\Big|\\; k \\in \\mathbb{Z}\\right\\}$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "mcq"
+    },
+    {
+      "id": "I.10",
+      "part": "I",
+      "content_latex": "Cho hình lăng trụ $ABC.A'B'C'$ (xem hình dưới). Đường thẳng $B'C'$ song song với mặt phẳng nào sau đây?",
+      "options": {
+        "A": "$(ABC)$.",
+        "B": "$(A'B'C')$.",
+        "C": "$(AB'C')$.",
+        "D": "$(B'BC)$."
+      },
+      "statements": null,
+      "has_figure": true,
+      "page": 2,
+      "topic": "hinh_hoc_do_luong",
+      "format": "mcq"
+    },
+    {
+      "id": "I.11",
+      "part": "I",
+      "content_latex": "Trong không gian với hệ tọa độ $Oxyz$, mặt phẳng đi qua gốc tọa độ và nhận $\\vec{n} = (-1; 0; 3)$ làm một vectơ pháp tuyến có phương trình tổng quát là",
+      "options": {
+        "A": "$-x + 3z = 0$.",
+        "B": "$-x + 3y = 0$.",
+        "C": "$-x - 3z = 0$.",
+        "D": "$-y + 3z = 0$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "hinh_hoc_do_luong",
+      "format": "mcq"
+    },
+    {
+      "id": "I.12",
+      "part": "I",
+      "content_latex": "Họ nguyên hàm của hàm số $f(x) = \\sin x + \\cos x$ là",
+      "options": {
+        "A": "$\\cos x + \\sin x + C$.",
+        "B": "$\\cos x - \\sin x + C$.",
+        "C": "$-\\cos x - \\sin x + C$.",
+        "D": "$-\\cos x + \\sin x + C$."
+      },
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "mcq"
+    },
+    {
+      "id": "II.1",
+      "part": "II",
+      "content_latex": "Cho hàm số $f(x) = x^3 - 3x + 91$.",
+      "options": null,
+      "statements": {
+        "a": "Hàm số đã cho có đạo hàm là $f'(x) = 3x^2 - 3$.",
+        "b": "Phương trình $f'(x) = 0$ có tập nghiệm là $S = \\{1\\}$.",
+        "c": "$f(1) = 89$.",
+        "d": "Giá trị nhỏ nhất của hàm số $f(x)$ trên đoạn $[-2; 2]$ bằng $89$."
+      },
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "tf"
+    },
+    {
+      "id": "II.2",
+      "part": "II",
+      "content_latex": "Mô hình toán học sau đây được sử dụng trong quan sát chuyển động của một vật.\nTrong không gian cho hệ tọa độ $Oxyz$ có $\\vec{i}, \\vec{j}, \\vec{k}$ lần lượt là các vectơ đơn vị trên các trục $Ox, Oy, Oz$ và độ dài của mỗi vectơ đơn vị đó bằng $1$ mét. Cho hai điểm $A$ và $B$, trong đó điểm $A$ có tọa độ là $(7; 7; 0)$. Một vật (coi như là một hạt) chuyển động thẳng với tốc độ phụ thuộc thời gian $t$ (giây) theo công thức $v(t) = \\beta t + 300$ (m/giây), trong đó $\\beta$ là hằng số dương và $0 \\le t \\le 6$. Ở thời điểm ban đầu ($t = 0$), vật đi qua $A$ với tốc độ $300$ m/giây và hướng tới $B$. Sau $2$ giây kể từ thời điểm ban đầu, vật đi được quãng đường $606$ m. Gọi $\\vec{u} = (a; b; c)$ là vectơ cùng hướng với vectơ $\\vec{AB}$. Biết rằng $|\\vec{u}| = 1$ và góc giữa vectơ $\\vec{u}$ lần lượt với các vectơ $\\vec{i}, \\vec{j}, \\vec{k}$ có số đo tương ứng bằng $60^\\circ, 60^\\circ, 45^\\circ$.",
+      "options": null,
+      "statements": {
+        "a": "$a = \\cos 60^\\circ$.",
+        "b": "Phương trình đường thẳng $AB$ là $\\frac{x-7}{1} = \\frac{y-7}{1} = \\frac{z}{2}$.",
+        "c": "$\\beta = 3$.",
+        "d": "Giả sử sau $5$ giây kể từ thời điểm ban đầu, vật đến điểm $B(x_B; y_B; z_B)$. Khi đó $x_B > 776$."
+      },
+      "has_figure": false,
+      "page": null,
+      "topic": "hinh_hoc_do_luong",
+      "format": "tf"
+    },
+    {
+      "id": "II.3",
+      "part": "II",
+      "content_latex": "Một phần mềm nhận dạng tin nhắn quảng cáo trên điện thoại bằng cách dựa theo từ khóa để đánh dấu một số tin nhắn được gửi đến. Qua một thời gian dài sử dụng, người ta thấy rằng trong số tất cả các tin nhắn gửi đến, có $15\\%$ số tin nhắn bị đánh dấu. Trong số các tin nhắn bị đánh dấu, có $10\\%$ số tin nhắn không phải là quảng cáo. Trong số các tin nhắn không bị đánh dấu, có $15\\%$ số tin nhắn là quảng cáo. Chọn ngẫu nhiên một tin nhắn được gửi đến điện thoại.",
+      "options": null,
+      "statements": {
+        "a": "Xác suất để tin nhắn đó không bị đánh dấu bằng $0{,}85$.",
+        "b": "Xác suất để tin nhắn đó không phải là quảng cáo, biết rằng nó không bị đánh dấu, bằng $0{,}8$.",
+        "c": "Xác suất để tin nhắn đó không phải là quảng cáo bằng $0{,}75$.",
+        "d": "Xác suất để tin nhắn đó không bị đánh dấu, biết rằng nó không phải là quảng cáo, nhỏ hơn $0{,}95$."
+      },
+      "has_figure": false,
+      "page": null,
+      "topic": "thong_ke_xac_suat",
+      "format": "tf"
+    },
+    {
+      "id": "II.4",
+      "part": "II",
+      "content_latex": "Đối với ngành nuôi trồng thủy sản, việc kiểm soát lượng thuốc tồn dư trong nước là một nhiệm vụ quan trọng nhằm đáp ứng các tiêu chuẩn an toàn về môi trường. Khi nghiên cứu một loại thuốc trị bệnh trong nuôi trồng thủy sản, người ta sử dụng thuốc đó một lần và theo dõi nồng độ thuốc tồn dư trong nước kể từ lúc sử dụng thuốc. Kết quả cho thấy nồng độ thuốc $y(t)$ (đơn vị: mg/lít) tồn dư trong nước tại thời điểm $t$ ngày kể từ lúc sử dụng thuốc, thỏa mãn $y(t) > 0$ và $y'(t) = k y(t)$ ($t \\ge 0$), trong đó $k$ là hằng số khác không. Đo nồng độ thuốc tồn dư trong nước tại các thời điểm $t = 6$ (ngày); $t = 12$ (ngày) nhận được kết quả lần lượt là $2$ mg/lít và $1$ mg/lít. Cho biết $y(t) = e^{g(t)}$ ($t \\ge 0$).",
+      "options": null,
+      "statements": {
+        "a": "$g(t) = kt + C$ ($t \\ge 0$) với $C$ là một hằng số xác định.",
+        "b": "$k = -\\frac{\\ln 2}{6}$.",
+        "c": "$C = 4\\ln 2$.",
+        "d": "Nồng độ thuốc tồn dư trong nước tại thời điểm $t = 21$ (ngày) kể từ lúc sử dụng thuốc lớn hơn $0{,}4$ mg/lít."
+      },
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "tf"
+    },
+    {
+      "id": "III.1",
+      "part": "III",
+      "content_latex": "Có bốn ngăn (trong một giá để sách) được đánh số thứ tự $1, 2, 3, 4$ và tám quyển sách khác nhau. Bạn An xếp hết tám quyển sách nói trên vào bốn ngăn đó sao cho mỗi ngăn có ít nhất một quyển sách và các quyển sách được xếp thẳng đứng thành một hàng ngang với gáy sách quay ra ngoài ở mỗi ngăn. Khi đã xếp xong tám quyển sách, hai cách xếp của bạn An được gọi là giống nhau nếu chúng thỏa mãn đồng thời hai điều kiện sau đây.\n• Với từng ngăn, số lượng quyển sách ở ngăn đó là như nhau trong cả hai cách xếp;\n• Với từng ngăn, thứ tự từ trái sang phải của các quyển sách được xếp là như nhau trong cả hai cách xếp.\nGọi $T$ là số cách xếp đôi một khác nhau của bạn An. Giá trị của $\\frac{T}{400}$ bằng bao nhiêu?",
+      "options": null,
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "short"
+    },
+    {
+      "id": "III.2",
+      "part": "III",
+      "content_latex": "Để gây quỹ từ thiện, câu lạc bộ thiện nguyện của một trường THPT tổ chức hoạt động bán hàng với hai mặt hàng là nước chanh và khoai chiên. Câu lạc bộ thiết kế hai thực đơn. Thực đơn 1 có giá $35$ nghìn đồng, bao gồm hai cốc nước chanh và một túi khoai chiên. Thực đơn 2 có giá $60$ nghìn đồng, bao gồm ba cốc nước chanh và hai túi khoai chiên. Biết rằng câu lạc bộ chỉ làm được không quá $165$ cốc nước chanh và $100$ túi khoai chiên. Số tiền lớn nhất mà câu lạc bộ có thể nhận được sau khi bán hết hàng bằng bao nhiêu nghìn đồng?",
+      "options": null,
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "short"
+    },
+    {
+      "id": "III.3",
+      "part": "III",
+      "content_latex": "Bạn Nam tham gia cuộc thi giải một mật thư. Theo quy tắc của cuộc thi, người chơi cần chọn ra sáu số từ tập $S = \\{41; 42; 43; 44; 45; 46; 47; 48; 49\\}$ và xếp mỗi số vào đúng một vị trí trong sáu vị trí $A, B, C, M, N, P$ như hình bên sao cho mỗi vị trí chỉ được xếp một số. Mật thư sẽ được giải nếu các bộ ba số xuất hiện ở những bộ ba vị trí $(A, M, B); (B, N, C); (C, P, A)$ tạo thành các cấp số cộng theo thứ tự đó. Bạn Nam chọn ngẫu nhiên sáu số trong tập $S$ và xếp ngẫu nhiên vào các vị trí được yêu cầu. Gọi xác suất để bạn Nam giải được mật thư ở lần chọn và xếp đó là $a$. Giá trị của $\\frac{4}{a}$ bằng bao nhiêu?",
+      "options": null,
+      "statements": null,
+      "has_figure": true,
+      "page": 4,
+      "topic": "thong_ke_xac_suat",
+      "format": "short"
+    },
+    {
+      "id": "III.4",
+      "part": "III",
+      "content_latex": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông với $AB = 6$. Biết rằng hình chiếu vuông góc của $S$ trên mặt phẳng $(ABCD)$ là trọng tâm $H$ của tam giác $ABC$ và $SH = 3\\sqrt{2}$. Khoảng cách giữa hai đường thẳng $AC$ và $SD$ bằng bao nhiêu (không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần trăm)?",
+      "options": null,
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "hinh_hoc_do_luong",
+      "format": "short"
+    },
+    {
+      "id": "III.5",
+      "part": "III",
+      "content_latex": "Để đặt được một vật trang trí trên mặt bàn, người ta thiết kế một chân đế như sau. Lấy một khối gỗ có dạng khối chóp cụt tứ giác đều với độ dài hai cạnh đáy lần lượt bằng $7{,}4$ cm và $10{,}4$ cm, bề dày của khối gỗ bằng $1{,}5$ cm. Sau đó khoét bỏ đi một phần của khối gỗ sao cho phần đó có dạng vật thể $H$, ở đó $H$ nhận được bằng cách cắt khối cầu bán kính $5{,}5$ cm bởi một mặt phẳng cắt mà mặt cắt là hình tròn bán kính $3{,}5$ cm (xem hình dưới). Thể tích của khối chân đế bằng bao nhiêu centimét khối (không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần mười)?",
+      "options": null,
+      "statements": null,
+      "has_figure": true,
+      "page": 4,
+      "topic": "hinh_hoc_do_luong",
+      "format": "short"
+    },
+    {
+      "id": "III.6",
+      "part": "III",
+      "content_latex": "Nếu một doanh nghiệp sản xuất $x$ sản phẩm trong một tháng ($x \\in \\mathbb{N}^*; 1 \\le x \\le 4500$) thì doanh thu nhận được khi bán hết số sản phẩm đó là $F(x) = -0{,}01x^2 + 450x$ (nghìn đồng), trong khi chi phí sản xuất bình quân cho mỗi sản phẩm là $G(x) = \\frac{30000}{x} + 340$ (nghìn đồng). Giả sử số sản phẩm sản xuất ra luôn được bán hết. Trong một tháng, doanh nghiệp đó cần sản xuất ít nhất bao nhiêu sản phẩm để lợi nhuận thu được lớn hơn $100$ triệu đồng?",
+      "options": null,
+      "statements": null,
+      "has_figure": false,
+      "page": null,
+      "topic": "dai_so_giai_tich",
+      "format": "short"
+    }
+  ]
+}
