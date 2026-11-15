@@ -214,12 +214,12 @@
     {
       "id": "II.2",
       "part": "II",
-      "content_latex": "Mô hình toán học sau đây được sử dụng trong quan sát chuyển động của một vật.\nTrong không gian cho hệ tọa độ $Oxyz$ có $\\vec{i}, \\vec{j}, \\vec{k}$ lần lượt là các vectơ đơn vị trên các trục $Ox, Oy, Oz$ và độ dài của mỗi vectơ đơn vị đó bằng $1$ mét. Cho hai điểm $A$ và $B$, trong đó điểm $A$ có tọa độ là $(7; 7; 0)$. Một vật (coi như là một hạt) chuyển động thẳng với tốc độ phụ thuộc thời gian $t$ (giây) theo công thức $v(t) = \\beta t + 300$ (m/giây), trong đó \\beta là hằng số dương và $0 \\le t \\le 6$. Ở thời điểm ban đầu ($t = 0$), vật đi qua $A$ với tốc độ $300$ m/giây và hướng tới $B$. Sau $2$ giây kể từ thời điểm ban đầu, vật đi được quãng đường $606$ m. Gọi $\\vec{u} = (a; b; c)$ là vectơ cùng hướng với vectơ $\\vec{AB}$. Biết rằng $|\\vec{u}| = 1$ và góc giữa vectơ $\\vec{u}$ lần lượt với các vectơ $\\vec{i}, \\vec{j}, \\vec{k}$ có số đo tương ứng bằng $60^\\circ, 60^\\circ, 45^\\circ$.",
+      "content_latex": "Mô hình toán học sau đây được sử dụng trong quan sát chuyển động của một vật.\nTrong không gian cho hệ tọa độ $Oxyz$ có $\\vec{i}, \\vec{j}, \\vec{k}$ lần lượt là các vectơ đơn vị trên các trục $Ox, Oy, Oz$ và độ dài của mỗi vectơ đơn vị đó bằng $1$ mét. Cho hai điểm $A$ và $B$, trong đó điểm $A$ có tọa độ là $(7; 7; 0)$. Một vật (coi như là một hạt) chuyển động thẳng với tốc độ phụ thuộc thời gian $t$ (giây) theo công thức $v(t) = \\beta t + 300$ (m/giây), trong đó $\\beta$ là hằng số dương và $0 \\le t \\le 6$. Ở thời điểm ban đầu ($t = 0$), vật đi qua $A$ với tốc độ $300$ m/giây và hướng tới $B$. Sau $2$ giây kể từ thời điểm ban đầu, vật đi được quãng đường $606$ m. Gọi $\\vec{u} = (a; b; c)$ là vectơ cùng hướng với vectơ $\\vec{AB}$. Biết rằng $|\\vec{u}| = 1$ và góc giữa vectơ $\\vec{u}$ lần lượt với các vectơ $\\vec{i}, \\vec{j}, \\vec{k}$ có số đo tương ứng bằng $60^\\circ, 60^\\circ, 45^\\circ$.",
       "options": null,
       "statements": {
         "a": "$a = \\cos 60^\\circ$.",
         "b": "Phương trình đường thẳng $AB$ là $\\frac{x-7}{1} = \\frac{y-7}{1} = \\frac{z}{2}$.",
-        "c": "\\beta = 3$.",
+        "c": "$\\beta = 3$.",
         "d": "Giả sử sau $5$ giây kể từ thời điểm ban đầu, vật đến điểm $B(x_B; y_B; z_B)$. Khi đó $x_B > 776$."
       },
       "has_figure": false,

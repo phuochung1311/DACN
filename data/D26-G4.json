@@ -1,7 +1,7 @@
 {
   "exam_id": "D26-G4",
   "source_pdf": "D26-G4.pdf",
-  "verified": false,
+  "verified": true,
   "questions": [
     {
       "id": "I.1",
@@ -250,7 +250,7 @@
       "options": null,
       "statements": {
         "a": "$\\overrightarrow{MN} = (12; -9; 0)$.",
-        "b": "Phương trình tham số của đường thẳng $MN$ là $\\begin{cases} x = 2 + 4t \\\\ y = 11 - 3t \\\\ z = 3 \\end{cases}$ với $t \\in \\mathbb{R}$.",
+        "b": "Phương trình tham số của đường thẳng $MN$ là $\\begin{cases} x = 2 + 4t \\\\ y = 11 - 3t \\\\ z = 0 \\end{cases}$ với $t \\in \\mathbb{R}$.",
         "c": "Trong quá trình bay từ $M$ đến $N$, khoảng cách ngắn nhất từ máy bay đến vành đai bảo vệ là 100 mét.",
         "d": "Trong quá trình bay từ $M$ đến $N$, khoảng cách từ máy bay đến vành đai bảo vệ là ngắn nhất khi máy bay ở vị trí có tọa độ là $(6; 8; 3)$."
       },
@@ -317,7 +317,7 @@
     {
       "id": "III.6",
       "part": "III",
-      "content_latex": "Một nông trại cung cấp rau quả cho siêu thị A với số liệu bán hàng của bốn ngày trong tuần được ghi lại trong bảng sau:\n\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{Ngày} & \\multicolumn{3}{|c|}{\\text{Số ki-lô-gam}} & \\text{Tổng số tiền} \\\\\n\\cline{2-4}\n& \\text{Rau muống} & \\text{Bí xanh} & \\text{Cà chua} & (\\text{nghìn đồng}) \\\\\n\\hline\n\\text{Thứ Tư} & 19 & 15 & 10 & 615 \\\\\n\\hline\n\\text{Thứ Năm} & 20 & 12 & 8 & 540 \\\\\n\\hline\n\\text{Thứ Sáu} & 25 & 12 & 7 & 570 \\\\\n\\hline\n\\text{Thứ Bảy} & 50 & 20 & 20 & ? \\\\\n\\hline\n\\end{array}\n\nBiết rằng đơn giá theo ki-lô-gam của mỗi loại rau quả trong bảng trên là không đổi. Tổng số tiền nông trại thu được ở ngày thứ Bảy từ ba loại rau quả trên khi cung cấp cho siêu thị A là bao nhiêu nghìn đồng?",
+      "content_latex": "Một nông trại cung cấp rau quả cho siêu thị A với số liệu bán hàng của bốn ngày trong tuần được ghi lại trong bảng sau:\n\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{Ngày} & \\multicolumn{3}{|c|}{\\text{Số ki-lô-gam}} & \\text{Tổng số tiền} \\\\\n\\cline{2-4}\n& \\text{Rau muống} & \\text{Bí xanh} & \\text{Cà chua} & (\\text{nghìn đồng}) \\\\\n\\hline\n\\text{Thứ Tư} & 19 & 15 & 10 & 615 \\\\\n\\hline\n\\text{Thứ Năm} & 20 & 12 & 8 & 540 \\\\\n\\hline\n\\text{Thứ Sáu} & 25 & 12 & 7 & 570 \\\\\n\\hline\n\\text{Thứ Bảy} & 50 & 30 & 20 & ? \\\\\n\\hline\n\\end{array}\n\nBiết rằng đơn giá theo ki-lô-gam của mỗi loại rau quả trong bảng trên là không đổi. Tổng số tiền nông trại thu được ở ngày thứ Bảy từ ba loại rau quả trên khi cung cấp cho siêu thị A là bao nhiêu nghìn đồng?",
       "options": null,
       "statements": null,
       "has_figure": false,

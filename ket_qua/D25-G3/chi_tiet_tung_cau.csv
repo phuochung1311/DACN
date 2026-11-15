@@ -1,0 +1,132 @@
+﻿exam,id,format,topic,has_figure,pred,key,correct,tf_k,points,ma_loi,summary,latency,tok_in,tok_out
+D25-G3,I.1,mcq,hinh_hoc_do_luong,False,"""B""","""B""",True,,0.25,,"Đường thẳng $(d)$ có phương trình chính tắc $\frac{x-3}{4} = \frac{y+2}{-5} = \frac{z-1}{2}$. Nhìn vào hệ số ở mẫu số, một vectơ chỉ phương của $(d)$ là $\vec{u}_2 = (4; -5; 2)$. Do đó, phương án đúng là B.",19.1,274,104
+D25-G3,I.2,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Trong hình hộp $ABCD.A'B'C'D'$, ta có $AB \parallel A'B'$ và $A'B' \subset (A'B'C'D')$. Do $AB \not\subset (A'B'C'D')$ nên đường thẳng $AB$ song song với mặt phẳng $(A'B'C'D')$. Do đó, phương án đúng là A.",25.1,1327,106
+D25-G3,I.3,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Điều kiện xác định: $2x - 1 > 0 \iff x > \frac{1}{2}$.
+Ta có:
+$\log_3(2x-1) = 2 \iff 2x - 1 = 3^2 \iff 2x - 1 = 9 \iff 2x = 10 \iff x = 5$.
+Giá trị $x = 5$ thỏa mãn điều kiện xác định. Vậy phương trình có nghiệm $x = 5$.",2.6,200,131
+D25-G3,I.4,mcq,dai_so_giai_tich,False,null,"""B""",False,,0,E8,,2.5,198,120
+D25-G3,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Phương trình lượng giác cơ bản $\sin x = 0$ có các nghiệm là $x = k\pi$ với $k \in \mathbb{Z}$. Do đó, tập nghiệm của phương trình là $S = \{k\pi \mid k \in \mathbb{Z}\}$.",2.5,253,83
+D25-G3,I.6,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Do $ABC.A'B'C'$ là hình lăng trụ nên mặt bên $ACC'A'$ là hình bình hành, suy ra $\vec{A'C'} = \vec{AC}$.
+
+Khi đó:
+$$\vec{BA} + \vec{A'C'} = \vec{BA} + \vec{AC} = \vec{BC}$$
+
+Do đó, phát biểu đúng là phương án A.",3.3,1371,116
+D25-G3,I.7,mcq,thong_ke_xac_suat,False,"""B""","""B""",True,,0.25,,"Tổng số cuộc gọi là $n = 11 + 10 + 6 + 8 + 4 + 1 = 40$.
+
+Ta có $\frac{3n}{4} = \frac{3 \times 40}{4} = 30$.
+
+Tần số tích lũy của các nhóm lần lượt là:
+- Nhóm 1 $[0; 40)$: 11
+- Nhóm 2 $[40; 80)$: 21
+- Nhóm 3 $[80; 120)$: 27
+- Nhóm 4 $[120; 160)$: 35
+
+Do $27 < 30 \le 35$ nên nhóm chứa tứ phân vị thứ ba $Q_3$ là $[120; 160)$.
+
+Áp dụng công thức tính $Q_3$ cho mẫu số liệu ghép nhóm:
+$Q_3 = 120 + \frac{30 - 27}{8} \times (160 - 120) = 120 + \frac{3}{8} \times 40 = 120 + 15 = 135$.
+
+Vậy phương án đúng là B.",4.2,362,313
+D25-G3,I.8,mcq,hinh_hoc_do_luong,False,"""D""","""D""",True,,0.25,,"Phương trình mặt phẳng đi qua điểm $A(x_0; y_0; z_0)$ và nhận $\vec{n} = (a; b; c)$ làm vectơ pháp tuyến có dạng:
+$a(x - x_0) + b(y - y_0) + c(z - z_0) = 0$.
+
+Thay $A(2; 1; -4)$ và $\vec{n} = (3; 2; -1)$ vào phương trình, ta được:
+$3(x - 2) + 2(y - 1) - (z + 4) = 0$.
+
+Vậy đáp án đúng là D.",3.2,299,174
+D25-G3,I.9,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Diện tích đáy $\Delta ABC$ vuông tại $A$ là $S_{ABC} = \frac{1}{2} \cdot AB \cdot AC = \frac{1}{2} \cdot 4 \cdot 5 = 10$.
+Vì $SA \perp (ABC)$ nên chiều cao của khối chóp là $h = SA = 3$.
+Thể tích khối chóp $S.ABC$ là $V = \frac{1}{3} \cdot S_{ABC} \cdot SA = \frac{1}{3} \cdot 10 \cdot 3 = 10$.",2.2,224,150
+D25-G3,I.10,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Áp dụng công thức nguyên hàm cơ bản $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ với $n = 2$, ta có $\int x^2 dx = \frac{1}{3}x^3 + C$.",2.3,207,81
+D25-G3,I.11,mcq,dai_so_giai_tich,True,"""D""","""D""",True,,0.25,,"Dựa vào đồ thị hàm số ở Câu 11, ta thấy đường tiệm cận đứng là đường thẳng vuông góc với trục hoành $Ox$ tại điểm có hoành độ $x = -1$. Do đó, phương trình đường tiệm cận đứng của đồ thị hàm số là $x = -1$.",25.4,1343,84
+D25-G3,I.12,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y = f(x)$, trục hoành ($y = 0$) và hai đường thẳng $x = a, x = b$ được tính theo công thức:
+$$S = \int_a^b |f(x)| \mathrm{d}x$$
+Áp dụng với $f(x) = 2x - 3$, $a = 1$, $b = 2$, ta có công thức tính diện tích là:
+$$S = \int_1^2 |2x - 3| \mathrm{d}x$$
+Do đó, phương án đúng là B.",3.4,305,164
+D25-G3,II.1,tf,dai_so_giai_tich,False,null,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}",False,0,0,E8,,9.3,510,487
+D25-G3,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": false}","{""a"": true, ""b"": false, ""c"": false, ""d"": false}",True,4,1,,"Xét hàm số $f(x) = x^3 - 48x - 8$:
+a) Đạo hàm của hàm số là $f'(x) = 3x^2 - 48$. Do đó mệnh đề a) Đúng.
+b) Giải phương trình $f'(x) = 0 \Leftrightarrow 3x^2 - 48 = 0 \Leftrightarrow x = \pm 4$. Tập nghiệm là $S = \{-4; 4\}$. Do đó mệnh đề b) Sai.
+c) $f(4) = 4^3 - 48 \cdot 4 - 8 = -136$. Do đó mệnh đề c) Sai.
+d) Xét hàm số trên đoạn $[-5; 5]$:
+- $f(-5) = 107$
+- $f(-4) = 120$
+- $f(4) = -136$
+- $f(5) = -123$
+Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[-5; 5]$ là $\max_{[-5; 5]} f(x) = f(-4) = 120$. Do đó mệnh đề d) Sai.",15.9,271,318
+D25-G3,II.3,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Gọi $M$ là biến cố ""tin nhắn bị đánh dấu"" và $Q$ là biến cố ""tin nhắn là quảng cáo"". Theo đề bài:
+- $P(M) = 0{,}1 \Rightarrow P(\bar{M}) = 0{,}9$.
+- $P(\bar{Q}|M) = 0{,}1 \Rightarrow P(Q|M) = 0{,}9$.
+- $P(Q|\bar{M}) = 0{,}1 \Rightarrow P(\bar{Q}|\bar{M}) = 0{,}9$.
+
+Xét từng mệnh đề:
+a) Đúng, vì $P(\bar{M}) = 1 - 0{,}1 = 0{,}9$.
+b) Sai, vì $P(\bar{Q}|\bar{M}) = 1 - P(Q|\bar{M}) = 0{,}9 \neq 0{,}8$.
+c) Đúng, vì $P(\bar{Q}) = P(\bar{Q}|M)P(M) + P(\bar{Q}|\bar{M})P(\bar{M}) = 0{,}1 \times 0{,}1 + 0{,}9 \times 0{,}9 = 0{,}82$.
+d) Đúng, vì $P(\bar{M}|\bar{Q}) = \frac{P(\bar{Q}|\bar{M})P(\bar{M})}{P(\bar{Q})} = \frac{0{,}81}{0{,}82} \approx 0{,}9878 > 0{,}95$.",24.8,377,394
+D25-G3,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,"a) Đúng. Do $\vec{u} = (a; b; c)$ là vectơ đơn vị ($|\vec{u}| = 1$) nên $a = \vec{u} \cdot \vec{i} = |\vec{u}| |\vec{i}| \cos 60^\circ = \cos 60^\circ = \frac{1}{2}$.
+
+b) Sai. Ta có $\vec{u} = (\cos 60^\circ; \cos 60^\circ; \cos 45^\circ) = \left(\frac{1}{2}; \frac{1}{2}; \frac{\sqrt{2}}{2}\right)$. Do đó vectơ chỉ phương của $AB$ cùng phương với $(1; 1; \sqrt{2})$, không phải $(1; 1; 2)$.
+
+c) Sai. Quãng đường vật đi được sau $t$ giây là $s(t) = \int_0^t (\beta \tau + 300) d\tau = \frac{1}{2}\beta t^2 + 300t$. Với $t = 2$, $s(2) = 2\beta + 600 = 608 \Rightarrow \beta = 4$.
+
+d) Đúng. Với $\beta = 4$, sau 5 giây vật đi được quãng đường $s(5) = \frac{1}{2}(4)(5^2) + 300(5) = 1550\text{ m}$.
+Khi đó $\vec{AB} = 1550 \vec{u} = 1550 \left(\frac{1}{2}; \frac{1}{2}; \frac{\sqrt{2}}{2}\right) = (775; 775; 775\sqrt{2})$.
+Tọa độ điểm $B$ là $x_B = x_A + 775 = 4 + 775 = 779$.",28.3,605,514
+D25-G3,III.1,short,dai_so_giai_tich,False,"""1808""","""1808""",True,,0.5,,"Tổng chi phí sản xuất $x$ sản phẩm là $C(x) = x \cdot G(x) = 30000 + 260x$ (nghìn đồng).
+Lợi nhuận thu được là $P(x) = F(x) - C(x) = -0{,}01x^2 + 90x - 30000$ (nghìn đồng).
+Đổi 100 triệu đồng = 100 000 nghìn đồng.
+Yêu cầu bài toán tương đương với:
+$P(x) > 100000 \Leftrightarrow -0{,}01x^2 + 90x - 130000 > 0 \Leftrightarrow 1807{,}42 < x < 7192{,}58$.
+Do $x$ là số nguyên dương và $1 \le x \le 4500$, nên doanh nghiệp cần sản xuất ít nhất 1808 sản phẩm.",8.2,301,247
+D25-G3,III.2,short,thong_ke_xac_suat,False,"""2016""","""2016""",True,,0.5,,"Số cách xếp 7 quyển sách khác nhau vào 4 ngăn sao cho mỗi ngăn có ít nhất một quyển sách và thứ tự các quyển sách trong mỗi ngăn từ trái sang phải là quan trọng tương đương với số cách sắp xếp 7 quyển sách thành một hàng ngang, sau đó đặt 3 vách ngăn vào 6 khoảng trống giữa 7 quyển sách để chia thành 4 phần không rỗng.
+
+- Số cách xếp 7 quyển sách thành một hàng ngang là $7! = 5040$.
+- Số cách đặt 3 vách ngăn vào 6 vị trí là $\binom{6}{3} = 20$.
+
+Do đó, tổng số cách xếp thỏa mãn bài toán là:
+$$T = 7! \times \binom{6}{3} = 5040 \times 20 = 100800$$
+
+Giá trị của $\frac{T}{50}$ là:
+$$\frac{100800}{50} = 2016$$",9.7,349,250
+D25-G3,III.3,short,thong_ke_xac_suat,True,null,"""3780""",False,,0,E8,,49.0,1477,607
+D25-G3,III.4,short,hinh_hoc_do_luong,False,null,"""2,08""",False,,0,E8,,12.2,261,574
+D25-G3,III.5,short,dai_so_giai_tich,False,"""2150""","""2150""",True,,0.5,,"Gọi $x, y$ lần lượt là số lượng thực đơn 1 và thực đơn 2 được bán ($x, y \ge 0$).
+
+Theo bài ra, ta có các hạn chế về số lượng nguyên liệu:
+- Số cốc nước chanh: $2x + 3y \le 165$
+- Số túi khoai chiên: $x + 2y \le 100$
+
+Tổng số tiền thu được (đơn vị: nghìn đồng) là:
+$F(x, y) = 25x + 40y$
+
+Xét hệ bất phương trình miền nghiệm:
+1) $x \ge 0, y \ge 0$
+2) $2x + 3y \le 165$
+3) $x + 2y \le 100$
+
+Miền nghiệm là một đa giác với các đỉnh:
+- $O(0; 0) \implies F(0, 0) = 0$
+- $A(0; 50) \implies F(0, 50) = 2000$
+- $B(30; 35)$ (giao điểm của $2x + 3y = 165$ và $x + 2y = 100$) $\implies F(30, 35) = 25 \times 30 + 40 \times 35 = 2150$
+- $C(82,5; 0)$ với $x \le 82$ nguyên $\implies F(82, 0) = 2050$
+
+Vậy số tiền lớn nhất câu lạc bộ có thể nhận được là $2150$ nghìn đồng.",8.2,310,424
+D25-G3,III.6,short,hinh_hoc_do_luong,True,"""95,3""","""95,3""",True,,0.5,,"1. Thể tích khối chóp cụt tứ giác đều:
+- Diện tích đáy lớn: $S_1 = 10{,}4^2 = 108{,}16\text{ cm}^2$.
+- Diện tích đáy nhỏ: $S_2 = 7{,}4^2 = 54{,}76\text{ cm}^2$.
+- Chiều cao: $h = 1{,}5\text{ cm}$.
+- Thể tích khối gỗ ban đầu: $V_1 = \frac{1}{3} h (S_1 + S_2 + \sqrt{S_1 S_2}) = \frac{1}{3} \cdot 1{,}5 \cdot (108{,}16 + 54{,}76 + 76{,}96) = 119{,}94\text{ cm}^3$.
+
+2. Thể tích vật thể $H$ bị khoét bỏ (chỏm cầu):
+- Bán kính khối cầu: $R = 5{,}6\text{ cm}$.
+- Bán kính đường tròn mặt cắt: $r = 3{,}5\text{ cm}$.
+- Khoảng cách từ tâm cầu đến mặt cắt: $d = \sqrt{R^2 - r^2} = \sqrt{5{,}6^2 - 3{,}5^2} = \sqrt{19{,}11}\text{ cm}$.
+- Chiều cao chỏm cầu $H$: $h_c = R - d = 5{,}6 - \sqrt{19{,}11} \approx 1{,}2285\text{ cm}$.
+- Thể tích chỏm cầu $H$: $V_H = \pi h_c^2 \left(R - \frac{h_c}{3}\right) \approx 24{,}6101\text{ cm}^3$.
+
+3. Thể tích khối chân đế còn lại:
+$V = V_1 - V_H = 119{,}94 - 24{,}6101 = 95{,}3299\text{ cm}^3 \approx 95{,}3\text{ cm}^3$.",16.2,1451,518

@@ -14,7 +14,7 @@
   "II.1": {
     "a": true,
     "b": false,
-    "c": false,
+    "c": true,
     "d": true
   },
   "II.2": {

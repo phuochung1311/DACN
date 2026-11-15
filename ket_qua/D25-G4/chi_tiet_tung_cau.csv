@@ -1,0 +1,127 @@
+﻿exam,id,format,topic,has_figure,pred,key,correct,tf_k,points,ma_loi,summary,latency,tok_in,tok_out
+D25-G4,I.1,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Áp dụng công thức số hạng tổng quát của cấp số cộng $u_n = u_1 + (n-1)d$, ta có $u_5 = u_1 + 4d = 2 + 4 \cdot 3 = 14$. Do đó chọn đáp án A.",17.4,199,84
+D25-G4,I.2,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y = f(x)$, trục hoành $y = 0$ và hai đường thẳng $x = a$, $x = b$ ($a < b$) được tính theo công thức $S = \int_{a}^{b} |f(x)| dx$.
+
+Với $x \in [1; 2]$, ta có $f(x) = 2x + 1 > 0$ nên $|2x + 1| = 2x + 1$.
+
+Do đó, $S = \int_{1}^{2} (2x + 1) dx$.
+
+Vậy phương án đúng là C.",22.2,286,172
+D25-G4,I.3,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Diện tích đáy $\triangle ABC$ vuông tại $A$ là $S_{ABC} = \frac{1}{2} \cdot AB \cdot AC = \frac{1}{2} \cdot 3 \cdot 6 = 9$.
+Vì $OA \perp (ABC)$ nên chiều cao của khối chóp là $h = OA = 2$.
+Thể tích khối chóp $O.ABC$ là $V = \frac{1}{3} \cdot S_{ABC} \cdot OA = \frac{1}{3} \cdot 9 \cdot 2 = 6$.",26.6,225,147
+D25-G4,I.4,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,"Mặt phẳng $(P)$ có phương trình tổng quát là $2x - 4y + 3z - 9 = 0$. Do đó, một vectơ pháp tuyến của $(P)$ là $\vec{n}_4 = (2; -4; 3)$.",22.4,263,79
+D25-G4,I.5,mcq,hinh_hoc_do_luong,True,"""C""","""C""",True,,0.25,,"Do $O$ là giao điểm hai đường chéo $AC$ và $BD$ của hình vuông $ABCD$ nên $O$ là trung điểm của $AC$ và $BD$.
+Áp dụng quy tắc trung điểm cho các đoạn thẳng $AC$ và $BD$ với điểm $S$, ta có:
+$\vec{SA} + \vec{SC} = 2\vec{SO}$
+$\vec{SB} + \vec{SD} = 2\vec{SO}$
+Cộng hai đẳng thức trên theo vế, ta được:
+$\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = 4\vec{SO}$.
+Do đó, phát biểu đúng là đáp án C.",32.7,1424,182
+D25-G4,I.6,mcq,thong_ke_xac_suat,False,"""B""","""B""",True,,0.25,,"Tổng số cuộc gọi là $n = 10 + 11 + 8 + 6 + 4 + 1 = 40$.
+Tần số tích lũy của các nhóm lần lượt là: $10; 21; 29; 35; 39; 40$.
+Để tính tứ phân vị thứ ba $Q_3$, ta tìm giá trị $\frac{3n}{4} = \frac{3 \times 40}{4} = 30$.
+Do $29 < 30 \le 35$ nên nhóm chứa $Q_3$ là nhóm thứ 4, tức là $[90; 120)$.
+
+Áp dụng công thức tính tứ phân vị thứ ba cho mẫu số liệu ghép nhóm:
+$$Q_3 = 90 + \frac{30 - 29}{6} \cdot (120 - 90) = 90 + \frac{1}{6} \cdot 30 = 95$$
+
+Vậy tứ phân vị thứ ba $Q_3 = 95$ giây (chọn B).",31.6,354,271
+D25-G4,I.7,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,Ta có phương trình $2^{2x+1} = 8 \Leftrightarrow 2^{2x+1} = 2^3 \Leftrightarrow 2x + 1 = 3 \Leftrightarrow 2x = 2 \Leftrightarrow x = 1$. Vậy nghiệm của phương trình là $x = 1$.,25.8,198,88
+D25-G4,I.8,mcq,dai_so_giai_tich,True,"""D""","""D""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số $y = \frac{ax+b}{cx+d}$, tại $x = -2$ hàm số không xác định và $\lim_{x \to -2^-} y = -\infty$, $\lim_{x \to -2^+} y = +\infty$. Do đó, đường tiệm cận đứng của đồ thị hàm số là đường thẳng $x = -2$.",15.6,1345,110
+D25-G4,I.9,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Phương trình lượng giác cơ bản $\sin x = 1$ có nghiệm là $x = \frac{\pi}{2} + k2\pi \quad (k \in \mathbb{Z})$. Do đó, tập nghiệm của phương trình là $S = \left\{\frac{\pi}{2} + k2\pi \;\Big|\; k \in \mathbb{Z}\right\}$.",12.8,273,111
+D25-G4,I.10,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Trong hình lăng trụ $ABC.A'B'C'$, ta có $B'C' \parallel BC$.
+Do $BC \subset (ABC)$ và $B'C' \not\subset (ABC)$ nên đường thẳng $B'C'$ song song với mặt phẳng $(ABC)$.
+
+Do đó, đáp án đúng là A.",10.8,1322,93
+D25-G4,I.11,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,"Phương trình tổng quát của mặt phẳng đi qua điểm $O(0; 0; 0)$ và có vectơ pháp tuyến $\vec{n} = (-1; 0; 3)$ là:
+$-1(x - 0) + 0(y - 0) + 3(z - 0) = 0 \Leftrightarrow -x + 3z = 0$.
+Vậy đáp án đúng là A.",12.0,233,113
+D25-G4,I.12,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Áp dụng công thức nguyên hàm cơ bản:
+- Nguyên hàm của $\sin x$ là $-\cos x + C_1$.
+- Nguyên hàm của $\cos x$ là $\sin x + C_2$.
+
+Do đó, họ nguyên hàm của hàm số $f(x) = \sin x + \cos x$ là:
+$$\int (\sin x + \cos x) \mathrm{d}x = -\cos x + \sin x + C$$",4.6,209,129
+D25-G4,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Xét hàm số $f(x) = x^3 - 3x + 91$:
+a) Đạo hàm của hàm số là $f'(x) = 3x^2 - 3$. Mệnh đề a ĐÚNG.
+b) $f'(x) = 0 \Leftrightarrow 3x^2 - 3 = 0 \Leftrightarrow x = 1$ hoặc $x = -1$. Tập nghiệm là $S = \{-1; 1\}$. Mệnh đề b SAI.
+c) $f(1) = 1^3 - 3(1) + 91 = 89$. Mệnh đề c ĐÚNG.
+d) Xét các giá trị trên đoạn $[-2; 2]$:
+- $f(-2) = (-2)^3 - 3(-2) + 91 = 89$
+- $f(-1) = (-1)^3 - 3(-1) + 91 = 93$
+- $f(1) = 89$
+- $f(2) = 2^3 - 3(2) + 91 = 93$
+Giá trị nhỏ nhất của $f(x)$ trên $[-2; 2]$ bằng $89$. Mệnh đề d ĐÚNG.",4.6,268,332
+D25-G4,II.2,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,"a) Đúng: Vì $\vec{u} = (a; b; c)$ là vectơ đơn vị ($|\vec{u}| = 1$) nên $a = \cos(\vec{u}, \vec{i}) = \cos 60^\circ = \frac{1}{2}$.
+
+b) Sai: Vectơ chỉ phương của đường thẳng $AB$ là $\vec{u} = (\frac{1}{2}; \frac{1}{2}; \frac{\sqrt{2}}{2}) = \frac{1}{2}(1; 1; \sqrt{2})$. Do đó phương trình đường thẳng $AB$ là $\frac{x-7}{1} = \frac{y-7}{1} = \frac{z}{\sqrt{2}}$.
+
+c) Đúng: Quãng đường vật đi được sau $t$ giây là $s(t) = \int_0^t (\beta \tau + 300) d\tau = \frac{\beta t^2}{2} + 300t$. Với $t = 2$, $s(2) = 2\beta + 600 = 606 \Rightarrow \beta = 3$.
+
+d) Sai: Sau $5$ giây, quãng đường vật đi được là $s(5) = \frac{3 \cdot 5^2}{2} + 300 \cdot 5 = 1537,5$ m. Hoành độ của $B$ là $x_B = x_A + s(5) \cdot a = 7 + 1537,5 \cdot 0,5 = 775,75 < 776$.",10.3,593,435
+D25-G4,II.3,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": false}","{""a"": true, ""b"": false, ""c"": false, ""d"": false}",True,4,1,,"Gọi $D$ là biến cố ""Tin nhắn bị đánh dấu"" và $Q$ là biến cố ""Tin nhắn là quảng cáo"".
+Theo đề bài, ta có:
+- $P(D) = 0{,}15 \Rightarrow P(\overline{D}) = 1 - 0{,}15 = 0{,}85$.
+- $P(\overline{Q} | D) = 0{,}10 \Rightarrow P(Q | D) = 0{,}90$.
+- $P(Q | \overline{D}) = 0{,}15 \Rightarrow P(\overline{Q} | \overline{D}) = 0{,}85$.
+
+Xét từng mệnh đề:
+a) $P(\overline{D}) = 0{,}85$. Mệnh đề Đúng.
+b) $P(\overline{Q} | \overline{D}) = 0{,}85 \neq 0{,}8$. Mệnh đề Sai.
+c) $P(\overline{Q}) = P(D) \cdot P(\overline{Q} | D) + P(\overline{D}) \cdot P(\overline{Q} | \overline{D}) = 0{,}15 \cdot 0{,}10 + 0{,}85 \cdot 0{,}85 = 0{,}015 + 0{,}7225 = 0{,}7375 \neq 0{,}75$. Mệnh đề Sai.
+d) $P(\overline{D} | \overline{Q}) = \frac{P(\overline{Q} \cap \overline{D})}{P(\overline{Q})} = \frac{0{,}7225}{0{,}7375} = \frac{289}{295} \approx 0{,}9797 > 0{,}95$. Mệnh đề Sai.",12.8,378,452
+D25-G4,II.4,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Từ giả thiết $y'(t) = k y(t)$ với $y(t) > 0$, ta có $\frac{y'(t)}{y(t)} = k \implies \ln(y(t)) = kt + C$. Do $y(t) = e^{g(t)}$ nên $g(t) = \ln(y(t)) = kt + C$.
+- Mệnh đề a) Đúng vì $g(t) = kt + C$ với $C$ là hằng số xác định.
+- Ta có hệ phương trình:
+  $\begin{cases} g(6) = 6k + C = \ln(2) \\ g(12) = 12k + C = \ln(1) = 0 \end{cases}$
+  Trừ hai phương trình thu được $6k = -\ln 2 \implies k = -\frac{\ln 2}{6}$.
+- Mệnh đề b) Đúng do $k = -\frac{\ln 2}{6}$.
+- Thay $k$ vào $12k + C = 0$, ta được $C = -12k = 2\ln 2$.
+- Mệnh đề c) Sai vì $C = 2\ln 2 \ne 4\ln 2$.
+- Tại $t = 21$ (ngày), $g(21) = 21\left(-\frac{\ln 2}{6}\right) + 2\ln 2 = -\frac{3}{2}\ln 2$.
+  Do đó $y(21) = e^{-\frac{3}{2}\ln 2} = 2^{-\frac{3}{2}} = \frac{1}{2\sqrt{2}} \approx 0{,}3536$ mg/lít $< 0{,}4$ mg/lít.
+- Mệnh đề d) Sai.",10.2,492,480
+D25-G4,III.1,short,dai_so_giai_tich,False,"""3528""","""3528""",True,,0.5,,"Số cách sắp xếp 8 quyển sách khác nhau thành một hàng ngang là $8!$.
+Để chia 8 quyển sách đã xếp thành 4 phần tương ứng với 4 ngăn sao cho mỗi ngăn có ít nhất 1 quyển sách, ta đặt 3 vách ngăn vào 7 vị trí giữa các quyển sách. Số cách đặt vách ngăn là $\binom{7}{3} = 35$.
+Do đó, tổng số cách xếp $T = 8! \times \binom{7}{3} = 40320 \times 35 = 1411200$.
+Giá trị của $\frac{T}{400} = \frac{1411200}{400} = 3528$.",5.9,336,192
+D25-G4,III.2,short,dai_so_giai_tich,False,"""3150""","""3150""",True,,0.5,,"Gọi $x, y$ lần lượt là số suất Thực đơn 1 và Thực đơn 2 mà câu lạc bộ bán được ($x, y \ge 0$).
+
+Từ đề bài, ta có hệ bất phương trình biểu diễn điều kiện về số lượng nước chanh và khoai chiên:
+$$\begin{cases} 2x + 3y \le 165 \\ x + 2y \le 100 \\ x \ge 0 \\ y \ge 0 \end{cases}$$
+
+Tổng số tiền câu lạc bộ thu được (đơn vị: nghìn đồng) là:
+$$F(x, y) = 35x + 60y$$
+
+Miền nghiệm của hệ bất phương trình trên là một miền đa giác với các đỉnh:
+- $O(0; 0)$
+- $A(82,5; 0)$
+- $B(30; 35)$
+- $C(0; 50)$
+
+Tính giá trị của $F(x, y)$ tại các đỉnh:
+- $F(O) = 0$
+- $F(A) = 35 \times 82,5 = 2887,5$
+- $F(B) = 35 \times 30 + 60 \times 35 = 3150$
+- $F(C) = 60 \times 50 = 3000$
+
+Vậy số tiền lớn nhất mà câu lạc bộ có thể nhận được là 3150 nghìn đồng.",9.4,301,383
+D25-G4,III.3,short,thong_ke_xac_suat,True,null,"""5040""",False,,0,E8,,30.2,1479,728
+D25-G4,III.4,short,hinh_hoc_do_luong,False,null,"""2,55""",False,,0,E8,,14.3,247,418
+D25-G4,III.5,short,hinh_hoc_do_luong,True,"""94,7""","""94,7""",True,,0.5,,"1. Thể tích khối chóp cụt tứ giác đều là:
+$$V_1 = \frac{1}{3} h (S_1 + S_2 + \sqrt{S_1 S_2})$$
+với $h = 1{,}5\text{ cm}$, $S_1 = 7{,}4^2 = 54{,}76\text{ cm}^2$, $S_2 = 10{,}4^2 = 108{,}16\text{ cm}^2$.
+$$V_1 = \frac{1}{3} \times 1{,}5 \times (54{,}76 + 108{,}16 + 7{,}4 \times 10{,}4) = 0{,}5 \times 239{,}88 = 119{,}94\text{ cm}^3$$
+
+2. Thể tích vật thể $H$ (chỏm cầu):
+Khoảng cách từ tâm khối cầu đến mặt cắt là:
+$$d = \sqrt{R^2 - r^2} = \sqrt{5{,}5^2 - 3{,}5^2} = \sqrt{18} = 3\sqrt{2}\text{ cm}$$
+Chiều cao của chỏm cầu là $h_0 = R - d = 5{,}5 - 3\sqrt{2}\text{ cm}$.
+Thể tích chỏm cầu $H$ là:
+$$V_2 = \frac{1}{3} \pi h_0^2 (3R - h_0) = \frac{\pi}{3} (5{,}5 - 3\sqrt{2})^2 (11 + 3\sqrt{2}) \approx 25{,}23486\text{ cm}^3$$
+
+3. Thể tích của khối chân đế:
+$$V = V_1 - V_2 = 119{,}94 - 25{,}23486 \approx 94{,}70514\text{ cm}^3$$
+Làm tròn đến hàng phần mười ta được kết quả là $94{,}7$.",13.2,1438,503
+D25-G4,III.6,short,dai_so_giai_tich,False,null,"""1347""",False,,0,E8,,8.3,308,346

@@ -31,7 +31,7 @@
   },
   "II.4": {
     "a": true,
-    "b": true,
+    "b": false,
     "c": false,
     "d": true
   },

@@ -1,7 +1,7 @@
 {
   "exam_id": "D26-G1",
   "source_pdf": "D26-G1.pdf",
-  "verified": false,
+  "verified": true,
   "questions": [
     {
       "id": "I.1",
