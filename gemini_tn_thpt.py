@@ -95,9 +95,25 @@ def call(cl, model, contents, system=None, retries=4, wait=20):
 
 
 def parse_json(text):
+    """Đọc JSON của mô hình. Gemini hay để nguyên ký hiệu LaTeX (\\cdot, \\vec...) trong chuỗi,
+    không hợp lệ theo chuẩn JSON -> nhân đôi các dấu \\ không hợp lệ rồi đọc lại; nếu vẫn lỗi thì
+    chỉ tách riêng trường "answer"."""
     text = (text or "").strip()
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
-    return json.loads(text)
+    try:
+        return json.loads(text, strict=False)
+    except json.JSONDecodeError:
+        pass
+    fixed = re.sub(r'\\(?!["\\/u])', r"\\\\", text)
+    try:
+        return json.loads(fixed, strict=False)
+    except json.JSONDecodeError:
+        pass
+    m = re.search(r'"answer"\s*:\s*(\{[^{}]*\}|"[^"]*"|-?[\d.,]+|true|false)', text)
+    if not m:
+        raise ValueError("không đọc được JSON")
+    return {"answer": json.loads(m.group(1).replace(",", ".") if m.group(1)[0] not in '{"' else m.group(1), strict=False),
+            "solution_summary": ""}
 
 
 # ----------------------------------------------------------------- convert: PDF -> JSON
@@ -277,7 +293,9 @@ def cmd_score(a):
         resp = {}
         for l in rp.read_text(encoding="utf-8-sig").splitlines():
             if l.strip():
-                r = json.loads(l); resp[r["id"]] = r  # lấy lượt cuối nếu có trùng
+                r = json.loads(l)
+                if r.get("raw") or r["id"] not in resp:  # ưu tiên lượt thành công cuối cùng
+                    resp[r["id"]] = r
         for qid in QIDS:
             q = qs.get(qid, {"part": qid.split(".")[0]})
             fmt = FORMAT_OF[qid.split(".")[0]]

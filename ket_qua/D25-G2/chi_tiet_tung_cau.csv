@@ -68,8 +68,8 @@ a) Xác suất tin nhắn không bị đánh dấu là $P(\overline{M}) = 1 - 0,
 b) Xác suất tin nhắn không phải quảng cáo biết nó không bị đánh dấu là $P(\overline{Q}|\overline{M}) = 0,9 \neq 0,95$. (Sai)
 c) Xác suất tin nhắn không phải quảng cáo là $P(\overline{Q}) = P(\overline{Q}|M) \cdot P(M) + P(\overline{Q}|\overline{M}) \cdot P(\overline{M}) = 0,1 \cdot 0,2 + 0,9 \cdot 0,8 = 0,74 \neq 0,76$. (Sai)
 d) Xác suất tin nhắn không bị đánh dấu biết nó không phải quảng cáo là $P(\overline{M}|\overline{Q}) = \frac{P(\overline{Q}|\overline{M}) \cdot P(\overline{M})}{P(\overline{Q})} = \frac{0,72}{0,74} = \frac{36}{37} \approx 0,973 > 0,95$. (Sai)",8.6,378,482
-D25-G2,II.3,tf,dai_so_giai_tich,False,null,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}",False,0,0,E8,,20.5,501,450
-D25-G2,II.4,tf,hinh_hoc_do_luong,False,null,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}",False,0,0,E8,,34.3,592,518
+D25-G2,II.3,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Từ giả thiết $y'(t) = k \cdot y(t)$ với $y(t) > 0$, ta có $\frac{y'(t)}{y(t)} = k \implies \ln(y(t)) = kt + C$. Do $y(t) = e^{g(t)}$ nên $g(t) = \ln(y(t)) = kt + C$ với $C$ là hằng số xác định.\n\nTheo bài ra:\n- $y(6) = 2 \implies g(6) = 6k + C = \ln 2$\n- $y(12) = 1 \implies g(12) = 12k + C = \ln 1 = 0$\n\nGiải hệ phương trình ta được:\n- $6k = -\ln 2 \implies k = -\frac{\ln 2}{6}$\n- $C = -12k = 2\ln 2$\n\nDo đó:\n- Mệnh đề a đúng vì $g(t) = kt + C$ với $C$ là hằng số xác định.\n- Mệnh đề b đúng vì $k = -\frac{\ln 2}{6}$.\n- Mệnh đề c sai vì $C = 2\ln 2$ (không phải $3\ln 2$).\n- Mệnh đề d: Tại $t = 20$, nồng độ tồn dư là $y(20) = e^{20k + C} = e^{-\frac{20}{6}\ln 2 + 2\ln 2} = 2^{-\frac{4}{3}} \approx 0{,}397$ mg/lít. Giá trị này nhỏ hơn $0{,}4$ mg/lít nên mệnh đề d sai.",20.5,501,450
+D25-G2,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,,34.3,592,518
 D25-G2,III.1,short,hinh_hoc_do_luong,True,"""95,9""","""95,9""",True,,0.5,,"1. **Thể tích khối chóp cụt tứ giác đều:**
 - Diện tích đáy trên: $S_1 = 7{,}4^2 = 54{,}76\text{ cm}^2$.
 - Diện tích đáy dưới: $S_2 = 10{,}4^2 = 108{,}16\text{ cm}^2$.
@@ -100,7 +100,7 @@ $\Leftrightarrow 6500 - 1500\sqrt{13} < x < 6500 + 1500\sqrt{13}$
 $\Leftrightarrow 1091{,}67 < x < 11908{,}33$.
 
 Vì $x \in \mathbb{N}^*$ và $1 \le x \le 4500$, số sản phẩm ít nhất doanh nghiệp cần sản xuất là $x = 1092$.",23.2,308,401
-D25-G2,III.3,short,thong_ke_xac_suat,True,null,"""2520""",False,,0,E8,,29.3,1477,688
+D25-G2,III.3,short,thong_ke_xac_suat,True,"""2520""","""2520""",True,,0.5,,,29.3,1477,688
 D25-G2,III.4,short,dai_so_giai_tich,False,"""2975""","""2975""",True,,0.5,,"Gọi $x$ và $y$ lần lượt là số lượng thực đơn 1 và thực đơn 2 được bán ($x, y \ge 0$, $x, y \in \mathbb{N}$).
 
 Từ giả thiết, ta có hệ bất phương trình biểu diễn lượng nguyên liệu:
@@ -125,4 +125,4 @@ $T = 8! \times \binom{7}{3} = 40320 \times 35 = 1411200$.
 
 Giá trị của $\frac{T}{600}$ là:
 $\frac{1411200}{600} = 2352$.",15.0,335,216
-D25-G2,III.6,short,hinh_hoc_do_luong,False,null,"""0,85""",False,,0,E8,,41.3,245,510
+D25-G2,III.6,short,hinh_hoc_do_luong,False,"""0,85""","""0,85""",True,,0.5,,,41.3,245,510

@@ -1,0 +1,1171 @@
+﻿exam,id,format,topic,has_figure,pred,key,correct,tf_k,points,ma_loi,summary,latency,tok_in,tok_out
+D25-MH,I.1,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Nguyên hàm của hàm số $f(x) = \text{e}^x$ là $\int \text{e}^x \text{d}x = \text{e}^x + C$. Do đó, phương án đúng là B.",22.2,223,73
+D25-MH,I.2,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,,2.8,332,104
+D25-MH,I.3,mcq,thong_ke_xac_suat,False,"""A""","""A""",True,,0.25,,"Tần số của từng nhóm ở mẫu số liệu $M_2$ gấp 2 lần tần số của từng nhóm tương ứng ở mẫu số liệu $M_1$ (kéo theo kích thước mẫu $n_2 = 2n_1$). 
+
+Do giá trị đại diện của các nhóm ở hai mẫu số liệu là như nhau, nên:
+- Số trung bình của hai mẫu bằng nhau: $\bar{x}_1 = \bar{x}_2$.
+- Phương sai của hai mẫu bằng nhau: $s_2^2 = \frac{1}{n_2} \sum m_{2,i}(x_i - \bar{x}_2)^2 = \frac{1}{2n_1} \sum 2m_{1,i}(x_i - \bar{x}_1)^2 = s_1^2$.
+
+Suy ra độ lệch chuẩn của hai mẫu số liệu bằng nhau, tức là $s_1 = s_2$.",4.4,473,233
+D25-MH,I.4,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Phương trình chính tắc của đường thẳng đi qua điểm $M(x_0; y_0; z_0)$ và có một vectơ chỉ phương $\vec{u}(a; b; c)$ với $a, b, c \neq 0$ là:
+$$\frac{x - x_0}{a} = \frac{y - y_0}{b} = \frac{z - z_0}{c}$$
+Thay tọa độ điểm $M(1; -3; 5)$ và vectơ chỉ phương $\vec{u}(2; -1; 1)$ vào công thức, ta được:
+$$\frac{x - 1}{2} = \frac{y + 3}{-1} = \frac{z - 5}{1}$$
+Do đó, phương án đúng là C.",3.1,311,198
+D25-MH,I.5,mcq,dai_so_giai_tich,True,"""C""","""B""",False,,0,E2,"Dựa vào đồ thị hàm số $y = \frac{ax+b}{cx+d}$:
+- Đường tiệm cận ngang là đường thẳng song song (hoặc trùng) với trục hoành và nằm phía dưới trục hoành ($y < 0$).
+- Từ hình vẽ, đường tiệm cận ngang có phương trình là $y = -1$.
+
+Do đó, đáp án đúng là C.",14.8,1357,107
+D25-MH,I.6,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"1. Điều kiện xác định: $x - 1 > 0 \iff x > 1$.
+2. Giải bất phương trình: $\log_2(x-1) < 3 \iff x - 1 < 2^3 \iff x - 1 < 8 \iff x < 9$.
+3. Kết hợp điều kiện ta được $1 < x < 9$.
+Vậy tập nghiệm của bất phương trình là $(1;9)$.",2.5,191,115
+D25-MH,I.7,mcq,hinh_hoc_do_luong,False,"""B""","""B""",True,,0.25,,"Mặt phẳng $(P)$ có phương trình $x - 3y - z + 8 = 0$, suy ra một vectơ pháp tuyến của $(P)$ là $\vec{n_2} = (1; -3; -1)$.",1.9,252,71
+D25-MH,I.8,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,Vì $SA \perp (ABCD)$ và đường thẳng $SA$ nằm trong mặt phẳng $(SAB)$ nên mặt phẳng $(SAB)$ vuông góc với mặt phẳng $(ABCD)$.,2.7,203,55
+D25-MH,I.9,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Theo định nghĩa của lôgarit, phương trình $2^x = 6$ có nghiệm duy nhất là $x = \log_2 6$.",1.9,195,53
+D25-MH,I.10,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Công sai của cấp số cộng là $d = u_2 - u_1 = 3 - 1 = 2$.
+Số hạng thứ 5 của cấp số cộng là $u_5 = u_1 + 4d = 1 + 4 \cdot 2 = 9$.",1.7,200,84
+D25-MH,I.11,mcq,hinh_hoc_do_luong,True,"""D""","""D""",True,,0.25,,"Áp dụng quy tắc hình hộp cho ba vectơ xuất phát từ đỉnh $A$ của hình hộp $ABCD.A'B'C'D'$, ta có:
+$$\vec{AB} + \vec{AD} + \vec{AA'} = \vec{AC'}$$ 
+Hoặc có thể cộng từng bước: $\vec{AB} + \vec{AD} = \vec{AC}$, suy ra $\vec{AB} + \vec{AA'} + \vec{AD} = \vec{AC} + \vec{AA'} = \vec{AC} + \vec{CC'} = \vec{AC'}$.
+Do đó, phát biểu ở phương án D là đúng.",9.4,1404,170
+D25-MH,I.12,mcq,dai_so_giai_tich,True,"""C""","""C""",True,,0.25,,"Dựa vào đồ thị hàm số ở Câu 12, ta quan sát chiều đi lên/đi xuống của đồ thị từ trái sang phải:\n- Trên khoảng $(-\infty; -1)$, đồ thị đi xuống từ trên cao đến điểm cực tiểu tại $x = -1$, nên hàm số nghịch biến.\n- Trên khoảng $(-1; 1)$, đồ thị đi lên từ điểm cực tiểu tại $x = -1$ đến điểm cực đại tại $x = 1$, nên hàm số đồng biến.\n- Trên khoảng $(1; +\infty)$, đồ thị đi xuống từ điểm cực đại tại $x = 1$, nên hàm số nghịch biến.\n\nVậy hàm số đồng biến trên khoảng $(-1; 1)$.",5.6,1320,172
+D25-MH,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Xét hàm số $f(x) = 2\cos x + x$ trên đoạn $\left[0;\frac{\pi}{2}\right]$:
+a) $f(0) = 2\cos 0 + 0 = 2$ và $f\left(\frac{\pi}{2}\right) = 2\cos\frac{\pi}{2} + \frac{\pi}{2} = \frac{\pi}{2}$. (Đúng)
+b) $f'(x) = -2\sin x + 1$. Mệnh đề cho $f'(x) = 2\sin x + 1$ là Sai. (Sai)
+c) $f'(x) = 0 \Leftrightarrow \sin x = \frac{1}{2}$. Trên đoạn $\left[0;\frac{\pi}{2}\right]$, nghiệm duy nhất là $x = \frac{\pi}{6}$. (Đúng)
+d) Ta có $f(0) = 2$, $f\left(\frac{\pi}{6}\right) = 2\cos\frac{\pi}{6} + \frac{\pi}{6} = \sqrt{3} + \frac{\pi}{6} \approx 2.256$, và $f\left(\frac{\pi}{2}\right) = \frac{\pi}{2} \approx 1.571$. Giá trị lớn nhất của $f(x)$ trên đoạn $\left[0;\frac{\pi}{2}\right]$ là $\sqrt{3} + \frac{\pi}{6}$. (Đúng)",4.3,314,411
+D25-MH,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"1. Đổi $36\text{ km/h} = 10\text{ m/s}$. Trong 2 giây đầu trước khi tăng tốc, ô tô đi được $10 \times 2 = 20\text{ m}$. Do đó, quãng đường từ khi bắt đầu tăng tốc đến khi nhập làn là $200 - 20 = 180\text{ m}$. Mệnh đề a ĐÚNG.
+2. Tại thời điểm bắt đầu tăng tốc ($t = 0$), vận tốc của xe là $10\text{ m/s}$, suy ra $v(0) = a(0) + b = 10 \implies b = 10$. Mệnh đề b ĐÚNG.
+3. Quãng đường ô tô đi được trong thời gian $t$ giây kể từ khi tăng tốc được tính bằng công thức $S(t) = \int_0^t v(x)\text{d}x$, không phải $\int_0^{24} v(t)\text{d}t$ (là hằng số). Mệnh đề c SAI.
+4. Từ $S(12) = \int_0^{12} (at + 10)\text{d}t = 72a + 120 = 180 \implies a = \frac{5}{6}\text{ m/s}^2$. Sau 24 giây, vận tốc ô tô là $v(24) = \frac{5}{6} \times 24 + 10 = 30\text{ m/s} = 108\text{ km/h} > 100\text{ km/h}$ (vượt quá 100 km/h). Mệnh đề d SAI.",8.7,459,443
+D25-MH,II.3,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,"Dựa vào các dữ kiện đề bài:
+- Tổng số người phỏng vấn: 200.
+- Biến cố $B$: Trả lời ""sẽ mua"" $\Rightarrow P(B) = \frac{105}{200} = \frac{21}{40} = 0,525$.
+- Biến cố $\overline{B}$: Trả lời ""không mua"" $\Rightarrow P(\overline{B}) = \frac{95}{200} = \frac{19}{40} = 0,475$.
+Do đó, mệnh đề a) Đúng.
+
+- Theo bài ra, tỉ lệ người thực sự sẽ mua tương ứng với câu trả lời ""sẽ mua"" là $70\%$, tức là $P(A|B) = 0,7$. Do đó, mệnh đề b) Sai (đề cho $0,3$).
+
+- Tỉ lệ người thực sự sẽ mua tương ứng với câu trả lời ""không mua"" là $30\%$, tức là $P(A|\overline{B}) = 0,3$.
+- Áp dụng công thức xác suất toàn phần:
+$P(A) = P(B) \cdot P(A|B) + P(\overline{B}) \cdot P(A|\overline{B}) = 0,525 \cdot 0,7 + 0,475 \cdot 0,3 = 0,3675 + 0,1425 = 0,51$.
+Do đó, mệnh đề c) Đúng.
+
+- Xác suất để người thực sự mua sản phẩm đã trả lời ""sẽ mua"" là $P(B|A)$:
+$P(B|A) = \frac{P(A \cap B)}{P(A)} = \frac{P(B) \cdot P(A|B)}{P(A)} = \frac{0,3675}{0,51} \approx 0,7206 = 72\%$.
+Do đó, mệnh đề d) Sai (đề cho $70\%$).",6.0,435,534
+D25-MH,II.4,tf,hinh_hoc_do_luong,True,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"a) Vectơ chỉ phương của đường thẳng $MN$ là $\overrightarrow{MN} = (-12; -32; 16) = -4(3; 8; -4)$. Đường thẳng $MN$ đi qua $M(6; 20; 0)$ có phương trình tham số $\begin{cases} x = 6 + 3t \ y = 20 + 8t \ z = -4t \end{cases} (t \in \mathbb{R})$. Mệnh đề này ĐÚNG.
+
+b) Phạm vi theo dõi là khối cầu tâm $O(0;0;0)$ bán kính $R = (6400 + 6600)/1000 = 13$ (đơn vị độ dài). Phương trình mặt cầu là $x^2 + y^2 + z^2 = 169$.
+Thay phương trình $MN$ vào phương trình mặt cầu:
+$(6+3t)^2 + (20+8t)^2 + (-4t)^2 = 169 \iff 89t^2 + 356t + 267 = 0 \iff \begin{bmatrix} t = -1 \\ t = -3 \end{bmatrix}$.
+Vì thiên thạch di chuyển từ $M$ (ứng với $t=0$) đến $N$ (ứng với $t=-4$) nên điểm đầu tiên di chuyển vào phạm vi theo dõi tương ứng với $t = -1$, tức là $A_1(3; 12; 4)$. Điểm $A(-3; -4; 12)$ tương ứng với $t = -3$ là vị trí cuối cùng trước khi rời khỏi phạm vi. Mệnh đề này SAI.
+
+c) Khoảng cách giữa hai điểm giao nhau trong hệ tọa độ là $d = \sqrt{(-3-3)^2 + (-4-12)^2 + (12-4)^2} = \sqrt{356} = 2\sqrt{89} \approx 18,868$ đơn vị.
+Khoảng cách thực tế là $18,868 \times 1000 = 18868\text{ km}$, làm tròn đến hàng trăm là $18900\text{ km}$. Mệnh đề này ĐÚNG.
+
+d) Đoạn đường di chuyển trong phạm vi quan sát ứng với $\Delta t = |-1 - (-3)| = 2$, còn đoạn $MN$ ứng với $\Delta t = |0 - (-4)| = 4$. Do tốc độ không đổi nên thời gian di chuyển từ $M$ đến $N$ gấp 2 lần thời gian di chuyển trong phạm vi quan sát, tức là $3 \times 2 = 6$ phút. Mệnh đề này ĐÚNG.",17.4,1734,675
+D25-MH,III.1,short,hinh_hoc_do_luong,False,"""4,9""","""4,9""",True,,0.5,,"Vì $ABC.A'B'C'$ là hình lăng trụ đứng nên $AA' \perp (ABC)$. Khoảng cách giữa hai đường thẳng $AA'$ và $BC$ bằng khoảng cách từ điểm $A$ đến đường thẳng $BC$ trong mặt phẳng $(ABC)$, tức là chiều cao $h_a$ kẻ từ $A$ của tam giác $ABC$.
+
+Nửa chu vi tam giác $ABC$ là:
+$s = \frac{AB + BC + CA}{2} = \frac{5 + 6 + 7}{2} = 9$.
+
+Diện tích tam giác $ABC$ theo công thức Heron là:
+$S = \sqrt{s(s-AB)(s-BC)(s-CA)} = \sqrt{9 \cdot (9-5) \cdot (9-6) \cdot (9-7)} = \sqrt{216} = 6\sqrt{6}$.
+
+Khoảng cách cần tìm là:
+$d(AA', BC) = h_a = \frac{2S}{BC} = \frac{12\sqrt{6}}{6} = 2\sqrt{6} \approx 4,8989... \approx 4,9$.",206.6,205,297
+D25-MH,III.2,short,dai_so_giai_tich,True,"""43""","""43""",True,,0.5,,"Bài toán yêu cầu tìm chu trình Hamilton có tổng độ dài (số thử thách) nhỏ nhất trong đồ thị đầy đủ 4 đỉnh $A, B, C, D$.
+
+Các độ dài cạnh giữa các cặp trụ:
+- $AB = 10$
+- $AC = 11$
+- $BC = 12$
+- $AD = 9$
+- $BD = 11$
+- $CD = 14$
+
+Có 3 chu trình Hamilton không hướng xuất phát từ một trụ bất kỳ đi qua tất cả các trụ khác và quay về trụ ban đầu:
+1. Chu trình $A - B - C - D - A$ có tổng số thử thách: $10 + 12 + 14 + 9 = 45$.
+2. Chu trình $A - B - D - C - A$ có tổng số thử thách: $10 + 11 + 14 + 11 = 46$.
+3. Chu trình $A - C - B - D - A$ có tổng số thử thách: $11 + 12 + 11 + 9 = 43$.
+
+Giá trị nhỏ nhất của tổng số thử thách là 43.",71.7,1388,292
+D25-MH,III.3,short,hinh_hoc_do_luong,False,"""3""","""3""",True,,0.5,,"Gọi tọa độ của điểm $M$ là $(a; b; c)$.\nTừ giả thiết, ta có các phương trình mặt cầu:\n1) $(a-3)^2 + (b-1)^2 + c^2 = 3^2 \Leftrightarrow a^2 + b^2 + c^2 - 6a - 2b + 10 = 9$\n2) $(a-3)^2 + (b-6)^2 + (c-6)^2 = 6^2 \Leftrightarrow a^2 + b^2 + c^2 - 6a - 12b - 12c + 81 = 36$\n3) $(a-4)^2 + (b-6)^2 + (c-2)^2 = 5^2 \Leftrightarrow a^2 + b^2 + c^2 - 8a - 12b - 4c + 56 = 25$\n4) $(a-6)^2 + (b-2)^2 + (c-14)^2 = 13^2 \Leftrightarrow a^2 + b^2 + c^2 - 12a - 4b - 28c + 236 = 169$\n\nĐặt $S = a^2 + b^2 + c^2 = OM^2$. Giải hệ phương trình tuyến tính đối với $S, a, b, c$, ta tìm được:\n$a = 1$, $b = 2$, $c = 2$.\n\nDo đó, tọa độ điểm $M(1; 2; 2)$.\nKhoảng cách từ điểm $M$ đến gốc tọa độ $O(0;0;0)$ là:\n$OM = \sqrt{1^2 + 2^2 + 2^2} = 3$.",68.7,325,432
+D25-MH,III.4,short,dai_so_giai_tich,True,"""3200""","""3200""",True,,0.5,,"Diện tích hình chữ nhật là $S_{	ext{HCN}} = 60 	imes 80 = 4800	ext{ m}^2$.
+
+Mỗi phần trồng hoa là một hình phẳng giới hạn bởi cạnh của hình chữ nhật và một parabol có chiều cao $h = 20	ext{ m}$ và độ dài đáy $b = 60	ext{ m}$.
+Diện tích một phần trồng hoa được tính bằng công thức diện tích vòm parabol: 
+$S_1 = rac{2}{3} 	imes b 	imes h = rac{2}{3} 	imes 60 	imes 20 = 800	ext{ m}^2$.
+
+Tổng diện tích hai phần trồng hoa là:
+$S_{	ext{hoa}} = 2 	imes 800 = 1600	ext{ m}^2$.
+
+Diện tích của phần sân chơi (tô màu đậm) là:
+$S_{	ext{sân chơi}} = S_{	ext{HCN}} - S_{	ext{hoa}} = 4800 - 1600 = 3200	ext{ m}^2$.",12.1,1399,286
+D25-MH,III.5,short,dai_so_giai_tich,False,"""333""","""333""",True,,0.5,,"Tổng chi phí sản xuất $x$ sản phẩm là:
+$C(x) = x \cdot G(x) = x\left(x + 1000 + \frac{250000}{x}\right) = x^2 + 1000x + 250000$ (đồng).
+
+Hàm lợi nhuận thu được là:
+$P(x) = F(x) - C(x) = x^3 - 2000x^2 + 1000000x$.
+
+Xét $P(x)$ trên đoạn $[1; 500]$:
+$P'(x) = 3x^2 - 4000x + 1000000 = 0 \iff \left[ \begin{Phi} x = 1000 \notin [1; 500] \\ x = \frac{1000}{3} \approx 333,33 \in [1; 500] \end{Phi} \right.$
+
+Vì số lượng sản phẩm $x$ phải là số nguyên dương, ta so sánh lợi nhuận tại $x = 333$ và $x = 334$:
+- $P(333) = 333 \cdot (1000 - 333)^2 = 148148037$ (đồng)
+- $P(334) = 334 \cdot (1000 - 334)^2 = 148147704$ (đồng)
+
+Do $P(333) > P(334)$, doanh nghiệp cần sản xuất 333 sản phẩm để lợi nhuận thu được là lớn nhất.",8.1,297,434
+D25-MH,III.6,short,thong_ke_xac_suat,False,"""0,08""","""0,08""",True,,0.5,,"Ký hiệu các biến cố:
+- $A$: Quả bóng lấy từ hộp I sang hộp II là màu đỏ. $P(A) = \frac{6}{10} = 0,6 \Rightarrow P(\overline{A}) = 0,4$.
+- $B$: Quả bóng lấy ra từ hộp II là màu đỏ.
+- $T$: Quả bóng lấy ra từ hộp II là quả bóng được chuyển từ hộp I sang.
+
+Tính xác suất $P(B)$:
+$P(B) = P(B|A)P(A) + P(B|\overline{A})P(\overline{A}) = \frac{8}{11} \cdot \frac{6}{10} + \frac{7}{11} \cdot \frac{4}{10} = \frac{76}{110} = \frac{38}{55}$.
+
+Biến cố quả bóng lấy từ hộp II là quả bóng được chuyển sang và có màu đỏ chính là $T \cap A$. Xác suất của biến cố này là:
+$P(T \cap B) = P(T \cap A) = P(T|A)P(A) = \frac{1}{11} \cdot \frac{6}{10} = \frac{6}{110} = \frac{3}{55}$.
+
+Xác suất cần tìm là xác suất có điều kiện $P(T|B)$:
+$P(T|B) = \frac{P(T \cap B)}{P(B)} = \frac{3/55}{38/55} = \frac{3}{38} \approx 0,0789$.
+
+Làm tròn đến hàng phần trăm thu được kết quả $0,08$.",11.1,265,430
+D25-G1,I.1,mcq,hinh_hoc_do_luong,True,"""C""","""C""",True,,0.25,,"Trong hình lăng trụ $ABC.A'B'C'$, ta có $\vec{A'C'} = \vec{AC}$.
+Do đó: $\vec{BA} + \vec{A'C'} = \vec{BA} + \vec{AC} = \vec{BC}$.
+Phát biểu ở phương án C là đúng.",3.8,1369,97
+D25-G1,I.2,mcq,hinh_hoc_do_luong,True,"""C""","""C""",True,,0.25,,"Trong hình hộp $ABCD.A'B'C'D'$, ta có $AB \parallel A'B'$.
+Do $A'B' \subset (A'B'C'D')$ và $AB \not\subset (A'B'C'D')$ nên đường thẳng $AB$ song song với mặt phẳng $(A'B'C'D')$.
+
+Các mặt phẳng $(CC'A'A)$, $(BB'C'C)$, $(AA'D'D)$ đều chứa ít nhất một điểm thuộc đường thẳng $AB$ (lần lượt là $A$, $B$, $A$) nên không song song với $AB$.
+
+Do đó, phương án đúng là C.",3.8,1327,171
+D25-G1,I.3,mcq,thong_ke_xac_suat,False,"""C""","""C""",True,,0.25,,"Tổng số mẫu số liệu là $N = 11 + 10 + 6 + 8 + 4 + 1 = 40$.
+
+Tần số tích lũy của các nhóm lần lượt là:
+- Nhóm 1 [0; 40): 11
+- Nhóm 2 [40; 80): 21
+- Nhóm 3 [80; 120): 27
+- Nhóm 4 [120; 160): 35
+- Nhóm 5 [160; 200): 39
+- Nhóm 6 [200; 240): 40
+
+Vị trí của tứ phân vị thứ ba $Q_3$ là $\frac{3N}{4} = \frac{3 \cdot 40}{4} = 30$.
+Do $27 < 30 \le 35$ nên nhóm chứa $Q_3$ là nhóm thứ tư [120; 160).
+
+Áp dụng công thức tính tứ phân vị thứ ba cho mẫu số liệu ghép nhóm:
+$Q_3 = 120 + \frac{30 - 27}{8} \cdot (160 - 120) = 120 + \frac{3}{8} \cdot 40 = 120 + 15 = 135$.
+
+Vậy $Q_3 = 135$, chọn đáp án C.",4.4,346,368
+D25-G1,I.4,mcq,hinh_hoc_do_luong,False,"""D""","""D""",True,,0.25,,"Phương trình chính tắc của đường thẳng $(d)$ có dạng $\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$, từ đó một vectơ chỉ phương của $(d)$ là $\vec{v} = (a; b; c) = (4; -5; 2)$. Do đó, đáp án đúng là D.",2.1,266,109
+D25-G1,I.5,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Sử dụng công thức nguyên hàm cơ bản của hàm số lũy thừa: $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ với $n \neq -1$.
+Áp dụng cho $n = 2$, ta có:
+$\int x^2 dx = \frac{x^{2+1}}{2+1} + C = \frac{1}{3}x^3 + C$.
+Do đó, đáp án đúng là A.",4.8,207,128
+D25-G1,I.6,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Áp dụng công thức số hạng tổng quát của cấp số cộng $u_n = u_1 + (n - 1)d$, ta có:
+$u_5 = u_1 + 4d = 4 + 4 \cdot (-3) = 4 - 12 = -8$.
+Do đó, đáp án đúng là C.",19.8,198,95
+D25-G1,I.7,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Phương trình $\sin x = 0 \Leftrightarrow x = k\pi$ với $k \in \mathbb{Z}$. Vậy tập nghiệm của phương trình là $S = \left\{ k\pi \,\middle|\, k \in \mathbb{Z} \right\}$.",4.6,275,82
+D25-G1,I.8,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y = f(x)$, trục hoành ($y = 0$) và hai đường thẳng $x = a$, $x = b$ ($a < b$) được tính theo công thức $S = \int_{a}^{b} |f(x)|\,\mathrm{d}x$.
+Áp dụng với $f(x) = 2x - 3$, $a = 1$, $b = 2$, ta có công thức: $S = \int_{1}^{2} |2x - 3|\,\mathrm{d}x$.",5.5,314,158
+D25-G1,I.9,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,"Phương trình mặt phẳng đi qua điểm $A(x_0; y_0; z_0) = (2; 1; -4)$ và nhận vectơ pháp tuyến $\vec{n} = (a; b; c) = (3; 2; -1)$ có dạng:
+$a(x - x_0) + b(y - y_0) + c(z - z_0) = 0$
+$\Leftrightarrow 3(x - 2) + 2(y - 1) - (z + 4) = 0$.
+Vậy đáp án đúng là A.",6.3,311,154
+D25-G1,I.10,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Điều kiện xác định của phương trình là $2x - 1 > 0 \iff x > \frac{1}{2}$.
+Phương trình đã cho tương đương với:
+$2x - 1 = 3^2$
+$\iff 2x - 1 = 9$
+$\iff 2x = 10$
+$\iff x = 5$ (thỏa mãn điều kiện).
+Vậy nghiệm của phương trình là $x = 5$.",2.0,201,123
+D25-G1,I.11,mcq,dai_so_giai_tich,True,"""B""","""B""",True,,0.25,,"Dựa vào đồ thị của hàm số ở Câu 11, ta thấy:
+- Đường tiệm cận đứng là đường thẳng vuông góc với trục hoành đi qua điểm có hoành độ $x = -1$, nên phương trình tiệm cận đứng là $x = -1$.
+- Đường tiệm cận ngang có phương trình $y = 2$.
+
+Do bài toán hỏi phương trình đường tiệm cận đứng nên đáp án đúng là $x = -1$ (Phương án B).",12.9,1343,123
+D25-G1,I.12,mcq,hinh_hoc_do_luong,False,"""D""","""D""",True,,0.25,,"Diện tích đáy $\triangle ABC$ vuông tại $A$ là $S_{ABC} = \frac{1}{2} AB \cdot AC = \frac{1}{2} \cdot 4 \cdot 5 = 10$.
+Chiều cao của khối chóp là $h = SA = 3$.
+Thể tích của khối chóp $S.ABC$ là $V = \frac{1}{3} S_{ABC} \cdot SA = \frac{1}{3} \cdot 10 \cdot 3 = 10$.",2.3,224,140
+D25-G1,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": false}","{""a"": true, ""b"": false, ""c"": false, ""d"": false}",True,4,1,,"a) Đạo hàm của hàm số $f(x) = x^3 - 12x - 8$ là $f'(x) = 3x^2 - 12$. Mệnh đề a ĐÚNG.
+b) Phương trình $f'(x) = 0 \Leftrightarrow 3x^2 - 12 = 0 \Leftrightarrow x = 2$ hoặc $x = -2$. Tập nghiệm $S = \{-2; 2\}$. Mệnh đề b SAI.
+c) Ta có $f(2) = 2^3 - 12 \cdot 2 - 8 = -24 \neq 24$. Mệnh đề c SAI.
+d) Xét hàm số $f(x)$ trên $[-3; 3]$:
+- Các điểm cực trị thuộc đoạn là $x = -2$ và $x = 2$.
+- $f(-3) = 1$
+- $f(-2) = 8$
+- $f(2) = -24$
+- $f(3) = -17$
+Giá trị lớn nhất của $f(x)$ trên $[-3; 3]$ bằng $8$. Mệnh đề d SAI.",4.9,269,312
+D25-G1,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,"Từ phương trình vi phân $y'(t) = k \cdot y(t)$ với $y(t) > 0$, lấy nguyên hàm hai vế ta được $\ln y(t) = kt + C$, suy ra $y(t) = \mathrm{e}^{kt+C}$. Do $y(t) = \mathrm{e}^{g(t)}$ nên $g(t) = kt + C$ với $C$ là hằng số.\n\na) Đúng. $g(t) = kt + C$ với $C$ là một hằng số xác định.\n\nb) Theo đề bài:\n- Tại $t = 6$: $y(6) = \mathrm{e}^{6k+C} = 2 \Rightarrow 6k + C = \ln 2$.\n- Tại $t = 12$: $y(12) = \mathrm{e}^{12k+C} = 1 \Rightarrow 12k + C = \ln 1 = 0 \Rightarrow C = -12k$.\n\nThay $C = -12k$ vào phương trình thứ nhất:\n$6k - 12k = \ln 2 \Rightarrow -6k = \ln 2 \Rightarrow k = -\frac{\ln 2}{6}$.\nDo đó mệnh đề b Sai (thiếu dấu âm).\n\nc) Tính $C = -12k = -12 \left(-\frac{\ln 2}{6}\right) = 2\ln 2$. Do đó mệnh đề c Đúng.\n\nd) Nồng độ thuốc tại thời điểm $t = 25$ ngày là:\n$y(25) = \mathrm{e}^{25k + C} = \mathrm{e}^{25\left(-\frac{\ln 2}{6}\right) + 2\ln 2} = \mathrm{e}^{\left(2 - \frac{25}{6}\right)\ln 2} = 2^{-\frac{13}{6}} \approx 0,2227\text{ (mg/lít)}$.\nVì $0,2227 < 0,25$ nên nồng độ thuốc tại $t = 25$ nhỏ hơn $0,25\text{ mg/lít}$. Do đó mệnh đề d Sai.",7.8,511,568
+D25-G1,II.3,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,,9.4,601,609
+D25-G1,II.4,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": true}","{""a"": true, ""b"": true, ""c"": false, ""d"": true}",True,4,1,,"Gọi $M$ là biến cố tin nhắn bị đánh dấu, $A$ là biến cố tin nhắn là quảng cáo.
+Theo đề bài, ta có:
+- $P(M) = 0,15 \implies P(\overline{M}) = 1 - 0,15 = 0,85$.
+- $P(\overline{A}|M) = 0,10$.
+- $P(A|\overline{M}) = 0,05 \implies P(\overline{A}|\overline{M}) = 1 - 0,05 = 0,95$.
+
+Xét từng mệnh đề:
+a) Đúng: $P(\overline{M}) = 0,85$.
+b) Đúng: $P(\overline{A}|\overline{M}) = 0,95$.
+c) Sai: $P(\overline{A}) = P(\overline{A}|M)P(M) + P(\overline{A}|\overline{M})P(\overline{M}) = 0,10 \times 0,15 + 0,95 \times 0,85 = 0,8225 \neq 0,85$.
+d) Đúng: $P(\overline{M}|\overline{A}) = \frac{P(\overline{A}|\overline{M})P(\overline{M})}{P(\overline{A})} = \frac{0,8075}{0,8225} = \frac{323}{329} \approx 0,9818 > 0,95$.",6.4,379,405
+D25-G1,III.1,short,thong_ke_xac_suat,True,"""1260""","""1260""",True,,0.5,,"Để Nam giải được mật thư, các vị trí $A, B, C, M, N, P$ nhận các số phân biệt trong tập $S = \{11; 12; 13; 14; 15; 16; 17; 18; 19\}$ thoả mãn:
+- $A + B = 2M$
+- $B + C = 2N$
+- $C + A = 2P$
+
+Điều này dẫn đến $A, B, C$ phải có cùng tính chẵn lẻ, đồng thời ba số $A, B, C$ không được lập thành một cấp số cộng (nếu lập thành CSC thì một trong các trung điểm $M, N, P$ sẽ trùng với một trong các đỉnh $A, B, C$).
+
+- Số cách chọn 6 vị trí bất kỳ từ 9 số trong $S$: $A_9^6 = 60480$.
+- **Trường hợp 1:** $A, B, C$ cùng lẻ (thuộc $\{11, 13, 15, 17, 19\}$).
+  Tập các số lẻ có $\binom{5}{3} = 10$ tập con gồm 3 phần tử, trong đó có 4 tập con là CSC: $\{11, 13, 15\}$, $\{13, 15, 17\}$, $\{15, 17, 19\}$, $\{11, 15, 19\}$.
+  Do đó có $10 - 4 = 6$ tập con không là CSC. Số bộ $(A, B, C)$ là $6 \times 3! = 36$.
+- **Trường hợp 2:** $A, B, C$ cùng chẵn (thuộc $\{12, 14, 16, 18\}$).
+  Tập các số chẵn có $\binom{4}{3} = 4$ tập con gồm 3 phần tử, trong đó có 2 tập con là CSC: $\{12, 14, 16\}$, $\{14, 16, 18\}$.
+  Do đó có $4 - 2 = 2$ tập con không là CSC. Số bộ $(A, B, C)$ là $2 \times 3! = 12$.
+
+Tổng số bộ $(A, B, C)$ thoả mãn là $36 + 12 = 48$. Với mỗi bộ $(A, B, C)$, các vị trí $M, N, P$ được xác định duy nhất.
+
+Xác suất $a = \frac{48}{60480} = \frac{1}{1260}$.
+
+Vậy $\frac{1}{a} = 1260$.",26.6,1479,679
+D25-G1,III.2,short,dai_so_giai_tich,False,"""1536""","""1536""",True,,0.5,,"Doanh thu khi bán $x$ sản phẩm là $F(x) = -0,01x^2 + 300x$ (nghìn đồng).\nTổng chi phí sản xuất $x$ sản phẩm là $C(x) = x \cdot G(x) = x\left(\frac{30\,000}{x} + 200\right) = 30\,000 + 200x$ (nghìn đồng).\nLợi nhuận thu được là:\n$P(x) = F(x) - C(x) = -0,01x^2 + 100x - 30\,000$ (nghìn đồng).\n\nĐổi $100$ triệu đồng = $100\,000$ nghìn đồng.\nĐể lợi nhuận lớn hơn $100$ triệu đồng, ta có bất phương trình:\n$P(x) > 100\,000 \iff -0,01x^2 + 100x - 130\,000 > 0 \iff x^2 - 10\,000x + 13\,000\,000 < 0$.\n\nGiải bất phương trình thu được:\n$5000 - 2000\sqrt{3} < x < 5000 + 2000\sqrt{3} \iff 1535,898... < x < 8464,101...$\n\nVì $x \in \mathbb{N}^*$ và $1 \le x \le 4\,500$, số sản phẩm ít nhất cần sản xuất là $x = 1536$.",9.4,310,424
+D25-G1,III.3,short,dai_so_giai_tich,False,"""2650""","""2650""",True,,0.5,,"Gọi $x$ và $y$ lần lượt là số lượng Thực đơn 1 và Thực đơn 2 được bán ($x, y \ge 0$).
+
+Theo bài ra, ta có hệ bất phương trình biểu diễn các điều kiện về số lượng nước chanh và khoai chiên:
+$$\begin{cases} 2x + 3y \le 165 \\ x + 2y \le 100 \\ x \ge 0, y \ge 0 \end{cases}$$
+
+Tổng số tiền câu lạc bộ thu được là $F(x, y) = 30x + 50y$ (nghìn đồng).
+
+Miền nghiệm của hệ bất phương trình là một đa giác với các đỉnh:
+- $O(0; 0)$
+- $A(82,5; 0)$
+- $B(30; 35)$ (giao điểm của $2x + 3y = 165$ và $x + 2y = 100$)
+- $C(0; 50)$
+
+Giá trị của $F(x, y)$ tại các đỉnh:
+- $F(0; 0) = 0$
+- $F(82,5; 0) = 30 \cdot 82,5 = 2475$
+- $F(30; 35) = 30 \cdot 30 + 50 \cdot 35 = 2650$
+- $F(0; 50) = 50 \cdot 50 = 2500$
+
+Do $x = 30, y = 35$ là các số nguyên thỏa mãn, số tiền lớn nhất câu lạc bộ có thể nhận được là $2650$ nghìn đồng.",6.5,301,443
+D25-G1,III.4,short,hinh_hoc_do_luong,False,"""1,04""","""1,04""",True,,0.5,,"Do $ABCD$ là hình thoi có $\widehat{ABC} = 60^\circ$ và $AB = 2$ nên tam giác $ABC$ đều cạnh $2$. Gọi $O$ là giao điểm của $AC$ và $BD$, ta có $AC \perp BD$, $AC = 2$, $BO = \sqrt{3}$ và $OD = \sqrt{3}$.\n\nVì $H$ là trọng tâm tam giác $ABC$ nên $H \in BO$ và $OH = \frac{1}{3}BO = \frac{\sqrt{3}}{3}$.\nDo $SH \perp (ABCD)$ nên $AC \perp SH$. Kết hợp với $AC \perp BD$, ta suy ra $AC \perp (SBD)$.\nDo đó, khoảng cách giữa hai đường thẳng $AC$ và $SD$ chính bằng khoảng cách từ điểm $O$ đến đường thẳng $SD$ trong mặt phẳng $(SBD)$.\n\nXét mặt phẳng $(SBD)$ với hệ tọa độ Oxy sao cho $O(0;0)$, $D(\sqrt{3};0)$, $H\left(-\frac{\sqrt{3}}{3};0\right)$, $S\left(-\frac{\sqrt{3}}{3};\sqrt{3}\right)$:\nPhương trình đường thẳng $SD$ đi qua $D(\sqrt{3};0)$ và $S\left(-\frac{\sqrt{3}}{3};\sqrt{3}\right)$ có vectơ chỉ phương $\vec{u}_{SD} = \left(-\frac{4\sqrt{3}}{3}; \sqrt{3}\right) \parallel (-4; 3)$.\nVectơ pháp tuyến của $SD$ là $\vec{n} = (3; 4)$.\nPhương trình đường thẳng $SD$: $3(x - \sqrt{3}) + 4(y - 0) = 0 \Leftrightarrow 3x + 4y - 3\sqrt{3} = 0$.\n\nKhoảng cách từ $O(0;0)$ đến $SD$ là:\n$$d(AC, SD) = d(O, SD) = \frac{|3 \cdot 0 + 4 \cdot 0 - 3\sqrt{3}|}{\sqrt{3^2 + 4^2}} = \frac{3\sqrt{3}}{5} \approx 1,03923$$\n\nLàm tròn đến hàng phần trăm ta được kết quả là $1,04$.",12.4,259,568
+D25-G1,III.5,short,thong_ke_xac_suat,False,"""1008""","""1008""",True,,0.5,,"Mỗi cách xếp 7 quyển sách phân biệt vào 4 ngăn sao cho mỗi ngăn có ít nhất một quyển và các quyển sách xếp theo hàng ngang tương ứng với một hoán vị của 7 quyển sách và một cách chọn 3 vị trí vách ngăn trong 6 vị trí giữa các quyển sách.
+
+Số hoán vị của 7 quyển sách là $7! = 5040$.
+Số cách đặt 3 vách ngăn vào 6 vị trí trống để chia 7 quyển sách thành 4 phần không rỗng là $\binom{6}{3} = 20$.
+
+Do đó, tổng số cách xếp $T$ là:
+$$T = 7! \times \binom{6}{3} = 5040 \times 20 = 100800$$
+
+Giá trị của $\frac{T}{100} = \frac{100800}{100} = 1008$.",7.5,337,239
+D25-G1,III.6,short,hinh_hoc_do_luong,True,"""96,5""","""96,5""",True,,0.5,,"1. **Thể tích khối chóp cụt tứ giác đều:**
+- Diện tích đáy nhỏ: $S_1 = 7,4^2 = 54,76\text{ cm}^2$
+- Diện tích đáy lớn: $S_2 = 10,4^2 = 108,16\text{ cm}^2$
+- Chiều cao: $h = 1,5\text{ cm}$
+- Thể tích: 
+$$V_1 = \frac{1}{3} h (S_1 + S_2 + \sqrt{S_1 S_2}) = \frac{1}{3} \times 1,5 \times (54,76 + 108,16 + 7,4 \times 10,4) = 119,94\text{ cm}^3$$
+
+2. **Thể tích phần khoét bỏ $H$ (chỏm cầu):**
+- Khối cầu bán kính $R = 5,8\text{ cm}$, đường tròn mặt cắt bán kính $r = 3,5\text{ cm}$.
+- Khoảng cách từ tâm cầu đến mặt phẳng cắt: $d = \sqrt{R^2 - r^2} = \sqrt{5,8^2 - 3,5^2} = \sqrt{21,39}\text{ cm}$.
+- Chiều cao chỏm cầu $H$: $h_c = R - d = 5,8 - \sqrt{21,39}\text{ cm}$.
+- Thể tích chỏm cầu $H$:
+$$V_H = \frac{\pi h_c^2}{3} (3R - h_c) \approx 23,4605\text{ cm}^3$$
+
+3. **Thể tích khối chân đế:**
+$$V = V_1 - V_H = 119,94 - 23,4605 = 96,4795...\text{ cm}^3$$
+Làm tròn đến hàng phần mười được kết quả là **96,5**.",14.2,1448,512
+D25-G2,I.1,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y = f(x)$, trục hoành ($y = 0$) và hai đường thẳng $x = a$, $x = b$ ($a < b$) được tính theo công thức $S = \int_{a}^{b} |f(x)| dx$.
+Với $x \in [1; 2]$, ta có $2x + 1 > 0$ nên $|2x + 1| = 2x + 1$.
+Do đó, diện tích $S = \int_{1}^{2} (2x + 1) dx$. Phương án đúng là D.",3.7,286,162
+D25-G2,I.2,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Mặt phẳng đi qua gốc tọa độ $O(0; 0; 0)$ và nhận vectơ $\vec{n} = (-1; 0; 3)$ làm vectơ pháp tuyến có phương trình tổng quát là:
+$-1(x - 0) + 0(y - 0) + 3(z - 0) = 0 \Leftrightarrow -x + 3z = 0$.
+
+Do đó, phương án đúng là C.",2.5,233,120
+D25-G2,I.3,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,Ta có phương trình: $2^{2x+1} = 8 \iff 2^{2x+1} = 2^3 \iff 2x + 1 = 3 \iff 2x = 2 \iff x = 1$. Vậy nghiệm của phương trình là $x = 1$.,2.1,198,89
+D25-G2,I.4,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,Ta có họ nguyên hàm của hàm số $f(x) = \sin x + \cos x$ là $\int (\sin x + \cos x) \mathrm{d}x = -\cos x + \sin x + C$.,4.5,209,73
+D25-G2,I.5,mcq,dai_so_giai_tich,True,"""B""","""B""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số $y = \frac{ax+b}{cx+d}$, ta có $\lim_{x \to -2^-} y = -\infty$ và $\lim_{x \to -2^+} y = +\infty$.
+Do đó, đường tiệm cận đứng của đồ thị hàm số có phương trình là $x = -2$.",35.7,1432,102
+D25-G2,I.6,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Áp dụng công thức số hạng tổng quát của cấp số cộng: $u_n = u_1 + (n - 1)d$.
+Ta có $u_5 = u_1 + 4d = 2 + 4 \times 3 = 14$.",33.6,199,79
+D25-G2,I.7,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Mặt phẳng $(P)$ có phương trình $2x - 4y + 3z - 9 = 0$ nên một vectơ pháp tuyến của $(P)$ là $\vec{n} = (2; -4; 3)$. Do đó, phương án đúng là C.",22.5,263,79
+D25-G2,I.8,mcq,thong_ke_xac_suat,True,"""B""","""B""",True,,0.25,,"Tổng số cuộc gọi là $n = 10 + 11 + 8 + 6 + 4 + 1 = 40$.
+
+Tọa độ vị trí của tứ phân vị thứ ba $Q_3$ là $\frac{3n}{4} = \frac{3 \cdot 40}{4} = 30$.
+
+Ta có tần số tích lũy của các nhóm lần lượt là:
+- Nhóm $[0; 30)$: $10$
+- Nhóm $[30; 60)$: $21$
+- Nhóm $[60; 90)$: $29$
+- Nhóm $[90; 120)$: $35$
+
+Do $29 < 30 \le 35$ nên nhóm chứa $Q_3$ là $[90; 120)$.
+
+Áp dụng công thức tính tứ phân vị thứ ba cho mẫu số liệu ghép nhóm:
+$$Q_3 = 90 + \frac{30 - 29}{6} \cdot (120 - 90) = 90 + \frac{1}{6} \cdot 30 = 95$$
+
+Vậy phương án đúng là B.",21.7,1471,298
+D25-G2,I.9,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Phương trình $\sin x = 1$ có tập nghiệm là $S = \left\{\frac{\pi}{2} + k2\pi \,\middle|\, k \in \mathbb{Z}\right\}$.",2.4,257,71
+D25-G2,I.10,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Diện tích tam giác đáy $ABC$ vuông tại $A$ là:
+$$S_{ABC} = \frac{1}{2} \cdot AB \cdot AC = \frac{1}{2} \cdot 3 \cdot 6 = 9$$
+
+Vì $OA \perp (ABC)$ nên chiều cao của khối chóp là $h = OA = 2$.
+
+Thể tích khối chóp $O.ABC$ là:
+$$V = \frac{1}{3} \cdot S_{ABC} \cdot OA = \frac{1}{3} \cdot 9 \cdot 2 = 6$$",4.0,225,157
+D25-G2,I.11,mcq,hinh_hoc_do_luong,True,"""B""","""B""",True,,0.25,,"Trong hình lăng trụ $ABC.A'B'C'$, ta có $B'C' \parallel BC$.
+Vì $BC \subset (ABC)$ và $B'C'$ không nằm trong mặt phẳng $(ABC)$ nên đường thẳng $B'C'$ song song với mặt phẳng $(ABC)$.
+ do đó phương án đúng là B.",21.8,1319,91
+D25-G2,I.12,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Vì $S.ABCD$ là hình chóp tứ giác đều nên đáy $ABCD$ là hình vuông có $O$ là giao điểm hai đường chéo $AC$ và $BD$. Do đó $O$ là trung điểm của $AC$ và $BD$.
+
+Áp dụng quy tắc trung điểm cho đoạn thẳng $AC$ và $BD$ với điểm $S$ bất kỳ, ta có:
+- $\vec{SA} + \vec{SC} = 2\vec{SO}$
+- $\vec{SB} + \vec{SD} = 2\vec{SO}$
+
+Cộng vế với vế hai đẳng thức trên, ta thu được:
+$\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = 4\vec{SO}$.
+
+Vậy phương án đúng là A.",4.6,1425,209
+D25-G2,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Xét hàm số $f(x) = x^3 - 27x + 81$:
+a) Đạo hàm $f'(x) = 3x^2 - 27$. (Đúng)
+b) $f'(x) = 0 \iff 3x^2 - 27 = 0 \iff x = \pm 3$. Do đó tập nghiệm $S = \{-3; 3\}$. (Sai)
+c) $f(3) = 3^3 - 27 \cdot 3 + 81 = 27$. (Đúng)
+d) Xét hàm số trên $[-4; 4]$:
+Các điểm cực trị trong khoảng $(-4; 4)$ là $x = -3$ và $x = 3$.
+Ta có: $f(-4) = 125$, $f(-3) = 135$, $f(3) = 27$, $f(4) = 37$.
+Do đó, giá trị nhỏ nhất của $f(x)$ trên $[-4; 4]$ là $\min_{[-4; 4]} f(x) = f(3) = 27$. (Đúng)",5.0,270,315
+D25-G2,II.2,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": false}","{""a"": true, ""b"": false, ""c"": false, ""d"": false}",True,4,1,,"Gọi $M$ là biến cố tin nhắn bị đánh dấu, $\overline{M}$ là biến cố tin nhắn không bị đánh dấu; $Q$ là biến cố tin nhắn là quảng cáo, $\overline{Q}$ là biến cố tin nhắn không phải là quảng cáo.
+- Theo đề bài: $P(M) = 0,2 \Rightarrow P(\overline{M}) = 0,8$.
+- $P(\overline{Q}|M) = 0,1 \Rightarrow P(Q|M) = 0,9$.
+- $P(Q|\overline{M}) = 0,1 \Rightarrow P(\overline{Q}|\overline{M}) = 0,9$.
+
+Xét từng mệnh đề:
+a) Xác suất tin nhắn không bị đánh dấu là $P(\overline{M}) = 1 - 0,2 = 0,8$. (Đúng)
+b) Xác suất tin nhắn không phải quảng cáo biết nó không bị đánh dấu là $P(\overline{Q}|\overline{M}) = 0,9 \neq 0,95$. (Sai)
+c) Xác suất tin nhắn không phải quảng cáo là $P(\overline{Q}) = P(\overline{Q}|M) \cdot P(M) + P(\overline{Q}|\overline{M}) \cdot P(\overline{M}) = 0,1 \cdot 0,2 + 0,9 \cdot 0,8 = 0,74 \neq 0,76$. (Sai)
+d) Xác suất tin nhắn không bị đánh dấu biết nó không phải quảng cáo là $P(\overline{M}|\overline{Q}) = \frac{P(\overline{Q}|\overline{M}) \cdot P(\overline{M})}{P(\overline{Q})} = \frac{0,72}{0,74} = \frac{36}{37} \approx 0,973 > 0,95$. (Sai)",8.6,378,482
+D25-G2,II.3,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Từ giả thiết $y'(t) = k \cdot y(t)$ với $y(t) > 0$, ta có $\frac{y'(t)}{y(t)} = k \implies \ln(y(t)) = kt + C$. Do $y(t) = e^{g(t)}$ nên $g(t) = \ln(y(t)) = kt + C$ với $C$ là hằng số xác định.\n\nTheo bài ra:\n- $y(6) = 2 \implies g(6) = 6k + C = \ln 2$\n- $y(12) = 1 \implies g(12) = 12k + C = \ln 1 = 0$\n\nGiải hệ phương trình ta được:\n- $6k = -\ln 2 \implies k = -\frac{\ln 2}{6}$\n- $C = -12k = 2\ln 2$\n\nDo đó:\n- Mệnh đề a đúng vì $g(t) = kt + C$ với $C$ là hằng số xác định.\n- Mệnh đề b đúng vì $k = -\frac{\ln 2}{6}$.\n- Mệnh đề c sai vì $C = 2\ln 2$ (không phải $3\ln 2$).\n- Mệnh đề d: Tại $t = 20$, nồng độ tồn dư là $y(20) = e^{20k + C} = e^{-\frac{20}{6}\ln 2 + 2\ln 2} = 2^{-\frac{4}{3}} \approx 0{,}397$ mg/lít. Giá trị này nhỏ hơn $0{,}4$ mg/lít nên mệnh đề d sai.",20.5,501,450
+D25-G2,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,,34.3,592,518
+D25-G2,III.1,short,hinh_hoc_do_luong,True,"""95,9""","""95,9""",True,,0.5,,"1. **Thể tích khối chóp cụt tứ giác đều:**
+- Diện tích đáy trên: $S_1 = 7{,}4^2 = 54{,}76\text{ cm}^2$.
+- Diện tích đáy dưới: $S_2 = 10{,}4^2 = 108{,}16\text{ cm}^2$.
+- Chiều cao: $h_1 = 1{,}5\text{ cm}$.
+- Thể tích khối chóp cụt:
+$$V_1 = \frac{1}{3} h_1 (S_1 + S_2 + \sqrt{S_1 S_2}) = \frac{1}{3} \cdot 1{,}5 \cdot (54{,}76 + 108{,}16 + 76{,}96) = 119{,}94\text{ cm}^3$$
+
+2. **Thể tích phần chỏm cầu $H$ bị khoét:**
+- Khoảng cách từ tâm khối cầu đến mặt phẳng cắt là $d = \sqrt{R^2 - r^2} = \sqrt{5{,}7^2 - 3{,}5^2} = \sqrt{20{,}24}\text{ cm}$.
+- Chiều cao của chỏm cầu $H$: $h_2 = R - d = 5{,}7 - \sqrt{20{,}24}\text{ cm}$.
+- Thể tích của chỏm cầu $H$:
+$$V_2 = \frac{\pi h_2^2 (3R - h_2)}{3} \approx 24{,}02\text{ cm}^3$$
+
+3. **Thể tích còn lại của chân đế:**
+$$V = V_1 - V_2 = 119{,}94 - 24{,}0196... \approx 95{,}92\text{ cm}^3$$
+Làm tròn đến hàng phần mười thu được kết quả là $95{,}9\text{ cm}^3$.",38.3,1438,486
+D25-G2,III.2,short,dai_so_giai_tich,False,"""1092""","""1092""",True,,0.5,,"Tổng chi phí sản xuất $x$ sản phẩm là:
+$C(x) = x \cdot G(x) = 30000 + 270x$ (nghìn đồng).
+
+Lợi nhuận thu được khi bán hết $x$ sản phẩm là:
+$P(x) = F(x) - C(x) = -0{,}01x^2 + 400x - (30000 + 270x) = -0{,}01x^2 + 130x - 30000$ (nghìn đồng).
+
+Đổi 100 triệu đồng = 100 000 nghìn đồng. Yêu cầu lợi nhuận lớn hơn 100 triệu đồng nghĩa là:
+$-0{,}01x^2 + 130x - 30000 > 100000$
+$\Leftrightarrow -0{,}01x^2 + 130x - 130000 > 0$
+$\Leftrightarrow x^2 - 13000x + 13000000 < 0$
+$\Leftrightarrow 6500 - 1500\sqrt{13} < x < 6500 + 1500\sqrt{13}$
+$\Leftrightarrow 1091{,}67 < x < 11908{,}33$.
+
+Vì $x \in \mathbb{N}^*$ và $1 \le x \le 4500$, số sản phẩm ít nhất doanh nghiệp cần sản xuất là $x = 1092$.",23.2,308,401
+D25-G2,III.3,short,thong_ke_xac_suat,True,"""2520""","""2520""",True,,0.5,,,29.3,1477,688
+D25-G2,III.4,short,dai_so_giai_tich,False,"""2975""","""2975""",True,,0.5,,"Gọi $x$ và $y$ lần lượt là số lượng thực đơn 1 và thực đơn 2 được bán ($x, y \ge 0$, $x, y \in \mathbb{N}$).
+
+Từ giả thiết, ta có hệ bất phương trình biểu diễn lượng nguyên liệu:
+- Số cốc nước chanh: $2x + 3y \le 165$
+- Số túi khoai chiên: $x + 2y \le 100$
+
+Tổng số tiền thu được (đơn vị: nghìn đồng) là:
+$F(x, y) = 35x + 55y$
+
+Ta có:
+$F(x, y) = 15(2x + 3y) + 5(x + 2y) \le 15 \cdot 165 + 5 \cdot 100 = 2475 + 500 = 2975$
+
+Dấu ""="" xảy ra khi hệ phương trình $\begin{cases} 2x + 3y = 165 \\ x + 2y = 100 \end{cases}$ có nghiệm $(x; y) = (30; 35)$ (thỏa mãn điều kiện nguyên không âm).
+
+Vậy số tiền lớn nhất câu lạc bộ có thể nhận được là 2975 nghìn đồng.",7.1,297,338
+D25-G2,III.5,short,thong_ke_xac_suat,False,"""2352""","""2352""",True,,0.5,,"Xếp 8 quyển sách khác nhau vào 4 ngăn có thứ tự sao cho mỗi ngăn có ít nhất 1 quyển sách và thứ tự các quyển sách trong mỗi ngăn có phân biệt:
+- Số cách xếp 8 quyển sách thành một hàng ngang là $8!$.
+- Số cách chia hàng 8 quyển sách này thành 4 phần không rỗng bằng 3 vách ngăn trong 7 vị trí giữa các quyển sách là $\binom{7}{3} = 35$.
+
+Do đó, tổng số cách xếp là:
+$T = 8! \times \binom{7}{3} = 40320 \times 35 = 1411200$.
+
+Giá trị của $\frac{T}{600}$ là:
+$\frac{1411200}{600} = 2352$.",15.0,335,216
+D25-G2,III.6,short,hinh_hoc_do_luong,False,"""0,85""","""0,85""",True,,0.5,,,41.3,245,510
+D25-G3,I.1,mcq,hinh_hoc_do_luong,False,"""B""","""B""",True,,0.25,,"Đường thẳng $(d)$ có phương trình chính tắc $\frac{x-3}{4} = \frac{y+2}{-5} = \frac{z-1}{2}$. Nhìn vào hệ số ở mẫu số, một vectơ chỉ phương của $(d)$ là $\vec{u}_2 = (4; -5; 2)$. Do đó, phương án đúng là B.",19.1,274,104
+D25-G3,I.2,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Trong hình hộp $ABCD.A'B'C'D'$, ta có $AB \parallel A'B'$ và $A'B' \subset (A'B'C'D')$. Do $AB \not\subset (A'B'C'D')$ nên đường thẳng $AB$ song song với mặt phẳng $(A'B'C'D')$. Do đó, phương án đúng là A.",25.1,1327,106
+D25-G3,I.3,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Điều kiện xác định: $2x - 1 > 0 \iff x > \frac{1}{2}$.
+Ta có:
+$\log_3(2x-1) = 2 \iff 2x - 1 = 3^2 \iff 2x - 1 = 9 \iff 2x = 10 \iff x = 5$.
+Giá trị $x = 5$ thỏa mãn điều kiện xác định. Vậy phương trình có nghiệm $x = 5$.",2.6,200,131
+D25-G3,I.4,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Công thức số hạng tổng quát của cấp số cộng là $u_n = u_1 + (n - 1)d$.\nThay $n = 5$, $u_1 = 4$ và $d = -3$ vào công thức, ta có:\n$u_5 = u_1 + 4d = 4 + 4 \cdot (-3) = 4 - 12 = -8$.\nVậy phương án đúng là B.",2.5,198,120
+D25-G3,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Phương trình lượng giác cơ bản $\sin x = 0$ có các nghiệm là $x = k\pi$ với $k \in \mathbb{Z}$. Do đó, tập nghiệm của phương trình là $S = \{k\pi \mid k \in \mathbb{Z}\}$.",2.5,253,83
+D25-G3,I.6,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Do $ABC.A'B'C'$ là hình lăng trụ nên mặt bên $ACC'A'$ là hình bình hành, suy ra $\vec{A'C'} = \vec{AC}$.
+
+Khi đó:
+$$\vec{BA} + \vec{A'C'} = \vec{BA} + \vec{AC} = \vec{BC}$$
+
+Do đó, phát biểu đúng là phương án A.",3.3,1371,116
+D25-G3,I.7,mcq,thong_ke_xac_suat,False,"""B""","""B""",True,,0.25,,"Tổng số cuộc gọi là $n = 11 + 10 + 6 + 8 + 4 + 1 = 40$.
+
+Ta có $\frac{3n}{4} = \frac{3 \times 40}{4} = 30$.
+
+Tần số tích lũy của các nhóm lần lượt là:
+- Nhóm 1 $[0; 40)$: 11
+- Nhóm 2 $[40; 80)$: 21
+- Nhóm 3 $[80; 120)$: 27
+- Nhóm 4 $[120; 160)$: 35
+
+Do $27 < 30 \le 35$ nên nhóm chứa tứ phân vị thứ ba $Q_3$ là $[120; 160)$.
+
+Áp dụng công thức tính $Q_3$ cho mẫu số liệu ghép nhóm:
+$Q_3 = 120 + \frac{30 - 27}{8} \times (160 - 120) = 120 + \frac{3}{8} \times 40 = 120 + 15 = 135$.
+
+Vậy phương án đúng là B.",4.2,362,313
+D25-G3,I.8,mcq,hinh_hoc_do_luong,False,"""D""","""D""",True,,0.25,,"Phương trình mặt phẳng đi qua điểm $A(x_0; y_0; z_0)$ và nhận $\vec{n} = (a; b; c)$ làm vectơ pháp tuyến có dạng:
+$a(x - x_0) + b(y - y_0) + c(z - z_0) = 0$.
+
+Thay $A(2; 1; -4)$ và $\vec{n} = (3; 2; -1)$ vào phương trình, ta được:
+$3(x - 2) + 2(y - 1) - (z + 4) = 0$.
+
+Vậy đáp án đúng là D.",3.2,299,174
+D25-G3,I.9,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Diện tích đáy $\Delta ABC$ vuông tại $A$ là $S_{ABC} = \frac{1}{2} \cdot AB \cdot AC = \frac{1}{2} \cdot 4 \cdot 5 = 10$.
+Vì $SA \perp (ABC)$ nên chiều cao của khối chóp là $h = SA = 3$.
+Thể tích khối chóp $S.ABC$ là $V = \frac{1}{3} \cdot S_{ABC} \cdot SA = \frac{1}{3} \cdot 10 \cdot 3 = 10$.",2.2,224,150
+D25-G3,I.10,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Áp dụng công thức nguyên hàm cơ bản $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ với $n = 2$, ta có $\int x^2 dx = \frac{1}{3}x^3 + C$.",2.3,207,81
+D25-G3,I.11,mcq,dai_so_giai_tich,True,"""D""","""D""",True,,0.25,,"Dựa vào đồ thị hàm số ở Câu 11, ta thấy đường tiệm cận đứng là đường thẳng vuông góc với trục hoành $Ox$ tại điểm có hoành độ $x = -1$. Do đó, phương trình đường tiệm cận đứng của đồ thị hàm số là $x = -1$.",25.4,1343,84
+D25-G3,I.12,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y = f(x)$, trục hoành ($y = 0$) và hai đường thẳng $x = a, x = b$ được tính theo công thức:
+$$S = \int_a^b |f(x)| \mathrm{d}x$$
+Áp dụng với $f(x) = 2x - 3$, $a = 1$, $b = 2$, ta có công thức tính diện tích là:
+$$S = \int_1^2 |2x - 3| \mathrm{d}x$$
+Do đó, phương án đúng là B.",3.4,305,164
+D25-G3,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,"Từ $y(t) = \text{e}^{g(t)}$, ta có $y'(t) = g'(t)\text{e}^{g(t)} = g'(t)y(t)$.\nTheo giả thiết $y'(t) = k \cdot y(t)$ với $y(t) > 0$, suy ra $g'(t) = k \implies g(t) = kt + C$ ($C$ là hằng số).\nDo đó mệnh đề a) ĐÚNG.\n\nTa có $y(t) = \text{e}^{kt + C}$.\n- Tại $t = 6$: $y(6) = \text{e}^{6k + C} = 2 \implies 6k + C = \ln 2$.\n- Tại $t = 12$: $y(12) = \text{e}^{12k + C} = 1 \implies 12k + C = 0$.\n\nGiải hệ phương trình:\n$6k = -\ln 2 \implies k = -\frac{\ln 2}{6}$.\n$C = -12k = 2\ln 2$.\nDo đó mệnh đề b) và c) SAI.\n\nTại thời điểm $t = 28$ ngày:\n$y(28) = \text{e}^{28 \cdot \left(-\frac{\ln 2}{6}\right) + 2\ln 2} = \text{e}^{-\frac{8}{3}\ln 2} = 2^{-\frac{8}{3}} = \frac{1}{\sqrt[3]{256}}$.\nVì $256 > 125 = 5^3 \implies \sqrt[3]{256} > 5 \implies y(28) < \frac{1}{5} = 0{,}2\text{ mg/lít}$.\nDo đó mệnh đề d) ĐÚNG.",9.3,510,487
+D25-G3,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": false}","{""a"": true, ""b"": false, ""c"": false, ""d"": false}",True,4,1,,"Xét hàm số $f(x) = x^3 - 48x - 8$:
+a) Đạo hàm của hàm số là $f'(x) = 3x^2 - 48$. Do đó mệnh đề a) Đúng.
+b) Giải phương trình $f'(x) = 0 \Leftrightarrow 3x^2 - 48 = 0 \Leftrightarrow x = \pm 4$. Tập nghiệm là $S = \{-4; 4\}$. Do đó mệnh đề b) Sai.
+c) $f(4) = 4^3 - 48 \cdot 4 - 8 = -136$. Do đó mệnh đề c) Sai.
+d) Xét hàm số trên đoạn $[-5; 5]$:
+- $f(-5) = 107$
+- $f(-4) = 120$
+- $f(4) = -136$
+- $f(5) = -123$
+Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[-5; 5]$ là $\max_{[-5; 5]} f(x) = f(-4) = 120$. Do đó mệnh đề d) Sai.",15.9,271,318
+D25-G3,II.3,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Gọi $M$ là biến cố ""tin nhắn bị đánh dấu"" và $Q$ là biến cố ""tin nhắn là quảng cáo"". Theo đề bài:
+- $P(M) = 0{,}1 \Rightarrow P(\bar{M}) = 0{,}9$.
+- $P(\bar{Q}|M) = 0{,}1 \Rightarrow P(Q|M) = 0{,}9$.
+- $P(Q|\bar{M}) = 0{,}1 \Rightarrow P(\bar{Q}|\bar{M}) = 0{,}9$.
+
+Xét từng mệnh đề:
+a) Đúng, vì $P(\bar{M}) = 1 - 0{,}1 = 0{,}9$.
+b) Sai, vì $P(\bar{Q}|\bar{M}) = 1 - P(Q|\bar{M}) = 0{,}9 \neq 0{,}8$.
+c) Đúng, vì $P(\bar{Q}) = P(\bar{Q}|M)P(M) + P(\bar{Q}|\bar{M})P(\bar{M}) = 0{,}1 \times 0{,}1 + 0{,}9 \times 0{,}9 = 0{,}82$.
+d) Đúng, vì $P(\bar{M}|\bar{Q}) = \frac{P(\bar{Q}|\bar{M})P(\bar{M})}{P(\bar{Q})} = \frac{0{,}81}{0{,}82} \approx 0{,}9878 > 0{,}95$.",24.8,377,394
+D25-G3,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,"a) Đúng. Do $\vec{u} = (a; b; c)$ là vectơ đơn vị ($|\vec{u}| = 1$) nên $a = \vec{u} \cdot \vec{i} = |\vec{u}| |\vec{i}| \cos 60^\circ = \cos 60^\circ = \frac{1}{2}$.
+
+b) Sai. Ta có $\vec{u} = (\cos 60^\circ; \cos 60^\circ; \cos 45^\circ) = \left(\frac{1}{2}; \frac{1}{2}; \frac{\sqrt{2}}{2}\right)$. Do đó vectơ chỉ phương của $AB$ cùng phương với $(1; 1; \sqrt{2})$, không phải $(1; 1; 2)$.
+
+c) Sai. Quãng đường vật đi được sau $t$ giây là $s(t) = \int_0^t (\beta \tau + 300) d\tau = \frac{1}{2}\beta t^2 + 300t$. Với $t = 2$, $s(2) = 2\beta + 600 = 608 \Rightarrow \beta = 4$.
+
+d) Đúng. Với $\beta = 4$, sau 5 giây vật đi được quãng đường $s(5) = \frac{1}{2}(4)(5^2) + 300(5) = 1550\text{ m}$.
+Khi đó $\vec{AB} = 1550 \vec{u} = 1550 \left(\frac{1}{2}; \frac{1}{2}; \frac{\sqrt{2}}{2}\right) = (775; 775; 775\sqrt{2})$.
+Tọa độ điểm $B$ là $x_B = x_A + 775 = 4 + 775 = 779$.",28.3,605,514
+D25-G3,III.1,short,dai_so_giai_tich,False,"""1808""","""1808""",True,,0.5,,"Tổng chi phí sản xuất $x$ sản phẩm là $C(x) = x \cdot G(x) = 30000 + 260x$ (nghìn đồng).
+Lợi nhuận thu được là $P(x) = F(x) - C(x) = -0{,}01x^2 + 90x - 30000$ (nghìn đồng).
+Đổi 100 triệu đồng = 100 000 nghìn đồng.
+Yêu cầu bài toán tương đương với:
+$P(x) > 100000 \Leftrightarrow -0{,}01x^2 + 90x - 130000 > 0 \Leftrightarrow 1807{,}42 < x < 7192{,}58$.
+Do $x$ là số nguyên dương và $1 \le x \le 4500$, nên doanh nghiệp cần sản xuất ít nhất 1808 sản phẩm.",8.2,301,247
+D25-G3,III.2,short,thong_ke_xac_suat,False,"""2016""","""2016""",True,,0.5,,"Số cách xếp 7 quyển sách khác nhau vào 4 ngăn sao cho mỗi ngăn có ít nhất một quyển sách và thứ tự các quyển sách trong mỗi ngăn từ trái sang phải là quan trọng tương đương với số cách sắp xếp 7 quyển sách thành một hàng ngang, sau đó đặt 3 vách ngăn vào 6 khoảng trống giữa 7 quyển sách để chia thành 4 phần không rỗng.
+
+- Số cách xếp 7 quyển sách thành một hàng ngang là $7! = 5040$.
+- Số cách đặt 3 vách ngăn vào 6 vị trí là $\binom{6}{3} = 20$.
+
+Do đó, tổng số cách xếp thỏa mãn bài toán là:
+$$T = 7! \times \binom{6}{3} = 5040 \times 20 = 100800$$
+
+Giá trị của $\frac{T}{50}$ là:
+$$\frac{100800}{50} = 2016$$",9.7,349,250
+D25-G3,III.3,short,thong_ke_xac_suat,True,"""3780""","""3780""",True,,0.5,,,49.0,1477,607
+D25-G3,III.4,short,hinh_hoc_do_luong,False,"""2,08""","""2,08""",True,,0.5,,"1. **Phân tích hình học cơ sở:**\n- Tam giác $ABC$ là tam giác đều cạnh $AB = 4$, suy ra $AC = 4$.\n- Gọi $O$ là giao điểm của $AC$ và $BD$. Ta có $AC \perp BD$ tại $O$, $BO = 2\sqrt{3}$ và $OD = 2\sqrt{3}$.\n- Trọng tâm $H$ của tam giác $ABC$ thuộc đoạn $BO$ và $HO = \frac{1}{3}BO = \frac{2\sqrt{3}}{3}$.\n- Do đó $HD = HO + OD = \frac{2\sqrt{3}}{3} + 2\sqrt{3} = \frac{8\sqrt{3}}{3}$.\n\n2. **Khoảng cách giữa hai đường thẳng $AC$ và $SD$:**\n- Vì $AC \perp BD$ và $AC \perp SH$ (do $SH \perp (ABCD)$), suy ra $AC \perp (SBD)$.\n- Do đó, khoảng cách giữa $AC$ và $SD$ chính là khoảng cách từ điểm $O$ đến đường thẳng $SD$ trong mặt phẳng $(SBD)$.\n\n3. **Tính toán:**\n- Xét tam giác $OSD$ trong mặt phẳng $(SBD)$:\n  + Diện tích tam giác $OSD$: $S_{\Delta OSD} = \frac{1}{2} \cdot OD \cdot SH = \frac{1}{2} \cdot 2\sqrt{3} \cdot 2\sqrt{3} = 6$.\n  + Độ dài cạnh $SD = \sqrt{HD^2 + SH^2} = \sqrt{\left(\frac{8\sqrt{3}}{3}\right)^2 + (2\sqrt{3})^2} = \sqrt{\frac{64}{3} + 12} = \frac{10\sqrt{3}}{3}$.\n- Khoảng cách từ $O$ đến $SD$ là: \n  $$d(O, SD) = \frac{2 S_{\Delta OSD}}{SD} = \frac{2 \cdot 6}{\frac{10\sqrt{3}}{3}} = \frac{6\sqrt{3}}{5} \approx 2,07846...$$\n\n4. **Làm tròn kết quả:**\n- Làm tròn đến hàng phần trăm thu được $2,08$.",12.2,261,574
+D25-G3,III.5,short,dai_so_giai_tich,False,"""2150""","""2150""",True,,0.5,,"Gọi $x, y$ lần lượt là số lượng thực đơn 1 và thực đơn 2 được bán ($x, y \ge 0$).
+
+Theo bài ra, ta có các hạn chế về số lượng nguyên liệu:
+- Số cốc nước chanh: $2x + 3y \le 165$
+- Số túi khoai chiên: $x + 2y \le 100$
+
+Tổng số tiền thu được (đơn vị: nghìn đồng) là:
+$F(x, y) = 25x + 40y$
+
+Xét hệ bất phương trình miền nghiệm:
+1) $x \ge 0, y \ge 0$
+2) $2x + 3y \le 165$
+3) $x + 2y \le 100$
+
+Miền nghiệm là một đa giác với các đỉnh:
+- $O(0; 0) \implies F(0, 0) = 0$
+- $A(0; 50) \implies F(0, 50) = 2000$
+- $B(30; 35)$ (giao điểm của $2x + 3y = 165$ và $x + 2y = 100$) $\implies F(30, 35) = 25 \times 30 + 40 \times 35 = 2150$
+- $C(82,5; 0)$ với $x \le 82$ nguyên $\implies F(82, 0) = 2050$
+
+Vậy số tiền lớn nhất câu lạc bộ có thể nhận được là $2150$ nghìn đồng.",8.2,310,424
+D25-G3,III.6,short,hinh_hoc_do_luong,True,"""95,3""","""95,3""",True,,0.5,,"1. Thể tích khối chóp cụt tứ giác đều:
+- Diện tích đáy lớn: $S_1 = 10{,}4^2 = 108{,}16\text{ cm}^2$.
+- Diện tích đáy nhỏ: $S_2 = 7{,}4^2 = 54{,}76\text{ cm}^2$.
+- Chiều cao: $h = 1{,}5\text{ cm}$.
+- Thể tích khối gỗ ban đầu: $V_1 = \frac{1}{3} h (S_1 + S_2 + \sqrt{S_1 S_2}) = \frac{1}{3} \cdot 1{,}5 \cdot (108{,}16 + 54{,}76 + 76{,}96) = 119{,}94\text{ cm}^3$.
+
+2. Thể tích vật thể $H$ bị khoét bỏ (chỏm cầu):
+- Bán kính khối cầu: $R = 5{,}6\text{ cm}$.
+- Bán kính đường tròn mặt cắt: $r = 3{,}5\text{ cm}$.
+- Khoảng cách từ tâm cầu đến mặt cắt: $d = \sqrt{R^2 - r^2} = \sqrt{5{,}6^2 - 3{,}5^2} = \sqrt{19{,}11}\text{ cm}$.
+- Chiều cao chỏm cầu $H$: $h_c = R - d = 5{,}6 - \sqrt{19{,}11} \approx 1{,}2285\text{ cm}$.
+- Thể tích chỏm cầu $H$: $V_H = \pi h_c^2 \left(R - \frac{h_c}{3}\right) \approx 24{,}6101\text{ cm}^3$.
+
+3. Thể tích khối chân đế còn lại:
+$V = V_1 - V_H = 119{,}94 - 24{,}6101 = 95{,}3299\text{ cm}^3 \approx 95{,}3\text{ cm}^3$.",16.2,1451,518
+D25-G4,I.1,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Áp dụng công thức số hạng tổng quát của cấp số cộng $u_n = u_1 + (n-1)d$, ta có $u_5 = u_1 + 4d = 2 + 4 \cdot 3 = 14$. Do đó chọn đáp án A.",17.4,199,84
+D25-G4,I.2,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Diện tích $S$ của hình phẳng giới hạn bởi đồ thị hàm số $y = f(x)$, trục hoành $y = 0$ và hai đường thẳng $x = a$, $x = b$ ($a < b$) được tính theo công thức $S = \int_{a}^{b} |f(x)| dx$.
+
+Với $x \in [1; 2]$, ta có $f(x) = 2x + 1 > 0$ nên $|2x + 1| = 2x + 1$.
+
+Do đó, $S = \int_{1}^{2} (2x + 1) dx$.
+
+Vậy phương án đúng là C.",22.2,286,172
+D25-G4,I.3,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Diện tích đáy $\triangle ABC$ vuông tại $A$ là $S_{ABC} = \frac{1}{2} \cdot AB \cdot AC = \frac{1}{2} \cdot 3 \cdot 6 = 9$.
+Vì $OA \perp (ABC)$ nên chiều cao của khối chóp là $h = OA = 2$.
+Thể tích khối chóp $O.ABC$ là $V = \frac{1}{3} \cdot S_{ABC} \cdot OA = \frac{1}{3} \cdot 9 \cdot 2 = 6$.",26.6,225,147
+D25-G4,I.4,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,"Mặt phẳng $(P)$ có phương trình tổng quát là $2x - 4y + 3z - 9 = 0$. Do đó, một vectơ pháp tuyến của $(P)$ là $\vec{n}_4 = (2; -4; 3)$.",22.4,263,79
+D25-G4,I.5,mcq,hinh_hoc_do_luong,True,"""C""","""C""",True,,0.25,,"Do $O$ là giao điểm hai đường chéo $AC$ và $BD$ của hình vuông $ABCD$ nên $O$ là trung điểm của $AC$ và $BD$.
+Áp dụng quy tắc trung điểm cho các đoạn thẳng $AC$ và $BD$ với điểm $S$, ta có:
+$\vec{SA} + \vec{SC} = 2\vec{SO}$
+$\vec{SB} + \vec{SD} = 2\vec{SO}$
+Cộng hai đẳng thức trên theo vế, ta được:
+$\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = 4\vec{SO}$.
+Do đó, phát biểu đúng là đáp án C.",32.7,1424,182
+D25-G4,I.6,mcq,thong_ke_xac_suat,False,"""B""","""B""",True,,0.25,,"Tổng số cuộc gọi là $n = 10 + 11 + 8 + 6 + 4 + 1 = 40$.
+Tần số tích lũy của các nhóm lần lượt là: $10; 21; 29; 35; 39; 40$.
+Để tính tứ phân vị thứ ba $Q_3$, ta tìm giá trị $\frac{3n}{4} = \frac{3 \times 40}{4} = 30$.
+Do $29 < 30 \le 35$ nên nhóm chứa $Q_3$ là nhóm thứ 4, tức là $[90; 120)$.
+
+Áp dụng công thức tính tứ phân vị thứ ba cho mẫu số liệu ghép nhóm:
+$$Q_3 = 90 + \frac{30 - 29}{6} \cdot (120 - 90) = 90 + \frac{1}{6} \cdot 30 = 95$$
+
+Vậy tứ phân vị thứ ba $Q_3 = 95$ giây (chọn B).",31.6,354,271
+D25-G4,I.7,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,Ta có phương trình $2^{2x+1} = 8 \Leftrightarrow 2^{2x+1} = 2^3 \Leftrightarrow 2x + 1 = 3 \Leftrightarrow 2x = 2 \Leftrightarrow x = 1$. Vậy nghiệm của phương trình là $x = 1$.,25.8,198,88
+D25-G4,I.8,mcq,dai_so_giai_tich,True,"""D""","""D""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số $y = \frac{ax+b}{cx+d}$, tại $x = -2$ hàm số không xác định và $\lim_{x \to -2^-} y = -\infty$, $\lim_{x \to -2^+} y = +\infty$. Do đó, đường tiệm cận đứng của đồ thị hàm số là đường thẳng $x = -2$.",15.6,1345,110
+D25-G4,I.9,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Phương trình lượng giác cơ bản $\sin x = 1$ có nghiệm là $x = \frac{\pi}{2} + k2\pi \quad (k \in \mathbb{Z})$. Do đó, tập nghiệm của phương trình là $S = \left\{\frac{\pi}{2} + k2\pi \;\Big|\; k \in \mathbb{Z}\right\}$.",12.8,273,111
+D25-G4,I.10,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Trong hình lăng trụ $ABC.A'B'C'$, ta có $B'C' \parallel BC$.
+Do $BC \subset (ABC)$ và $B'C' \not\subset (ABC)$ nên đường thẳng $B'C'$ song song với mặt phẳng $(ABC)$.
+
+Do đó, đáp án đúng là A.",10.8,1322,93
+D25-G4,I.11,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,"Phương trình tổng quát của mặt phẳng đi qua điểm $O(0; 0; 0)$ và có vectơ pháp tuyến $\vec{n} = (-1; 0; 3)$ là:
+$-1(x - 0) + 0(y - 0) + 3(z - 0) = 0 \Leftrightarrow -x + 3z = 0$.
+Vậy đáp án đúng là A.",12.0,233,113
+D25-G4,I.12,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Áp dụng công thức nguyên hàm cơ bản:
+- Nguyên hàm của $\sin x$ là $-\cos x + C_1$.
+- Nguyên hàm của $\cos x$ là $\sin x + C_2$.
+
+Do đó, họ nguyên hàm của hàm số $f(x) = \sin x + \cos x$ là:
+$$\int (\sin x + \cos x) \mathrm{d}x = -\cos x + \sin x + C$$",4.6,209,129
+D25-G4,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Xét hàm số $f(x) = x^3 - 3x + 91$:
+a) Đạo hàm của hàm số là $f'(x) = 3x^2 - 3$. Mệnh đề a ĐÚNG.
+b) $f'(x) = 0 \Leftrightarrow 3x^2 - 3 = 0 \Leftrightarrow x = 1$ hoặc $x = -1$. Tập nghiệm là $S = \{-1; 1\}$. Mệnh đề b SAI.
+c) $f(1) = 1^3 - 3(1) + 91 = 89$. Mệnh đề c ĐÚNG.
+d) Xét các giá trị trên đoạn $[-2; 2]$:
+- $f(-2) = (-2)^3 - 3(-2) + 91 = 89$
+- $f(-1) = (-1)^3 - 3(-1) + 91 = 93$
+- $f(1) = 89$
+- $f(2) = 2^3 - 3(2) + 91 = 93$
+Giá trị nhỏ nhất của $f(x)$ trên $[-2; 2]$ bằng $89$. Mệnh đề d ĐÚNG.",4.6,268,332
+D25-G4,II.2,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,"a) Đúng: Vì $\vec{u} = (a; b; c)$ là vectơ đơn vị ($|\vec{u}| = 1$) nên $a = \cos(\vec{u}, \vec{i}) = \cos 60^\circ = \frac{1}{2}$.
+
+b) Sai: Vectơ chỉ phương của đường thẳng $AB$ là $\vec{u} = (\frac{1}{2}; \frac{1}{2}; \frac{\sqrt{2}}{2}) = \frac{1}{2}(1; 1; \sqrt{2})$. Do đó phương trình đường thẳng $AB$ là $\frac{x-7}{1} = \frac{y-7}{1} = \frac{z}{\sqrt{2}}$.
+
+c) Đúng: Quãng đường vật đi được sau $t$ giây là $s(t) = \int_0^t (\beta \tau + 300) d\tau = \frac{\beta t^2}{2} + 300t$. Với $t = 2$, $s(2) = 2\beta + 600 = 606 \Rightarrow \beta = 3$.
+
+d) Sai: Sau $5$ giây, quãng đường vật đi được là $s(5) = \frac{3 \cdot 5^2}{2} + 300 \cdot 5 = 1537,5$ m. Hoành độ của $B$ là $x_B = x_A + s(5) \cdot a = 7 + 1537,5 \cdot 0,5 = 775,75 < 776$.",10.3,593,435
+D25-G4,II.3,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": false}","{""a"": true, ""b"": false, ""c"": false, ""d"": false}",True,4,1,,"Gọi $D$ là biến cố ""Tin nhắn bị đánh dấu"" và $Q$ là biến cố ""Tin nhắn là quảng cáo"".
+Theo đề bài, ta có:
+- $P(D) = 0{,}15 \Rightarrow P(\overline{D}) = 1 - 0{,}15 = 0{,}85$.
+- $P(\overline{Q} | D) = 0{,}10 \Rightarrow P(Q | D) = 0{,}90$.
+- $P(Q | \overline{D}) = 0{,}15 \Rightarrow P(\overline{Q} | \overline{D}) = 0{,}85$.
+
+Xét từng mệnh đề:
+a) $P(\overline{D}) = 0{,}85$. Mệnh đề Đúng.
+b) $P(\overline{Q} | \overline{D}) = 0{,}85 \neq 0{,}8$. Mệnh đề Sai.
+c) $P(\overline{Q}) = P(D) \cdot P(\overline{Q} | D) + P(\overline{D}) \cdot P(\overline{Q} | \overline{D}) = 0{,}15 \cdot 0{,}10 + 0{,}85 \cdot 0{,}85 = 0{,}015 + 0{,}7225 = 0{,}7375 \neq 0{,}75$. Mệnh đề Sai.
+d) $P(\overline{D} | \overline{Q}) = \frac{P(\overline{Q} \cap \overline{D})}{P(\overline{Q})} = \frac{0{,}7225}{0{,}7375} = \frac{289}{295} \approx 0{,}9797 > 0{,}95$. Mệnh đề Sai.",12.8,378,452
+D25-G4,II.4,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Từ giả thiết $y'(t) = k y(t)$ với $y(t) > 0$, ta có $\frac{y'(t)}{y(t)} = k \implies \ln(y(t)) = kt + C$. Do $y(t) = e^{g(t)}$ nên $g(t) = \ln(y(t)) = kt + C$.
+- Mệnh đề a) Đúng vì $g(t) = kt + C$ với $C$ là hằng số xác định.
+- Ta có hệ phương trình:
+  $\begin{cases} g(6) = 6k + C = \ln(2) \\ g(12) = 12k + C = \ln(1) = 0 \end{cases}$
+  Trừ hai phương trình thu được $6k = -\ln 2 \implies k = -\frac{\ln 2}{6}$.
+- Mệnh đề b) Đúng do $k = -\frac{\ln 2}{6}$.
+- Thay $k$ vào $12k + C = 0$, ta được $C = -12k = 2\ln 2$.
+- Mệnh đề c) Sai vì $C = 2\ln 2 \ne 4\ln 2$.
+- Tại $t = 21$ (ngày), $g(21) = 21\left(-\frac{\ln 2}{6}\right) + 2\ln 2 = -\frac{3}{2}\ln 2$.
+  Do đó $y(21) = e^{-\frac{3}{2}\ln 2} = 2^{-\frac{3}{2}} = \frac{1}{2\sqrt{2}} \approx 0{,}3536$ mg/lít $< 0{,}4$ mg/lít.
+- Mệnh đề d) Sai.",10.2,492,480
+D25-G4,III.1,short,dai_so_giai_tich,False,"""3528""","""3528""",True,,0.5,,"Số cách sắp xếp 8 quyển sách khác nhau thành một hàng ngang là $8!$.
+Để chia 8 quyển sách đã xếp thành 4 phần tương ứng với 4 ngăn sao cho mỗi ngăn có ít nhất 1 quyển sách, ta đặt 3 vách ngăn vào 7 vị trí giữa các quyển sách. Số cách đặt vách ngăn là $\binom{7}{3} = 35$.
+Do đó, tổng số cách xếp $T = 8! \times \binom{7}{3} = 40320 \times 35 = 1411200$.
+Giá trị của $\frac{T}{400} = \frac{1411200}{400} = 3528$.",5.9,336,192
+D25-G4,III.2,short,dai_so_giai_tich,False,"""3150""","""3150""",True,,0.5,,"Gọi $x, y$ lần lượt là số suất Thực đơn 1 và Thực đơn 2 mà câu lạc bộ bán được ($x, y \ge 0$).
+
+Từ đề bài, ta có hệ bất phương trình biểu diễn điều kiện về số lượng nước chanh và khoai chiên:
+$$\begin{cases} 2x + 3y \le 165 \\ x + 2y \le 100 \\ x \ge 0 \\ y \ge 0 \end{cases}$$
+
+Tổng số tiền câu lạc bộ thu được (đơn vị: nghìn đồng) là:
+$$F(x, y) = 35x + 60y$$
+
+Miền nghiệm của hệ bất phương trình trên là một miền đa giác với các đỉnh:
+- $O(0; 0)$
+- $A(82,5; 0)$
+- $B(30; 35)$
+- $C(0; 50)$
+
+Tính giá trị của $F(x, y)$ tại các đỉnh:
+- $F(O) = 0$
+- $F(A) = 35 \times 82,5 = 2887,5$
+- $F(B) = 35 \times 30 + 60 \times 35 = 3150$
+- $F(C) = 60 \times 50 = 3000$
+
+Vậy số tiền lớn nhất mà câu lạc bộ có thể nhận được là 3150 nghìn đồng.",9.4,301,383
+D25-G4,III.3,short,thong_ke_xac_suat,True,"""5040""","""5040""",True,,0.5,,"Tập $S = \{41; 42; 43; 44; 45; 46; 47; 48; 49\}$ có 9 phần tử. Số cách chọn ngẫu nhiên 6 số và xếp vào 6 vị trí $A, B, C, M, N, P$ là $A_9^6 = 60480$.\n\nĐể $(A, M, B)$, $(B, N, C)$, $(C, P, A)$ theo thứ tự lập thành các cấp số cộng, ta có:\n$M = \rac{A+B}{2}$, $N = \rac{B+C}{2}$, $P = \rac{C+A}{2}$.\n\nDo $M, N, P$ là các số nguyên thuộc $S$ và phân biệt với $A, B, C$, nên:\n1. $A, B, C$ phải có cùng tính chẵn lẻ.\n2. Bộ ba số $(A, B, C)$ không chứa bộ ba nào lập thành một cấp số cộng (vì nếu có thì một trong các số $M, N, P$ sẽ trùng với một đỉnh của tam giác).\n\n- Trường hợp 1: $A, B, C$ đều là số lẻ (có 5 số lẻ: 41, 43, 45, 47, 49).\nSố chỉnh hợp chập 3 của 5 số lẻ là $A_5^3 = 60$.\nCác tập 3 số lẻ lập thành cấp số cộng là: $\{41, 43, 45\}$, $\{43, 45, 47\}$, $\{45, 47, 49\}$, $\{41, 45, 49\}$ (gồm 4 tập, mỗi tập có $3! = 6$ hoán vị không thỏa mãn).\nSố cách chọn $(A, B, C)$ lẻ thỏa mãn là: $60 - 4 \	imes 6 = 36$.\n\n- Trường hợp 2: $A, B, C$ đều là số chẵn (có 4 số chẵn: 42, 44, 46, 48).\nSố chỉnh hợp chập 3 của 4 số chẵn là $A_4^3 = 24$.\nCác tập 3 số chẵn lập thành cấp số cộng là: $\{42, 44, 46\}$, $\{44, 46, 48\}$ (gồm 2 tập, tương ứng $2 \	imes 6 = 12$ hoán vị không thỏa mãn).\nSố cách chọn $(A, B, C)$ chẵn thỏa mãn là: $24 - 12 = 12$.\n\nTổng số cách xếp thỏa mãn là $36 + 12 = 48$.\n\nXác suất $a = \rac{48}{60480} = \rac{1}{1260}$.\n\nGiá trị của $\rac{4}{a} = 4 \	imes 1260 = 5040$.",30.2,1479,728
+D25-G4,III.4,short,hinh_hoc_do_luong,False,"""2,55""","""2,55""",True,,0.5,,"Chọn hệ trục tọa độ $Oxyz$ với $A(0,0,0)$, $B(6,0,0)$, $C(6,6,0)$, $D(0,6,0)$.\nTrọng tâm $H$ của tam giác $ABC$ có tọa độ $H(4,2,0)$.\nDo $SH \perp (ABCD)$ và $SH = 3\sqrt{2}$ nên $S(4,2,3\sqrt{2})$.\n\nTa có:\n- Vectơ chỉ phương của $AC$ là $\vec{u} = \vec{AC} = (6,6,0) \parallel (1,1,0)$.\n- Vectơ chỉ phương của $SD$ là $\vec{v} = \vec{SD} = (-4,4,-3\sqrt{2})$.\n- Vectơ $\vec{AD} = (0,6,0)$.\n\nTích có hướng $[\vec{u}, \vec{v}] = (-3\sqrt{2}, 3\sqrt{2}, 8) \Rightarrow |[\vec{u}, \vec{v}]| = \sqrt{18 + 18 + 64} = 10$.\n\nKhoảng cách giữa hai đường thẳng $AC$ và $SD$ là:\n$d(AC, SD) = \frac{|[\vec{u}, \vec{v}] \cdot \vec{AD}|}{|[\vec{u}, \vec{v}]|} = \frac{|3\sqrt{2} \cdot 6|}{10} = \frac{18\sqrt{2}}{10} = \frac{9\sqrt{2}}{5} \approx 2,5455... \approx 2,55.$",14.3,247,418
+D25-G4,III.5,short,hinh_hoc_do_luong,True,"""94,7""","""94,7""",True,,0.5,,"1. Thể tích khối chóp cụt tứ giác đều là:
+$$V_1 = \frac{1}{3} h (S_1 + S_2 + \sqrt{S_1 S_2})$$
+với $h = 1{,}5\text{ cm}$, $S_1 = 7{,}4^2 = 54{,}76\text{ cm}^2$, $S_2 = 10{,}4^2 = 108{,}16\text{ cm}^2$.
+$$V_1 = \frac{1}{3} \times 1{,}5 \times (54{,}76 + 108{,}16 + 7{,}4 \times 10{,}4) = 0{,}5 \times 239{,}88 = 119{,}94\text{ cm}^3$$
+
+2. Thể tích vật thể $H$ (chỏm cầu):
+Khoảng cách từ tâm khối cầu đến mặt cắt là:
+$$d = \sqrt{R^2 - r^2} = \sqrt{5{,}5^2 - 3{,}5^2} = \sqrt{18} = 3\sqrt{2}\text{ cm}$$
+Chiều cao của chỏm cầu là $h_0 = R - d = 5{,}5 - 3\sqrt{2}\text{ cm}$.
+Thể tích chỏm cầu $H$ là:
+$$V_2 = \frac{1}{3} \pi h_0^2 (3R - h_0) = \frac{\pi}{3} (5{,}5 - 3\sqrt{2})^2 (11 + 3\sqrt{2}) \approx 25{,}23486\text{ cm}^3$$
+
+3. Thể tích của khối chân đế:
+$$V = V_1 - V_2 = 119{,}94 - 25{,}23486 \approx 94{,}70514\text{ cm}^3$$
+Làm tròn đến hàng phần mười ta được kết quả là $94{,}7$.",13.2,1438,503
+D25-G4,III.6,short,dai_so_giai_tich,False,"""1347""","""1347""",True,,0.5,,"Tổng chi phí sản xuất $x$ sản phẩm là $C(x) = x \cdot G(x) = 30000 + 340x$ (nghìn đồng).\nLợi nhuận thu được khi bán hết $x$ sản phẩm là:\n$P(x) = F(x) - C(x) = -0{,}01x^2 + 110x - 30000$ (nghìn đồng).\nĐổi 100 triệu đồng = 100 000 nghìn đồng.\nYêu cầu lợi nhuận lớn hơn 100 triệu đồng tương đương với:\n$P(x) > 100000 \Leftrightarrow -0{,}01x^2 + 110x - 130000 > 0 \Leftrightarrow x^2 - 11000x + 13000000 < 0$.\nGiải bất phương trình thu được $5500 - 500\sqrt{69} < x < 5500 + 500\sqrt{69}$, hay khoảng $1346{,}69 < x < 9653{,}31$.\nVì $x \in \mathbb{N}^*$ và $1 \le x \le 4500$, số sản phẩm ít nhất doanh nghiệp cần sản xuất là $x = 1347$.",8.3,308,346
+D26-G1,I.1,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Sử dụng công thức tính số hạng thứ $n$ của cấp số cộng: $u_n = u_1 + (n-1)d$.
+Với $n = 2$, ta có $u_2 = u_1 + d = 5 + (-1) = 4$.
+Do đó, chọn phương án A.",8.1,195,90
+D26-G1,I.2,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Áp dụng quy tắc tính đạo hàm của một tổng, ta có:
+$(f(x) + g(x))' = f'(x) + g'(x) = x + x^2$.
+
+Vậy đạo hàm của hàm số đã cho là $x + x^2$.",1.9,243,83
+D26-G1,I.3,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Sử dụng tính chất của nguyên hàm, ta có:
+$$\int [3 + f(x)]\,dx = \int 3\,dx + \int f(x)\,dx = 3x + \sin x + C.$$
+Do đó, đáp án đúng là B.",2.0,258,84
+D26-G1,I.4,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Điều kiện xác định: $x - 1 > 0 \iff x > 1$.
+Ta có phương trình:
+$\log_3 (x - 1) = 1 \iff x - 1 = 3^1 \iff x = 4$.
+Giá trị $x = 4$ thỏa mãn điều kiện xác định. Do đó, nghiệm của phương trình là $x = 4$.",2.0,192,108
+D26-G1,I.5,mcq,hinh_hoc_do_luong,False,"""A""","""A""",True,,0.25,,"Tọa độ của vectơ $\vec{AB}$ được tính theo công thức $\vec{AB} = (x_B - x_A; y_B - y_A; z_B - z_A)$.
+Thay tọa độ điểm $A(1; 5; 1)$ và $B(3; 3; 1)$ vào, ta được:
+$\vec{AB} = (3 - 1; 3 - 5; 1 - 1) = (2; -2; 0)$.",1.9,231,137
+D26-G1,I.6,mcq,thong_ke_xac_suat,False,"""D""","""D""",True,,0.25,,"Vì hai biến cố $A$ và $B$ độc lập nên $P(AB) = P(A) \cdot P(B) = 0,5 \cdot 0,4 = 0,2$.",1.4,217,65
+D26-G1,I.7,mcq,hinh_hoc_do_luong,True,"""B""","""B""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, mặt $AB C'D'$ có các cạnh đối diện song song và bằng nhau. Cụ thể, tứ giác $AB C'D'$ (hoặc tứ giác $AB C D$) cho ta $\vec{AB} = \vec{DC} = \vec{A'B'} = \vec{D'C'}$.\nDo đó, vectơ bằng vectơ $\vec{AB}$ là vectơ $\vec{D'C'}$.\n\nChọn phương án B.",11.2,1321,134
+D26-G1,I.8,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Thay lần lượt các cặp số vào hệ bất phương trình:
+- Với cặp số $(1; 0)$ (Phương án A):
+  $1 + 0 - 3 = -2 < 0$ (đúng)
+  $1 - 0 + 1 = 2 > 0$ (đúng)
+Vậy $(1; 0)$ là nghiệm của hệ bất phương trình.",2.9,214,106
+D26-G1,I.9,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Vì $F(x)$ là một nguyên hàm của $f(x)$ nên $f(x) = F'(x)$.
+Ta có $F'(x) = (4x^3)' = 12x^2$.
+Vậy $F(x) = 4x^3$ là một nguyên hàm của hàm số $f_3(x) = 12x^2$.",2.2,228,105
+D26-G1,I.10,mcq,dai_so_giai_tich,True,"""A""","""A""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số $y = \frac{ax + b}{cx + d}$:
+- Khi $x \to -\infty$, $y \to -2$.
+- Khi $x \to +\infty$, $y \to -2$.
+
+Do đó, đường tiệm cận ngang của đồ thị hàm số là đường thẳng $y = -2$.
+
+Vậy phương án đúng là A.",3.7,1348,112
+D26-G1,I.11,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Số hạng tổng quát của cấp số nhân $(u_n)$ có số hạng đầu $u_1$ và công bội $q$ được tính theo công thức $u_n = u_1 \cdot q^{n-1}$. Do đó, số hạng thứ 4 là $u_4 = u_1 \cdot q^3$.",1.9,249,92
+D26-G1,I.12,mcq,thong_ke_xac_suat,False,"""A""","""A""",True,,0.25,,"Tổng số học sinh là $N = 42$.
+Ta có vị trí của trung vị là $\frac{N}{2} = 21$.
+
+Tính tần số tích lũy cho từng nhóm:
+- Nhóm $[10;20)$: tần số tích lũy là $4$.
+- Nhóm $[20;30)$: tần số tích lũy là $4 + 8 = 12$.
+- Nhóm $[30;40)$: tần số tích lũy là $12 + 14 = 26$.
+
+Vì $12 < 21 \le 26$ nên trung vị của mẫu số liệu ghép nhóm thuộc nhóm $[30;40)$.
+
+Do đó, phương án đúng là A.",2.9,347,188
+D26-G1,II.1,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Gọi $A$ là biến cố ""Người được chọn nhận được cảnh báo"", $\overline{A}$ là biến cố ""Người được chọn không nhận được cảnh báo"".
+Gọi $B$ là biến cố ""Người được chọn có bệnh"", $\overline{B}$ là biến cố ""Người được chọn không có bệnh"".
+
+Từ dữ kiện đề bài, tổng số người là $N = 10000$.
+- Số người không nhận cảnh báo: $n(\overline{A}) = 9000$.
+- Số người không nhận cảnh báo và không có bệnh: $n(\overline{A} \cap \overline{B}) = 8900$.
+- Tổng số người không có bệnh: $n(\overline{B}) = 300 + 8900 = 9200$.
+
+Xét từng mệnh đề:
+a) Xác suất không nhận được cảnh báo: $P(\overline{A}) = \frac{9000}{10000} = 0,9$. Mệnh đề Đúng.
+b) Xác suất không có bệnh khi biết không nhận cảnh báo: $P(\overline{B} | \overline{A}) = \frac{8900}{9000} = \frac{89}{90} \approx 0,9889 > 0,98$. Mệnh đề Đúng.
+c) Xác suất không có bệnh: $P(\overline{B}) = \frac{9200}{10000} = 0,92 \neq 0,9$. Mệnh đề Sai.
+d) Xác suất không nhận được cảnh báo khi biết người đó không có bệnh: $P(\overline{A} | \overline{B}) = \frac{8900}{9200} = \frac{89}{92} \approx 0,9674 > 0,95$. Mệnh đề Sai.",6.4,493,477
+D26-G1,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": true, ""d"": false}","{""a"": true, ""b"": true, ""c"": true, ""d"": false}",True,4,1,,"Xét hàm số $f(x) = \frac{1}{3}x^3 - 5x^2 + 9x + 8$:
+- a) Đúng: Đạo hàm $f'(x) = x^2 - 10x + 9$.
+- b) Đúng: $f'(x) = 0 \iff x^2 - 10x + 9 = 0 \iff x = 1$ hoặc $x = 9$. Tập nghiệm $S = \{1; 9\}$.
+- c) Đúng: Bảng xét dấu $f'(x)$ cho thấy $f'(x) < 0$ trên khoảng $(1; 9)$, do đó hàm số nghịch biến trên khoảng $(1; 9)$.
+- d) Sai: Hàm số đạt cực tiểu tại $x = 9$ với giá trị cực tiểu $f(9) = -73$. Giá trị $\frac{37}{3}$ là giá trị cực đại của hàm số (tại $x = 1$).",4.7,283,277
+D26-G1,II.3,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"a) Ta có $F(t) = \int f(t)dt = \int (-0,3t^2 + 3,6t)dt = -0,1t^3 + 1,8t^2 + C$. Vì $F(0) = 0$ nên $C = 0$, do đó $F(t) = -0,1t^3 + 1,8t^2$ với $0 \le t \le 12$. Phát biểu đúng.
+
+b) Năng lượng điện lưu trữ được từ $t = a$ đến $t = b$ là $F(b) - F(a) = \int_a^b f(t)dt$. Phát biểu đúng.
+
+c) Năng lượng điện lưu trữ được từ $t = 1$ đến $t = 4$ là $\int_1^4 f(t)dt = F(4) - F(1) = 22,4 - 1,7 = 20,7\text{ kWh} > 20,6\text{ kWh}$. Phát biểu sai.
+
+d) Năng lượng điện lưu trữ được từ $t = 1$ đến $t = 7$ là $F(7) - F(1) = 53,9 - 1,7 = 52,2\text{ kWh}$. Vì $52,2 \ne 2 \times 20,7 = 41,4\text{ kWh}$ nên lượng năng lượng này không gấp 2 lần. Phát biểu sai.",6.2,572,395
+D26-G1,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"a) Đúng: $\vec{MN} = (14-5; -2-10; 4-4) = (9; -12; 0)$.
+b) Sai: Phương trình tham số của đường thẳng $MN$ phải có $z = 4$, trong khi mệnh đề cho $z = 0$.
+c) Đúng: Vị trí của máy bay trên đoạn $MN$ có tọa độ $K(5 + 3t; 10 - 4t; 4)$ với $t \in [0; 3]$. Khoảng cách từ $K$ đến vành đai bảo vệ $\mathcal{C}$ là $d = \sqrt{(\sqrt{(5+3t)^2 + (10-4t)^2} - 7)^2 + 4^2} = \sqrt{(\sqrt{25(t-1)^2 + 100} - 7)^2 + 16}$. Hàm số này đạt giá trị nhỏ nhất tại $t = 1$, khi đó $d = \sqrt{(10 - 7)^2 + 16} = 5$ đơn vị $= 50\text{ mét}$.
+d) Đúng: Khi $t = 1$, tọa độ máy bay là $(5 + 3(1); 10 - 4(1); 4) = (8; 6; 4)$.",6.7,522,355
+D26-G1,III.1,short,hinh_hoc_do_luong,False,"""7,35""","""7,35""",True,,0.5,,"Gắn hệ trục tọa độ $Oxyz$ sao cho gốc $O \equiv D(0;0;0)$, các tia $Ox, Oy, Oz$ lần lượt chứa các đoạn thẳng $DA, DC, DQ$.
+Khi đó, tọa độ các điểm là:
+- $D(0; 0; 0)$
+- $A(6; 0; 0)$
+- $B(6; 6; 0)$
+- $M(6; 0; 6)$
+- $P(0; 6; 6)$
+Do $E$ là trung điểm của $AB$ nên $E(6; 3; 0)$.
+
+Ta có $\vec{DE} = (6; 3; 0)$, $\vec{DM} = (6; 0; 6)$.
+Vectơ pháp tuyến của mặt phẳng $(MED)$ là $\vec{n} = \frac{1}{18}(\vec{DE} \times \vec{DM}) = (1; -2; -1)$.
+Phương trình mặt phẳng $(MED)$ đi qua $D(0;0;0)$ là: $x - 2y - z = 0$.
+
+Khoảng cách từ point $P(0; 6; 6)$ đến mặt phẳng $(MED)$ là:
+$$d(P, (MED)) = \frac{|0 - 2(6) - 6|}{\sqrt{1^2 + (-2)^2 + (-1)^2}} = \frac{18}{\sqrt{6}} = 3\sqrt{6} \approx 7,35.$$",8.9,213,385
+D26-G1,III.2,short,dai_so_giai_tich,True,"""1152""","""1152""",True,,0.5,,"Tập hợp đã cho gồm 15 số, được phân loại theo số dư khi chia cho $5$:\n- Dư 0: $\{0; 5; 10; 15; 20\}$ (5 số)\n- Dư 1: $\{1; 6; 11; 16\}$ (4 số)\n- Dư 2: $\{2; 7; 12\}$ (3 số)\n- Dư 3: $\{3; 8\}$ (2 số)\n- Dư 4: $\{4\}$ (1 số)\n\nĐể không có hai số nào cùng hàng hoặc cùng cột có cùng số dư khi chia cho 5, vị trí các ô chứa từng loại số dư được xác định duy nhất:\n- Các số dư 0 nằm ở các ô $(5,1), (4,2), (3,3), (2,4), (1,5)$. Số cách xếp là $5!$.\n- Các số dư 1 nằm ở các ô $(4,1), (3,2), (2,3), (1,4)$. Số cách xếp là $4!$.\n- Các số dư 2 nằm ở các ô $(3,1), (2,2), (1,3)$. Số cách xếp là $3!$.\n- Các số dư 3 nằm ở các ô $(2,1), (1,2)$. Số cách xếp là $2!$.\n- Số dư 4 nằm ở ô $(1,1)$. Số cách xếp là $1!$.\n\nTổng số cách điền là:\n$H = 5! \cdot 4! \cdot 3! \cdot 2! \cdot 1! = 120 \cdot 24 \cdot 6 \cdot 2 \cdot 1 = 34560$.\n\nDo đó, giá trị $\frac{H}{30} = \frac{34560}{30} = 1152$.",23.5,1510,461
+D26-G1,III.3,short,dai_so_giai_tich,True,"""5,91""","""5,91""",True,,0.5,,"Phương trình elip là $\frac{x^2}{1,5^2} + \frac{y^2}{1^2} = 1 \Rightarrow y^2 = 1 - \frac{4}{9}x^2$.
+Lỗ khoan dạng hình trụ bán kính $r = 0,2\text{ cm}$.
+Hoành độ giao điểm của elip và đường thẳng $y = 0,2$ là nghiệm của phương trình:
+$1 - \frac{4}{9}x^2 = 0,2^2 = 0,04 \Rightarrow x^2 = 2,16 \Rightarrow x = \pm \sqrt{2,16} = \pm \frac{3\sqrt{6}}{5}$.
+
+Thể tích của hạt cườm là thể tích khối tròn xoay tạo bởi miền nằm giữa elip và đường thẳng $y = 0,2$ khi quay quanh $Ox$ trên khoảng $\left[-\frac{3\sqrt{6}}{5}; \frac{3\sqrt{6}}{5}\right]$:
+$V = \pi \int_{-\frac{3\sqrt{6}}{5}}^{\frac{3\sqrt{6}}{5}} \left(1 - \frac{4}{9}x^2 - 0,04\right) dx = 2\pi \int_{0}^{\frac{3\sqrt{6}}{5}} \left(0,96 - \frac{4}{9}x^2\right) dx$
+$V = 2\pi \left[ 0,96x - \frac{4}{27}x^3 \right]_{0}^{\frac{3\sqrt{6}}{5}} = \frac{96\sqrt{6}}{125}\pi \approx 5,910089... \approx 5,91\text{ cm}^3$.",12.2,1463,449
+D26-G1,III.4,short,thong_ke_xac_suat,True,"""1856""","""1856""",True,,0.5,,,11.9,1429,436
+D26-G1,III.5,short,dai_so_giai_tich,False,"""1275""","""1275""",True,,0.5,,"Gọi đơn giá (nghìn đồng/kg) của rau muống, bí xanh, cà chua lần lượt là $x, y, z$ ($x, y, z > 0$).
+
+Từ bảng số liệu ba ngày Thứ Tư, Thứ Năm, Thứ Sáu, ta có hệ phương trình:
+$$\begin{cases} 19x + 14y + 10z = 600 \\ 20x + 12y + 8z = 540 \\ 25x + 12y + 7z = 570 \end{cases}$$
+
+Giải hệ phương trình trên, ta thu được:
+$$\begin{cases} x = 10 \\ y = 15 \\ z = 20 \end{cases}$$
+
+Tổng số tiền thu được vào ngày Thứ Bảy là:
+$$50x + 25y + 20z = 50 \cdot 10 + 25 \cdot 15 + 20 \cdot 20 = 1275 \text{ (nghìn đồng).}$$
+
+Vậy số tiền cần tìm là 1275 nghìn đồng.",4.9,468,296
+D26-G1,III.6,short,dai_so_giai_tich,False,"""1990""","""1990""",True,,0.5,,"Hàm lợi nhuận của công ty tính theo $x$ (tấn) là: $P(x) = R(x) - C(x) = -0,001x^3 + 30x - 10$ (triệu đồng), với $1 \le x \le 200$.
+
+Đạo hàm của $P(x)$:
+$P'(x) = -0,003x^2 + 30$.
+
+Cho $P'(x) = 0 \Leftrightarrow -0,003x^2 + 30 = 0 \Leftrightarrow x^2 = 10000 \Leftrightarrow x = 100$ (do $1 \le x \le 200$).
+
+Bảng biến thiên cho thấy $P(x)$ đạt giá trị lớn nhất tại $x = 100$.
+
+Lợi nhuận lớn nhất thu được là:
+$P(100) = -0,001 \cdot (100)^3 + 30 \cdot 100 - 10 = -1000 + 3000 - 10 = 1990$ (triệu đồng).",4.4,273,300
+D26-G2,I.1,mcq,hinh_hoc_do_luong,True,"""D""","""D""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, mặt phẳng $(ADD'A')$ song song và bằng mặt phẳng $(BCC'B')$.
+Do đó, các đoạn thẳng $AD$, $BC$, $A'D'$, $B'C'$ song song và có cùng độ dài.
+Xét về hướng, vectơ $\overrightarrow{AD}$ cùng hướng với vectơ $\overrightarrow{B'C'}$.
+Vậy $\overrightarrow{AD} = \overrightarrow{B'C'}$.
+Do đó, phương án đúng là D.",144.0,1331,138
+D26-G2,I.2,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Sử dụng quy tắc tính đạo hàm của một tổng: $(f(x) + g(x))' = f'(x) + g'(x)$.
+Theo đề bài, ta có $f'(x) = 2x$ và $g'(x) = x^2$.
+Do đó, đạo hàm của hàm số $y = f(x) + g(x)$ là $y' = 2x + x^2$.",4.1,246,116
+D26-G2,I.3,mcq,hinh_hoc_do_luong,False,"""D""","""D""",True,,0.25,,"Tọa độ của vectơ $\overrightarrow{AB}$ được tính theo công thức $\overrightarrow{AB} = (x_B - x_A; y_B - y_A; z_B - z_A)$.
+Thay tọa độ các điểm $A(2; 3; 1)$ và $B(4; 1; 1)$ vào công thức, ta được:
+$\overrightarrow{AB} = (4 - 2; 1 - 3; 1 - 1) = (2; -2; 0)$.
+Vậy chọn phương án D.",3.1,231,145
+D26-G2,I.4,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Ta có $\int (2 + f(x))dx = \int 2dx + \int f(x)dx = 2x + \sin x + C$. Do đó, phương án đúng là B.",1.9,254,66
+D26-G2,I.5,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Công thức tổng quát của cấp số nhân là $u_n = u_1 \cdot q^{n-1}$. Do đó, số hạng thứ ba được tính theo công thức $u_3 = u_1 \cdot q^{3-1} = u_1 \cdot q^2$.",2.0,249,83
+D26-G2,I.6,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Điều kiện xác định: $3x > 0 \Leftrightarrow x > 0$.
+Ta có:
+$\log_3(3x) = 2 \Leftrightarrow 3x = 3^2 \Leftrightarrow 3x = 9 \Leftrightarrow x = 3$.
+So với điều kiện $x > 0$, nghiệm của phương trình là $x = 3$.",2.1,198,102
+D26-G2,I.7,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Áp dụng công thức số hạng tổng quát của cấp số cộng: $u_n = u_1 + (n - 1)d$.
+Ta có $u_2 = u_1 + d = -2 + 3 = 1$.
+Do đó, chọn phương án A.",1.9,195,82
+D26-G2,I.8,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Theo định nghĩa nguyên hàm, $F(x)$ là một nguyên hàm của hàm số $f(x)$ nếu $F'(x) = f(x)$.
+Ta có: $F'(x) = (5x^3)' = 15x^2$.
+Vậy $F(x) = 5x^3$ là một nguyên hàm của hàm số $f_3(x) = 15x^2$.",2.9,234,113
+D26-G2,I.9,mcq,thong_ke_xac_suat,False,"""C""","""C""",True,,0.25,,"Vì hai biến cố $A$ và $B$ độc lập nên $P(AB) = P(A) \cdot P(B) = 0,3 \cdot 0,6 = 0,18$.",1.6,218,68
+D26-G2,I.10,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Thay lần lượt tọa độ của các cặp số vào hệ bất phương trình:
+- Với cặp số $(1; 0)$:
+  + $1 + 0 - 2 = -1 < 0$ (đúng)
+  + $1 - 0 + 2 = 3 > 0$ (đúng)
+Do đó, $(1; 0)$ là nghiệm của hệ bất phương trình.",2.3,214,106
+D26-G2,I.11,mcq,thong_ke_xac_suat,False,"""C""","""C""",True,,0.25,,"Tổng số học sinh $n = 42$.
+Vị trí của trung vị là $\frac{n}{2} = 21$.
+
+Tính tần số tích lũy của từng nhóm:
+- Nhóm $[10; 20)$: $5$
+- Nhóm $[20; 30)$: $5 + 7 = 12$
+- Nhóm $[30; 40)$: $12 + 15 = 27$
+- Nhóm $[40; 50)$: $27 + 6 = 33$
+- Nhóm $[50; 60)$: $33 + 5 = 38$
+- Nhóm $[60; 70)$: $38 + 4 = 42$
+
+Vì $12 < 21 \le 27$ nên nhóm chứa trung vị là nhóm $[30; 40)$.",3.2,346,224
+D26-G2,I.12,mcq,dai_so_giai_tich,True,"""D""","""D""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số $y = \frac{ax + b}{cx + d}$, ta thấy khi $x \to 1^-$ thì $y \to +\infty$ và khi $x \to 1^+$ thì $y \to -\infty$.
+Do đó, đường tiệm cận đứng của đồ thị hàm số là $x = 1$.
+
+Chọn phương án D.",16.6,1357,107
+D26-G2,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"a) Đúng. Do $F'(t) = f(t) = -0,15t^2 + 1,8t$ và $F(0) = 0$, ta có $F(t) = \int (-0,15t^2 + 1,8t) dt = -0,05t^3 + 0,9t^2$.
+
+b) Đúng. Theo định lý cơ bản của giải tích, năng lượng tích lũy từ thời điểm $t = a$ đến $t = b$ là $F(b) - F(a) = \int_a^b f(t) dt$.
+
+c) Sai. Năng lượng điện lưu trữ từ $t = 1$ đến $t = 5$ là $F(5) - F(1) = (-0,05 \cdot 5^3 + 0,9 \cdot 5^2) - (-0,05 \cdot 1^3 + 0,9 \cdot 1^2) = 16,25 - 0,85 = 15,4\text{ kWh} > 15,3\text{ kWh}$.
+
+d) Sai. Năng lượng điện lưu trữ từ $t = 1$ đến $t = 9$ là $F(9) - F(1) = 36,45 - 0,85 = 35,6\text{ kWh}$. Giá trị này không gấp 2 lần $15,4\text{ kWh}$ (vì $2 \times 15,4 = 30,8\text{ kWh}$). ",5.8,561,413
+D26-G2,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": true, ""d"": false}","{""a"": true, ""b"": true, ""c"": true, ""d"": false}",True,4,1,,"a) Đạo hàm $f'(x) = 3 \cdot \frac{1}{3}x^2 - 2 \cdot 2x + 3 = x^2 - 4x + 3$ (Mệnh đề đúng).
+b) $f'(x) = 0 \Leftrightarrow x^2 - 4x + 3 = 0 \Leftrightarrow x = 1$ hoặc $x = 3$. Tập nghiệm $S = \{1; 3\}$ (Mệnh đề đúng).
+c) Với $x \in (1; 3)$, $f'(x) < 0$ nên hàm số nghịch biến trên khoảng $(1; 3)$ (Mệnh đề đúng).
+d) Lập bảng biến thiên, hàm số đạt cực tiểu tại $x = 3$, giá trị cực tiểu $f(3) = \frac{1}{3}(3)^3 - 2(3)^2 + 3(3) + 8 = 8$. Còn $f(1) = \frac{28}{3}$ là giá trị cực đại (Mệnh đề sai).",4.7,283,286
+D26-G2,II.3,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": true}","{""a"": true, ""b"": true, ""c"": false, ""d"": true}",True,4,1,,"Gọi $A$ là biến cố người được chọn nhận được cảnh báo và $B$ là biến cố người được chọn có bệnh.
+Từ dữ kiện đề bài, ta có số liệu tổng hợp từ 10.000 người như sau:
+- $N(A) = 1000$, $N(\overline{A}) = 9000$.
+- Số người nhận được cảnh báo và có bệnh: $N(A \cap B) = 600$.
+- Số người nhận được cảnh báo và không có bệnh: $N(A \cap \overline{B}) = 400$.
+- Số người không nhận được cảnh báo và có bệnh: $N(\overline{A} \cap B) = 200$.
+- Số người không nhận được cảnh báo và không có bệnh: $N(\overline{A} \cap \overline{B}) = 8800$.
+- Tổng số người không có bệnh: $N(\overline{B}) = 400 + 8800 = 9200$.
+
+Xét các mệnh đề:
+a) $P(\overline{A}) = \frac{9000}{10000} = 0,9$. (Mệnh đề ĐÚNG)
+b) $P(\overline{B} | \overline{A}) = \frac{N(\overline{A} \cap \overline{B})}{N(\overline{A})} = \frac{8800}{9000} = \frac{44}{45} \approx 0,9778 > 0,97$. (Mệnh đề ĐÚNG)
+c) $P(\overline{B}) = \frac{9200}{10000} = 0,92 \neq 0,9$. (Mệnh đề SAI)
+d) $P(\overline{A} | \overline{B}) = \frac{N(\overline{A} \cap \overline{B})}{N(\overline{B})} = \frac{8800}{9200} = \frac{22}{23} \approx 0,9565 > 0,95$. (Mệnh đề ĐÚNG)",6.7,483,543
+D26-G2,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,"a) Ta có $\overrightarrow{MN} = (14 - 2; 2 - 11; 3 - 3) = (12; -9; 0)$. Mệnh đề này ĐÚNG.
+
+b) Đường thẳng $MN$ đi qua $M(2; 11; 3)$ và có vectơ chỉ phương $\vec{u} = (4; -3; 0)$ nên có phương trình tham số là $\begin{cases} x = 2 + 4t \ y = 11 - 3t \ z = 3 \end{cases}$ ($t \in \mathbb{R}$). Phương trình trong đề bài cho $z = 0$ là SAI.
+
+c) Máy bay ở vị trí $P(2 + 4t; 11 - 3t; 3)$ với $t \in [0; 3]$.
+Gọi $P'$ là hình chiếu của $P$ lên mặt phẳng $(Oxy) \implies P'(2 + 4t; 11 - 3t; 0)$.
+Khoảng cách $OP' = \sqrt{(2 + 4t)^2 + (11 - 3t)^2} = 5\sqrt{(t-1)^2 + 4} \ge 10$.
+Vì $OP' \ge 10 > 6$ (bán kính vành đai $R = 6$) nên khoảng cách từ $P$ đến vành đai là $d = \sqrt{(OP' - 6)^2 + 3^2}$.
+Khoảng cách này nhỏ nhất khi $OP'$ nhỏ nhất, tức là tại $t = 1 \implies OP' = 10$.
+Khi đó $d_{\min} = \sqrt{(10 - 6)^2 + 3^2} = 5$ đơn vị độ dài, tương ứng với $5 \times 10 = 50$ mét. Mệnh đề này SAI (đề ghi 100 mét).
+
+d) Khoảng cách ngắn nhất đạt được khi $t = 1$, tương ứng với vị trí máy bay $P(6; 8; 3)$. Mệnh đề này ĐÚNG.",14.3,508,541
+D26-G2,III.1,short,dai_so_giai_tich,True,"""6,19""","""6,19""",True,,0.5,,"Phương trình elip là $\frac{x^2}{1,5^2} + \frac{y^2}{1^2} = 1 \Rightarrow y^2 = 1 - \frac{x^2}{2,25}$.
+Lỗ khoan hình trụ có bán kính $r = 0,1\text{ cm}$ cắt elip tại các điểm có hoành độ thỏa mãn:
+$0,1^2 = 1 - \frac{x^2}{2,25} \Rightarrow x^2 = 2,25 \times 0,99 = 2,2275 \Rightarrow x = \pm x_0$ với $x_0 = \sqrt{2,2275} \approx 1,4925$.
+
+Thể tích của hạt cườm là thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi $y = \sqrt{1 - \frac{x^2}{2,25}}$ và $y = 0,1$ quanh trục $Ox$ trên đoạn $[-x_0; x_0]$:
+$V = \pi \int_{-x_0}^{x_0} \left(1 - \frac{x^2}{2,25} - 0,1^2\right) dx = 2\pi \int_{0}^{x_0} \left(0,99 - \frac{x^2}{2,25}\right) dx$
+$V = 2\pi \left[ 0,99x - \frac{x^3}{6,75} \right]_0^{x_0} = 2\pi x_0 \left(0,99 - \frac{2,2275}{6,75}\right) = 2\pi x_0 (0,99 - 0,33) = 1,32\pi x_0$.
+
+Thay $x_0 = \sqrt{2,2275} \approx 1,492481$ thu được:
+$V = 1,32 \times \pi \times 1,492481 \approx 6,18917\text{ cm}^3$.
+
+Làm tròn đến hàng phần trăm ta được $V \approx 6,19\text{ cm}^3$.",32.2,1469,558
+D26-G2,III.2,short,hinh_hoc_do_luong,False,"""17,1""","""17,1""",True,,0.5,,"Chọn hệ trục tọa độ $Oxyz$ sao cho $A(0;0;0)$, $B(14;0;0)$, $D(0;14;0)$ và $M(0;0;14)$.
+Khi đó, $E$ là trung điểm của $AB$ nên $E(7;0;0)$, và điểm $P$ có tọa độ $P(14;14;14)$.
+
+Mặt phẳng $(MED)$ đi qua ba điểm $E(7;0;0)$, $D(0;14;0)$, $M(0;0;14)$ có phương trình theo đoạn chắn:
+$$\frac{x}{7} + \frac{y}{14} + \frac{z}{14} = 1 \Leftrightarrow 2x + y + z - 14 = 0$$
+
+Khoảng cách từ điểm $P(14;14;14)$ đến mặt phẳng $(MED)$ là:
+$$d(P, (MED)) = \frac{|2 \cdot 14 + 14 + 14 - 14|}{\sqrt{2^2 + 1^2 + 1^2}} = \frac{42}{\sqrt{6}} = 7\sqrt{6} \approx 17,146$$
+
+Làm tròn đến hàng phần mười, kết quả bằng $17,1$.",23.2,215,344
+D26-G2,III.3,short,dai_so_giai_tich,True,"""3456""","""3456""",True,,0.5,,"Xét dư của 15 số đã cho khi chia cho 5:
+- Chia hết cho 5 (dư 0): {5} (1 số)
+- Dư 1: {1; 6; 11; 16; 21} (5 số)
+- Dư 2: {2; 7; 12; 17} (4 số)
+- Dư 3: {3; 8; 13} (3 số)
+- Dư 4: {4; 9} (2 số)
+
+Điều kiện đề bài yêu cầu không có hai số nào cùng hàng hoặc cùng cột có cùng số dư khi chia cho 5. 
+Do bảng gồm 15 ô hình bậc thang (5 hàng, 5 cột), nhóm 5 số dư 1 bắt buộc phải xếp vào 5 ô nằm trên các hàng và cột khác nhau. Duy nhất có 1 đường chéo gồm 5 ô (các ô thuộc đường chéo phụ $i+j=6$) thỏa mãn. 
+
+Tương tự, nhóm 4 số dư 2 duy nhất được xếp vào đường chéo 4 ô ($i+j=5$), nhóm 3 số dư 3 xếp vào đường chéo 3 ô ($i+j=4$), nhóm 2 số dư 4 xếp vào đường chéo 2 ô ($i+j=3$), và 1 số dư 0 xếp vào ô còn lại ($i+j=2$).
+
+Số cách điền $H$ là tích số cách hoán vị các số trong từng nhóm số dư:
+$H = 5! 	imes 4! 	imes 3! 	imes 2! 	imes 1! = 120 	imes 24 	imes 6 	imes 2 	imes 1 = 34560$.
+
+Do đó, giá trị $rac{H}{10} = rac{34560}{10} = 3456$.",20.2,1516,465
+D26-G2,III.4,short,dai_so_giai_tich,False,"""3980""","""3980""",True,,0.5,,"Hàm lợi nhuận của công ty theo $x$ ($1 \le x \le 180$) là:
+$P(x) = R(x) - C(x) = 90x - (0,002x^3 + 30x + 20) = -0,002x^3 + 60x - 20$ (triệu đồng).
+
+Đạo hàm $P'(x) = -0,006x^2 + 60$.
+Cho $P'(x) = 0 \Leftrightarrow -0,006x^2 + 60 = 0 \Leftrightarrow x^2 = 10000 \Leftrightarrow x = 100$ (do $1 \le x \le 180$).
+
+Tính giá trị tại các điểm:
+- $P(1) = 39,998$
+- $P(100) = 3980$
+- $P(180) = -884$
+
+Vậy lợi nhuận lớn nhất mà công ty đạt được trong một tháng là 3980 triệu đồng.",4.9,269,287
+D26-G2,III.5,short,dai_so_giai_tich,False,"""1350""","""1350""",True,,0.5,,"Gọi $x, y, z$ (nghìn đồng/kg) lần lượt là đơn giá của rau muống, bí xanh và cà chua.
+
+Từ số liệu của ba ngày Thứ Tư, Thứ Năm, Thứ Sáu, ta có hệ phương trình:
+$$\begin{cases} 19x + 15y + 10z = 615 \\ 20x + 12y + 8z = 540 \\ 25x + 12y + 7z = 570 \end{cases}$$
+
+Giải hệ phương trình trên:
+- Trừ phương trình thứ hai cho phương trình thứ ba thu được: $5x - z = 30 \Rightarrow z = 5x - 30$.
+- Đơn giản hóa phương trình thứ hai: $5x + 3y + 2z = 135$.
+- Thay $z = 5x - 30$ vào ta được: $15x + 3y = 195 \Rightarrow y = 65 - 5x$.
+- Thay $y$ và $z$ vào phương trình thứ nhất:
+  $$19x + 15(65 - 5x) + 10(5x - 30) = 615 \Rightarrow -6x + 675 = 615 \Rightarrow x = 10$$
+Từ đó suy ra $y = 15$ và $z = 20$.
+
+Tổng số tiền thu được trong ngày Thứ Bảy là:
+$$50x + 30y + 20z = 50 \times 10 + 30 \times 15 + 20 \times 20 = 1350 \text{ (nghìn đồng)}.$$",7.0,383,434
+D26-G2,III.6,short,thong_ke_xac_suat,True,"""2656""","""2656""",True,,0.5,,"Đa giác đều 12 đỉnh $A_1A_2\ldots A_{12}$ chứa đúng 3 hình vuông phân biệt không giao nhau về đỉnh:\n- $S_1 = \{A_1, A_4, A_7, A_{10}\}$\n- $S_2 = \{A_2, A_5, A_8, A_{11}\}$\n- $S_3 = \{A_3, A_6, A_9, A_{12}\}$\n\nCó 12 bóng đèn gồm 4 bóng đỏ và 8 bóng xanh. Tổng số cách chọn 4 đỉnh để lắp 4 bóng đèn màu đỏ là $C_{12}^4 = 495$.\n\nĐể mỗi hình vuông đều có ít nhất một bóng đèn màu đỏ, do có 4 bóng đỏ và 3 hình vuông nên số bóng đỏ ở 3 hình vuông phải là tập hợp $\{2, 1, 1\}$.\n- Chọn 1 hình vuông có 2 bóng đỏ: $C_3^1 = 3$ cách.\n- Chọn 2 đỉnh cho hình vuông đó: $C_4^2 = 6$ cách.\n- Chọn mỗi đỉnh cho 2 hình vuông còn lại: $C_4^1 \times C_4^1 = 16$ cách.\n\nSố cách chọn thuận lợi là: $3 \times 6 \times 16 = 288$.\n\nXác suất $P = \frac{288}{495} = \frac{32}{55}$.\n\nGiá trị của $4565P = 4565 \times \frac{32}{55} = 83 \times 32 = 2656$.",25.6,1435,418
+D26-G3,I.1,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Điều kiện xác định: $x - 1 > 0 \iff x > 1$.
+Ta có:
+$\log_3(x - 1) = 1 \iff x - 1 = 3^1 \iff x = 4$ (thỏa mãn điều kiện).
+Vậy nghiệm của phương trình là $x = 4$.",2.5,192,97
+D26-G3,I.2,mcq,hinh_hoc_do_luong,True,"""B""","""B""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, hai đoạn thẳng $AB$ và $D'C'$ song song, bằng nhau và các hướng từ $A$ đến $B$ cùng hướng với từ $D'$ đến $C'$. Do đó $\vec{D'C'} = \vec{AB}$.",8.0,1331,88
+D26-G3,I.3,mcq,thong_ke_xac_suat,False,"""C""","""C""",True,,0.25,,"Do hai biến cố $A$ và $B$ độc lập nên $P(AB) = P(A) \cdot P(B) = 0,5 \cdot 0,4 = 0,2$.",2.0,217,67
+D26-G3,I.4,mcq,dai_so_giai_tich,True,"""C""","""C""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số, ta có:
+- $\lim_{x \to -\infty} y = -2$
+- $\lim_{x \to +\infty} y = -2$
+
+Do đó, đường tiệm cận ngang của đồ thị hàm số có phương trình là $y = -2$.
+
+Vậy phương án đúng là C.",9.2,1356,102
+D26-G3,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Áp dụng tính chất của nguyên hàm, ta có:
+$$\int [3 + f(x)]\,dx = \int 3\,dx + \int f(x)\,dx = 3x + \sin x + C.$$
+Do đó, phương án đúng là B.",2.1,258,84
+D26-G3,I.6,mcq,thong_ke_xac_suat,False,"""C""","""C""",True,,0.25,,"Tổng số học sinh là $n = 42$. Vị trí của trung vị tương ứng với giá trị thứ $\frac{n}{2} = 21$.
+Ta tính tần số tích lũy cho các nhóm:
+- Nhóm [10; 20): 4
+- Nhóm [20; 30): 4 + 8 = 12
+- Nhóm [30; 40): 12 + 14 = 26
+
+Vì $12 < 21 \le 26$ nên trung vị của mẫu số liệu thuộc nhóm [30; 40).",3.3,346,161
+D26-G3,I.7,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Áp dụng công thức tính số hạng tổng quát của cấp số cộng $u_n = u_1 + (n-1)d$, ta có $u_2 = u_1 + d = 5 + (-1) = 4$.",1.7,195,73
+D26-G3,I.8,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Đạo hàm của hàm số $y = f(x) + g(x)$ là $y' = f'(x) + g'(x)$. Theo giả thiết $f'(x) = x$ và $g'(x) = x^2$, suy ra $y' = x + x^2$.",8.4,243,84
+D26-G3,I.9,mcq,hinh_hoc_do_luong,False,"""C""","""C""",True,,0.25,,"Tọa độ của vectơ $\vec{AB}$ được tính theo công thức $\vec{AB} = (x_B - x_A; y_B - y_A; z_B - z_A)$.
+Với $A(1; 5; 1)$ và $B(3; 3; 1)$, ta có:
+$\vec{AB} = (3 - 1; 3 - 5; 1 - 1) = (2; -2; 0)$.
+Do đó, phương án đúng là C.",22.1,231,142
+D26-G3,I.10,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Thay lần lượt tọa độ các cặp số vào hệ bất phương trình $\begin{cases} x + y - 3 < 0 \\ x - y + 1 > 0 \end{cases}$:
+- Với cặp số $(1; 0)$ ở phương án D:
+  + $1 + 0 - 3 = -2 < 0$ (đúng)
+  + $1 - 0 + 1 = 2 > 0$ (đúng)
+Vậy cặp số $(1; 0)$ là nghiệm của hệ bất phương trình.",28.6,214,142
+D26-G3,I.11,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Hàm số $F(x)$ là một nguyên hàm của hàm số $f(x)$ khi và chỉ khi $f(x) = F'(x)$.
+Ta có: $F'(x) = (4x^3)' = 12x^2$.
+Do đó, $F(x) = 4x^3$ là một nguyên hàm của hàm số $f_3(x) = 12x^2$.",23.9,228,117
+D26-G3,I.12,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Công thức số hạng tổng quát của cấp số nhân có số hạng đầu $u_1$ và công bội $q$ là $u_n = u_1 \cdot q^{n-1}$. Khi đó, số hạng thứ 4 là $u_4 = u_1 \cdot q^3$.",3.1,249,85
+D26-G3,II.1,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"a) Ta có $\vec{MN} = (14 - 5; -2 - 10; 4 - 4) = (9; -12; 0)$. Do đó mệnh đề a) Đúng.
+
+b) Đường thẳng $MN$ đi qua $M(5; 10; 4)$ và có vectơ chỉ phương $\vec{u} = \frac{1}{3}\vec{MN} = (3; -4; 0)$ nên phương trình tham số của $MN$ là $\begin{cases} x = 5 + 3t \ y = 10 - 4t \ z = 4 \end{cases} (t \in \mathbb{R})$. Do mệnh đề ghi $z = 0$ nên mệnh đề b) Sai.
+
+c) Vành đai bảo vệ là đường tròn $(C)$ tâm $O(0;0;0)$, bán kính $R = 7$ nằm trong mặt phẳng $(Oxy)$ ($z = 0$).
+Xét điểm $P(x; y; z)$ thuộc đoạn thẳng $MN$ ứng với $t \in [0; 3]$ có tọa độ $P(5 + 3t; 10 - 4t; 4)$.
+Khoảng cách từ $P$ đến vành đai bảo vệ là $d(P, (C)) = \sqrt{(\sqrt{x^2 + y^2} - R)^2 + z^2}$.
+Ta có $\sqrt{x^2 + y^2} = \sqrt{(5 + 3t)^2 + (10 - 4t)^2} = \sqrt{25t^2 - 50t + 125} = 5\sqrt{(t-1)^2 + 4} \ge 5\sqrt{4} = 10$.
+Do $\sqrt{x^2 + y^2} \ge 10 > 7$, nên $d(P, (C)) = \sqrt{(5\sqrt{(t-1)^2 + 4} - 7)^2 + 4^2} \ge \sqrt{(10 - 7)^2 + 4^2} = 5$ (đơn vị).
+Đổi ra mét: $5 \times 10 = 50$ mét. Do đó mệnh đề c) Đúng.
+
+d) Khoảng cách từ máy bay đến vành đai bảo vệ là ngắn nhất khi $t = 1$.
+Khi $t = 1$, máy bay ở vị trí $P(5 + 3(1); 10 - 4(1); 4) = (8; 6; 4)$. Do đó mệnh đề d) Đúng.",26.4,507,656
+D26-G3,II.2,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Tổng số người khảo sát là $N = 10000$.
+Gọi $A$ là biến cố ""Người đó nhận được cảnh báo"", $\overline{A}$ là biến cố ""Người đó không nhận được cảnh báo"".
+Gọi $B$ là biến cố ""Người đó có bệnh"", $\overline{B}$ là biến cố ""Người đó không có bệnh"".
+
+Theo đề bài:
+- Số người không nhận được cảnh báo là $n(\overline{A}) = 9000$.
+- Số người có nhận được cảnh báo là $n(A) = 1000$.
+- Số người không nhận cảnh báo và không có bệnh là $n(\overline{A} \cap \overline{B}) = 8900$.
+- Số người nhận cảnh báo và không có bệnh là $n(A \cap \overline{B}) = 300$.
+- Tổng số người không có bệnh là $n(\overline{B}) = 8900 + 300 = 9200$.
+
+Xét từng mệnh đề:
+a) Xác suất không nhận được cảnh báo: $P(\overline{A}) = \frac{9000}{10000} = 0,9$. Mệnh đề Đúng.
+b) Xác suất không có bệnh, biết không nhận được cảnh báo: $P(\overline{B} | \overline{A}) = \frac{8900}{9000} = \frac{89}{90} \approx 0,9889 > 0,98$. Mệnh đề Đúng.
+c) Xác suất không có bệnh: $P(\overline{B}) = \frac{9200}{10000} = 0,92 \neq 0,9$. Mệnh đề Sai.
+d) Xác suất không nhận được cảnh báo, biết không có bệnh: $P(\overline{A} | \overline{B}) = \frac{8900}{9200} = \frac{89}{92} \approx 0,9674 > 0,95$. Do đó mệnh đề ""nhỏ hơn 0,95"" là Sai.",9.8,483,536
+D26-G3,II.3,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"Xét từng mệnh đề:
+a) Ta có $F(t) = \int f(t)\,dt = \int (-0,3t^2 + 3,6t)\,dt = -0,1t^3 + 1,8t^2 + C$. Vì $F(0) = 0$ nên $C = 0$, suy ra $F(t) = -0,1t^3 + 1,8t^2$ với $0 \le t \le 12$. Do đó mệnh đề a) Đúng.
+
+b) Năng lượng điện lưu trữ được từ thời điểm $t = a$ đến $t = b$ là $F(b) - F(a) = \int_a^b f(t)\,dt$. Do đó mệnh đề b) Đúng.
+
+c) Năng lượng điện lưu trữ từ $t = 1$ đến $t = 4$ là $\int_1^4 f(t)\,dt = F(4) - F(1) = (-0,1 \cdot 4^3 + 1,8 \cdot 4^2) - (-0,1 \cdot 1^3 + 1,8 \cdot 1^2) = 22,4 - 1,7 = 20,7$ kWh. Vì $20,7 > 20,6$ nên mệnh đề c) Sai.
+
+d) Năng lượng điện lưu trữ từ $t = 1$ đến $t = 7$ là $F(7) - F(1) = 53,9 - 1,7 = 52,2$ kWh.
+Năng lượng điện lưu trữ từ $t = 1$ đến $t = 5$ là $F(5) - F(1) = 32,5 - 1,7 = 30,8$ kWh.
+Vì $52,2 \neq 2 \times 30,8 = 61,6$ nên mệnh đề d) Sai.",6.1,557,500
+D26-G3,II.4,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": true, ""d"": false}","{""a"": true, ""b"": true, ""c"": true, ""d"": false}",True,4,1,,"Xét hàm số $f(x) = \frac{1}{3}x^3 - 5x^2 + 9x + 8$:
+a) Ta có $f'(x) = x^2 - 10x + 9$. (Đúng)
+b) $f'(x) = 0 \Leftrightarrow x^2 - 10x + 9 = 0 \Leftrightarrow x = 1$ hoặc $x = 9$. Tập nghiệm $S = \{1; 9\}$. (Đúng)
+c) $f'(x) < 0 \Leftrightarrow x \in (1; 9)$, nên hàm số nghịch biến trên khoảng $(1; 9)$. (Đúng)
+d) Hàm số đạt cực tiểu tại $x = 9$, giá trị cực tiểu $f(9) = -73$. Giá trị $\frac{37}{3}$ là giá trị cực đại tại $x = 1$. (Sai)",4.1,284,256
+D26-G3,III.1,short,thong_ke_xac_suat,True,"""1856""","""1856""",True,,0.5,,"Đa giác đều 12 đỉnh $A_1A_2\ldots A_{12}$ có đúng 3 hình vuông mà các đỉnh là các đỉnh của đa giác, đó là $S_1=\{A_1, A_4, A_7, A_{10}\}$, $S_2=\{A_2, A_5, A_8, A_{11}\}$, và $S_3=\{A_3, A_6, A_9, A_{12}\}$. Ba hình vuông này tạo thành một phân hoạch gồm 3 tập hợp rời nhau, mỗi tập có 4 đỉnh.\n\nSố cách chọn vị trí lắp 4 bóng đèn màu đỏ vào 12 đỉnh là $\binom{12}{4} = 495$.\n\nĐể mỗi hình vuông đều có ít nhất một bóng đèn màu đỏ, 4 bóng đèn màu đỏ phải được phân bố vào 3 hình vuông theo dạng (2, 1, 1). Số cách chọn 4 đỉnh thoả mãn điều kiện này là:\n- Chọn 1 hình vuông chứa 2 bóng đỏ: $\binom{3}{1} = 3$ cách.\n- Chọn 2 đỉnh trong hình vuông đó: $\binom{4}{2} = 6$ cách.\n- Chọn 1 đỉnh trong mỗi hình vuông còn lại: $\binom{4}{1} \times \binom{4}{1} = 16$ cách.\n\nTổng số cách xếp thỏa mãn là $3 \times 6 \times 16 = 288$.\n\nXác suất cần tìm là $P = \frac{288}{495} = \frac{32}{55}$.\n\nDo đó, $3190P = 3190 \times \frac{32}{55} = 58 \times 32 = 1856$.",33.1,1435,437
+D26-G3,III.2,short,dai_so_giai_tich,False,"""1275""","""1275""",True,,0.5,,"Gọi $x, y, z$ (nghìn đồng/kg) lần lượt là đơn giá của Rau muống, Bí xanh, Cà chua.
+
+Từ bảng số liệu của thứ Tư, thứ Năm, thứ Sáu, ta có hệ phương trình:
+$$\begin{cases} 19x + 14y + 10z = 600 \\ 20x + 12y + 8z = 540 \\ 25x + 12y + 7z = 570 \end{cases}$$
+
+Giải hệ phương trình trên, ta thu được:
+$$\begin{cases} x = 10 \\ y = 15 \\ z = 20 \end{cases}$$
+
+Tổng số tiền thu được trong ngày thứ Bảy là:
+$$50x + 25y + 20z = 50 \times 10 + 25 \times 15 + 20 \times 20 = 1275 \text{ (nghìn đồng)}$$",10.0,380,267
+D26-G3,III.3,short,dai_so_giai_tich,True,"""5,91""","""5,91""",True,,0.5,,"Phương trình elip là $\frac{x^2}{1,5^2} + \frac{y^2}{1^2} = 1 \implies y^2 = 1 - \frac{4x^2}{9}$.
+Khối trụ lỗ khoan có bán kính $r = 0,2$ cm.
+Hoành độ giao điểm của lỗ khoan và elip thoả mãn $y = 0,2 \implies 1 - \frac{4x^2}{9} = 0,04 \implies x^2 = 2,16 \implies x_0 = \sqrt{2,16}$.
+
+Thể tích của hạt cườm thu được khi quay hình phẳng quanh trục $Ox$ là:
+$$V = \pi \int_{-\sqrt{2,16}}^{\sqrt{2,16}} \left( 1 - \frac{4x^2}{9} - 0,2^2 \right) dx = 2\pi \int_0^{\sqrt{2,16}} \left( 0,96 - \frac{4x^2}{9} \right) dx$$
+$$V = 2\pi \left[ 0,96x - \frac{4x^3}{27} \right]_0^{\sqrt{2,16}} = 2\pi \sqrt{2,16} \left( 0,96 - \frac{4 \cdot 2,16}{27} \right) = 1,28\pi \sqrt{2,16} \approx 5,90998978 \text{ cm}^3$$
+
+Làm tròn đến hàng phần trăm thu được kết quả $5,91$ cm$^3$.",29.5,1491,422
+D26-G3,III.4,short,dai_so_giai_tich,True,"""1152""","""1152""",True,,0.5,,"Xét dư của 15 số khi chia cho 5, ta phân hoạch tập hợp 15 số thành 5 lớp đồng dư:\n- Lớp dư 0: $\{0, 5, 10, 15, 20\}$ (5 số)\n- Lớp dư 1: $\{1, 6, 11, 16\}$ (4 số)\n- Lớp dư 2: $\{2, 7, 12\}$ (3 số)\n- Lớp dư 3: $\{3, 8\}$ (2 số)\n- Lớp dư 4: $\{4\}$ (1 số)\n\nTheo yêu cầu đề bài, hai số trên cùng một hàng hoặc cùng một cột không được có cùng số dư khi chia cho 5 (vì hiệu của chúng không chia hết cho 5).\n\nHình lưới gồm 15 ô xếp theo dạng bậc thang (Hàng 5 có 1 ô, Hàng 4 có 2 ô,..., Hàng 1 có 5 ô).\n- Do Hàng 5 chỉ có 1 ô ở Cột 1, nên 5 số dư 0 bắt buộc phải nằm trên đường chéo $i+j=6$ gồm các ô $(5,1), (4,2), (3,3), (2,4), (1,5)$.\n- Tương tự, 4 số dư 1 bắt buộc nằm trên đường chéo $i+j=5$.\n- 3 số dư 2 nằm trên đường chéo $i+j=4$.\n- 2 số dư 3 nằm trên đường chéo $i+j=3$.\n- 1 số dư 4 nằm ở ô $(1,1)$.\n\nSố cách xếp các số vào các vị trí đã định là:\n$H = 5! \times 4! \times 3! \times 2! \times 1! = 120 \times 24 \times 6 \times 2 \times 1 = 34560$.\n\nDo đó, giá trị của $\frac{H}{30} = \frac{34560}{30} = 1152$.",73.2,1516,508
+D26-G3,III.5,short,dai_so_giai_tich,False,"""1990""","""1990""",True,,0.5,,"Hàm lợi nhuận của công ty tính theo $x$ (tấn) là $P(x) = R(x) - C(x) = -0,001x^3 + 30x - 10$ trên đoạn $[1; 200]$.
+Đạo hàm $P'(x) = -0,003x^2 + 30$.
+Cho $P'(x) = 0 \iff -0,003x^2 + 30 = 0 \iff x^2 = 10000 \iff x = 100$ (do $1 \le x \le 200$).
+Tính giá trị của $P(x)$ tại các điểm xét:
+- $P(1) = 19,999$
+- $P(100) = 1990$
+- $P(200) = -2010$
+Vậy lợi nhuận lớn nhất mà công ty đạt được trong một tháng là 1990 triệu đồng.",14.1,269,261
+D26-G3,III.6,short,hinh_hoc_do_luong,False,"""7,35""","""7,35""",True,,0.5,,"Chọn hệ trục tọa độ $Oxyz$ sao cho $A(0;0;0)$, $B(6;0;0)$, $D(0;6;0)$ và $M(0;0;6)$. Khi đó:
+- $E(3;0;0)$ là trung điểm của $AB$.
+- $P(6;6;6)$.
+
+Mặt phẳng $(MED)$ đi qua $M(0;0;6)$, $E(3;0;0)$, $D(0;6;0)$ có phương trình:
+$$\vec{ME} = (3;0;-6), \quad \vec{MD} = (0;6;-6)$$
+$$\vec{n} = \frac{1}{18} (\vec{ME} \times \vec{MD}) = (2;1;1)$$
+Phương trình mặt phẳng $(MED)$ là: $2x + y + z - 6 = 0$.
+
+Khoảng cách từ điểm $P(6;6;6)$ đến mặt phẳng $(MED)$ là:
+$$d(P, (MED)) = \frac{|2\cdot 6 + 6 + 6 - 6|}{\sqrt{2^2 + 1^2 + 1^2}} = \frac{18}{\sqrt{6}} = 3\sqrt{6} \approx 7,35.$$",7.7,213,334
+D26-G4,I.1,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Điều kiện: $3x > 0 \iff x > 0$.
+Phương trình tương đương với:
+$3x = 3^2 \iff 3x = 9 \iff x = 3$ (thoả mãn điều kiện).
+Vậy nghiệm của phương trình là $x = 3$.",11.1,198,87
+D26-G4,I.2,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Áp dụng công thức số hạng tổng quát của cấp số cộng: $u_2 = u_1 + d$.
+Thay số: $u_2 = -2 + 3 = 1$.
+Vậy $u_2 = 1$, chọn phương án C.",6.1,195,75
+D26-G4,I.3,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Ta có $\int (2 + f(x))dx = \int 2dx + \int f(x)dx = 2x + \sin x + C$. Do đó, phương án đúng là D.",13.1,254,66
+D26-G4,I.4,mcq,dai_so_giai_tich,True,"""C""","""C""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số, tại $x = 1$ hàm số không xác định (có hai vạch song song) và $\lim_{x \to 1^-} y = +\infty$, $\lim_{x \to 1^+} y = -\infty$. Do đó, đường tiệm cận đứng của đồ thị hàm số là $x = 1$.",40.6,1356,99
+D26-G4,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Thay lần lượt các cặp số vào hệ bất phương trình:
+- Với $(-3; 0)$: $-3 + 0 - 2 = -5 < 0$ (Đúng) nhưng $-3 - 0 + 2 = -1 
+gtr 0$ (Sai).
+- Với $(1; 0)$: $1 + 0 - 2 = -1 < 0$ (Đúng) và $1 - 0 + 2 = 3 > 0$ (Đúng). Vậy $(1; 0)$ là nghiệm của hệ bất phương trình.
+- Với $(1; 2)$: $1 + 2 - 2 = 1 
+less 0$ (Sai).
+- Với $(0; 3)$: $0 + 3 - 2 = 1 
+less 0$ (Sai).
+
+Do đó, phương án đúng là B.",22.0,214,209
+D26-G4,I.6,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, mặt bên $ADD'A'$ và $BCC'B'$ là các hình vuông song song và bằng nhau.
+Do đó, hai vectơ $\overrightarrow{AD}$ và $\overrightarrow{B'C'}$ có cùng hướng (từ mặt sau ra mặt trước) và cùng độ dài ($AD = B'C'$).
+Vậy $\overrightarrow{AD} = \overrightarrow{B'C'}$, đáp án đúng là A.",9.2,1331,124
+D26-G4,I.7,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Công thức số hạng tổng quát của cấp số nhân $(u_n)$ có số hạng đầu $u_1$ và công bội $q$ là $u_n = u_1 \cdot q^{n-1}$. Do đó, số hạng $u_3 = u_1 q^2$.",2.3,244,84
+D26-G4,I.8,mcq,thong_ke_xac_suat,False,"""D""","""D""",True,,0.25,,"Tổng số học sinh là $N = 42$.
+Thứ tự của trung vị là $\frac{N}{2} = \frac{42}{2} = 21$.
+
+Ta tính tần số tích lũy của các nhóm:
+- Nhóm $[10; 20)$: $5$
+- Nhóm $[20; 30)$: $5 + 7 = 12$
+- Nhóm $[30; 40)$: $12 + 15 = 27$
+- Nhóm $[40; 50)$: $27 + 6 = 33$
+- Nhóm $[50; 60)$: $33 + 5 = 38$
+- Nhóm $[60; 70)$: $38 + 4 = 42$
+
+Vì $12 < 21 \le 27$ nên giá trị trung vị thuộc nhóm thứ 3, tức là nhóm $[30; 40)$.",3.5,358,245
+D26-G4,I.9,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Áp dụng quy tắc tính đạo hàm của một tổng: $(f(x) + g(x))' = f'(x) + g'(x)$.
+Theo đề bài, ta có $f'(x) = 2x$ và $g'(x) = x^2$.
+Do đó, đạo hàm của hàm số $y = f(x) + g(x)$ là $y' = 2x + x^2$.",2.1,246,114
+D26-G4,I.10,mcq,thong_ke_xac_suat,False,"""A""","""A""",True,,0.25,,"Vì hai biến cố $A$ và $B$ độc lập nên ta có $P(AB) = P(A) \cdot P(B) = 0,3 \cdot 0,6 = 0,18$.",1.6,218,70
+D26-G4,I.11,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Hàm số $F(x)$ là một nguyên hàm của hàm số $f(x)$ khi và chỉ khi $F'(x) = f(x)$.
+Ta có: $F'(x) = (5x^3)' = 5 \cdot 3x^2 = 15x^2$.
+Do đó, $F(x) = 5x^3$ là một nguyên hàm của hàm số $f_3(x) = 15x^2$.",2.1,234,127
+D26-G4,I.12,mcq,hinh_hoc_do_luong,False,"""B""","""B""",True,,0.25,,"Tọa độ của vectơ $\overrightarrow{AB}$ được tính theo công thức $\overrightarrow{AB} = (x_B - x_A; y_B - y_A; z_B - z_A)$.
+Thay tọa độ $A(2; 3; 1)$ và $B(4; 1; 1)$ vào, ta có:
+$\overrightarrow{AB} = (4 - 2; 1 - 3; 1 - 1) = (2; -2; 0)$.
+Do đó, phương án đúng là B.",1.9,231,144
+D26-G4,II.1,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": true}","{""a"": true, ""b"": true, ""c"": false, ""d"": true}",True,4,1,,"Kí hiệu $W$ là biến cố nhận được cảnh báo, $W'$ là không nhận được cảnh báo, $S$ là có bệnh, $N$ là không có bệnh.
+Từ dữ kiện đề bài, ta có tổng số người là $10000$:
+- $n(W) = 1000$, trong đó $n(W \cap S) = 600$, $n(W \cap N) = 400$.
+- $n(W') = 9000$, trong đó $n(W' \cap S) = 200$, $n(W' \cap N) = 8800$.
+- Tổng số người không có bệnh: $n(N) = 400 + 8800 = 9200$.
+
+Xét các mệnh đề:
+a) $P(W') = \frac{9000}{10000} = 0,9$. (Mệnh đề ĐÚNG)
+b) $P(N | W') = \frac{n(N \cap W')}{n(W')} = \frac{8800}{9000} = \frac{44}{45} \approx 0,9778 > 0,97$. (Mệnh đề ĐÚNG)
+c) $P(N) = \frac{9200}{10000} = 0,92 \neq 0,9$. (Mệnh đề SAI)
+d) $P(W' | N) = \frac{n(W' \cap N)}{n(N)} = \frac{8800}{9200} = \frac{22}{23} \approx 0,9565 > 0,95$. (Mệnh đề ĐÚNG)",4.7,483,462
+D26-G4,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": true, ""d"": false}","{""a"": true, ""b"": true, ""c"": true, ""d"": false}",True,4,1,,"Cho hàm số $f(x) = \frac{1}{3}x^3 - 2x^2 + 3x + 8$.
+
+a) $f'(x) = x^2 - 4x + 3$. Mệnh đề Đúng.
+b) $f'(x) = 0 \iff x^2 - 4x + 3 = 0 \iff x = 1$ hoặc $x = 3$. Tập nghiệm $S = \{1; 3\}$. Mệnh đề Đúng.
+c) $f'(x) < 0 \iff x \in (1; 3)$, do đó hàm số nghịch biến trên khoảng $(1; 3)$. Mệnh đề Đúng.
+d) Hàm số đạt cực tiểu tại $x = 3$ với giá trị cực tiểu $y_{CT} = f(3) = 8$. Giá trị $\frac{28}{3}$ là giá trị cực đại của hàm số tại $x = 1$. Mệnh đề Sai.",4.8,283,267
+D26-G4,II.3,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": false}","{""a"": true, ""b"": true, ""c"": false, ""d"": false}",True,4,1,,"a) Đúng: Vì $F'(t) = f(t) = -0,15t^2 + 1,8t$ và $F(0) = 0$, ta có $F(t) = \int (-0,15t^2 + 1,8t)dt = -0,05t^3 + 0,9t^2$ với $0 \le t \le 12$.
+b) Đúng: Năng lượng lưu trữ từ $t = a$ đến $t = b$ được tính theo công thức tích phân $F(b) - F(a) = \int_a^b f(t)dt$.
+c) Sai: Năng lượng điện lưu trữ từ $t = 1$ đến $t = 5$ là $F(5) - F(1) = (-0,05 \cdot 5^3 + 0,9 \cdot 5^2) - (-0,05 \cdot 1^3 + 0,9 \cdot 1^2) = 16,25 - 0,85 = 15,4$ kWh > 15,3 kWh.
+d) Sai: Năng lượng điện lưu trữ từ $t = 1$ đến $t = 9$ là $F(9) - F(1) = 36,45 - 0,85 = 35,6$ kWh. Số này khác $2 \times 15,4 = 30,8$ kWh.",7.4,560,385
+D26-G4,II.4,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,"a) Đúng: $\overrightarrow{MN} = (14-2; 2-11; 3-3) = (12; -9; 0)$.
+b) Sai: Phương trình tham số đúng của $MN$ có $z = 3$, không phải $z = 0$.
+c) Sai: Điểm $P(x; y; z)$ trên đường bay có khoảng cách đến vành đai bảo vệ (đường tròn $C: x^2+y^2=36, z=0$) được tính bằng $d = \sqrt{(\sqrt{x^2+y^2} - 6)^2 + z^2}$.
+Với $P(2+4k; 11-3k; 3)$ ($k \in [0; 3]$), ta có $x^2+y^2 = 25(k-1)^2 + 100 \ge 100 \Rightarrow \sqrt{x^2+y^2} \ge 10$.
+Do đó $d \ge \sqrt{(10-6)^2 + 3^2} = 5$ (đơn vị vị trí) = 50 mét. Vậy khoảng cách ngắn nhất là 50 mét, không phải 100 mét.
+d) Đúng: Giá trị nhỏ nhất đạt được khi $k = 1$, ứng với tọa độ máy bay là $(2+4; 11-3; 3) = (6; 8; 3)$.",9.9,508,384
+D26-G4,III.1,short,hinh_hoc_do_luong,False,"""17,1""","""17,1""",True,,0.5,,"Chọn hệ trục tọa độ $Oxyz$ sao cho $A(0,0,0)$, $B(14,0,0)$, $D(0,14,0)$ và $M(0,0,14)$.\nDo $E$ là trung điểm của $AB$ nên $E(7,0,0)$.\nĐiểm $P$ có tọa độ là $P(14,14,14)$.\n\nMặt phẳng $(MED)$ đi qua $E(7,0,0)$, $D(0,14,0)$ và $M(0,0,14)$ có cặp vectơ chỉ phương:\n$\vec{EM} = (-7; 0; 14)$, $\vec{ED} = (-7; 14; 0)$.\nVectơ pháp tuyến của mặt phẳng $(MED)$ là $\vec{n} = (2; 1; 1)$.\n\nPhương trình mặt phẳng $(MED)$ là:\n$2(x - 7) + 1(y - 0) + 1(z - 0) = 0 \Leftrightarrow 2x + y + z - 14 = 0$.\n\nKhoảng cách từ điểm $P(14,14,14)$ đến mặt phẳng $(MED)$ là:\n$d(P, (MED)) = \frac{|2 \cdot 14 + 14 + 14 - 14|}{\sqrt{2^2 + 1^2 + 1^2}} = \frac{42}{\sqrt{6}} = 7\sqrt{6} \approx 17,146... \approx 17,1$.",8.4,216,399
+D26-G4,III.2,short,dai_so_giai_tich,True,"""5,91""","""6,19""",False,,0,E2,"1. Phương trình nửa trên elip là $y = \sqrt{1 - \frac{x^2}{1,5^2}} = \sqrt{1 - \frac{x^2}{2,25}}$ ($y \ge 0$).
+2. Bán kính lỗ khoan là $r = 0,2\text{ cm}$. Hoành độ giao điểm của lỗ khoan với elip là nghiệm của phương trình $y = 0,2$:
+$$1 - \frac{x^2}{2,25} = 0,2^2 = 0,04 \implies x^2 = 2,25 \times 0,96 = 2,16 \implies x = \pm \sqrt{2,16}.$$
+3. Thể tích của hạt cườm thu được bằng thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi $y = \sqrt{1 - \frac{x^2}{2,25}}$, $y = 0,2$ quanh trục $Ox$:
+$$V = \pi \int_{-\sqrt{2,16}}^{\sqrt{2,16}} \left( 1 - \frac{x^2}{2,25} - 0,04 \right) dx = 2\pi \int_{0}^{\sqrt{2,16}} \left( 0,96 - \frac{x^2}{2,25} \right) dx$$
+$$V = 2\pi \left[ 0,96x - \frac{x^3}{6,75} \right]_0^{\sqrt{2,16}} = 2\pi \left( 0,96\sqrt{2,16} - 0,32\sqrt{2,16} \right) = 1,28\pi \sqrt{2,16} \approx 5,90994788\text{ cm}^3.$$
+4. Làm tròn đến hàng phần trăm thu được kết quả là $5,91\text{ cm}^3$.",127.0,1470,495
+D26-G4,III.3,short,dai_so_giai_tich,True,"""3456""","""3456""",True,,0.5,,"Phân loại 15 số đã cho theo số dư khi chia cho 5:\n- Số dư 1 (5 số): $\{1; 6; 11; 16; 21\}$\n- Số dư 2 (4 số): $\{2; 7; 12; 17\}$\n- Số dư 3 (3 số): $\{3; 8; 13\}$\n- Số dư 4 (2 số): $\{4; 9\}$\n- Số dư 0 (1 số): $\{5\}$\n\nDo hiệu hai số ở hai ô cùng hàng hoặc cùng cột không chia hết cho 5, nên không có hai số nào có cùng số dư khi chia cho 5 được xếp trên cùng một hàng hoặc cùng một cột.\n\nXét bảng gồm 15 ô hình cầu thang (hàng 5 có 1 ô, hàng 4 có 2 ô, hàng 3 có 3 ô, hàng 2 có 4 ô, hàng 1 có 5 ô):\n- 5 số có số dư 1 bắt buộc phải điền vào 5 vị trí thuộc 5 hàng và 5 cột khác nhau. Do số lượng ô ở từng hàng giới hạn, 5 vị trí này bị cố định duy nhất là các ô $(5,1), (4,2), (3,3), (2,4), (1,5)$.\n- Tương tự, 4 số có số dư 2 bị cố định vào các ô còn lại ở 4 hàng và 4 cột là $(4,1), (3,2), (2,3), (1,4)$.\n- 3 số có số dư 3 cố định ở $(3,1), (2,2), (1,3)$.\n- 2 số có số dư 4 cố định ở $(2,1), (1,2)$.\n- 1 số có số dư 0 cố định ở $(1,1)$.\n\nSố cách điền các số vào các vị trí cố định ứng với từng nhóm số dư là:\n$H = 5! \times 4! \times 3! \times 2! \times 1! = 120 \times 24 \times 6 \times 2 \times 1 = 34560$.\n\nVậy giá trị $\frac{H}{10} = \frac{34560}{10} = 3456$.",37.2,1515,566
+D26-G4,III.4,short,thong_ke_xac_suat,True,"""2656""","""2656""",True,,0.5,,"Đa giác đều 12 đỉnh $A_1A_2\dots A_{12}$ chứa đúng 3 hình vuông phân biệt có đỉnh là các đỉnh của đa giác, phân hoạch 12 đỉnh thành 3 tập hợp rời nhau, mỗi tập gồm 4 đỉnh: $S_1 = \{A_1, A_4, A_7, A_{10}\}$, $S_2 = \{A_2, A_5, A_8, A_{11}\}$, và $S_3 = \{A_3, A_6, A_9, A_{12}\}$.\n\nTổng số cách chọn 4 đỉnh để lắp 4 bóng đèn màu đỏ là $\binom{12}{4} = 495$.\n\nĐể mỗi hình vuông có ít nhất một bóng đèn màu đỏ, số bóng đèn đỏ ở 3 hình vuông $(S_1, S_2, S_3)$ phải nhận các bộ số là một trong các hoán vị của $(2, 1, 1)$.\n- Số cách chọn đỉnh lắp đèn màu đỏ tương ứng là: $3 \times \binom{4}{2} \times \binom{4}{1} \times \binom{4}{1} = 3 \times 6 \times 4 \times 4 = 288$.\n\nXác suất cần tìm là $P = \frac{288}{495} = \frac{32}{55}$.\n\nDo đó, giá trị của $4565P = 4565 \times \frac{32}{55} = 83 \times 32 = 2656$.",46.0,1437,393
+D26-G4,III.5,short,dai_so_giai_tich,False,"""3980""","""3980""",True,,0.5,,"Hàm lợi nhuận của công ty trong một tháng là:
+$P(x) = R(x) - C(x) = 90x - (0,002x^3 + 30x + 20) = -0,002x^3 + 60x - 20$ với $x \in [1; 180]$.
+
+Xét đạo hàm $P'(x) = -0,006x^2 + 60$.
+$P'(x) = 0 \Leftrightarrow -0,006x^2 + 60 = 0 \Leftrightarrow x^2 = 10000 \Rightarrow x = 100$ (do $1 \le x \le 180$).
+
+Tính giá trị hàm số tại các điểm:
+- $P(1) = 39,998$
+- $P(100) = 3980$
+- $P(180) = -884$
+
+Vậy lợi nhuận lớn nhất mà công ty đạt được trong một tháng là 3980 triệu đồng (khi $x = 100$).",17.5,269,295
+D26-G4,III.6,short,dai_so_giai_tich,False,"""1350""","""1350""",True,,0.5,,"Gọi đơn giá ki-lô-gam của rau muống, bí xanh, cà chua lần lượt là $x, y, z$ (nghìn đồng/kg).
+
+Từ số liệu của ba ngày Thứ Tư, Thứ Năm, Thứ Sáu, ta có hệ phương trình:
+$$\begin{cases} 19x + 15y + 10z = 615 \\ 20x + 12y + 8z = 540 \\ 25x + 12y + 7z = 570 \end{cases}$$
+
+Giải hệ phương trình trên:
+- Trừ phương trình thứ hai cho phương trình thứ ba: $(25x + 12y + 7z) - (20x + 12y + 8z) = 570 - 540 \implies 5x - z = 30 \implies z = 5x - 30$.
+- Thay vào phương trình thứ hai: $20x + 12y + 8(5x - 30) = 540 \implies 60x + 12y = 780 \implies y = 65 - 5x$.
+- Thay $y$ và $z$ vào phương trình đầu tiên: $19x + 15(65 - 5x) + 10(5x - 30) = 615 \implies -6x + 675 = 615 \implies x = 10$.
+
+Từ đó suy ra $y = 15$ và $z = 20$.
+
+Tổng số tiền thu được ngày thứ Bảy là:
+$$50x + 30y + 20z = 50 \cdot 10 + 30 \cdot 15 + 20 \cdot 20 = 1350 \text{ (nghìn đồng).}$$",23.4,446,468

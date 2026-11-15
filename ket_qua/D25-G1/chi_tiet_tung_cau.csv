@@ -65,8 +65,8 @@ d) Xét hàm số $f(x)$ trên $[-3; 3]$:
 - $f(2) = -24$
 - $f(3) = -17$
 Giá trị lớn nhất của $f(x)$ trên $[-3; 3]$ bằng $8$. Mệnh đề d SAI.",4.9,269,312
-D25-G1,II.2,tf,dai_so_giai_tich,False,null,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}",False,0,0,E8,,7.8,511,568
-D25-G1,II.3,tf,hinh_hoc_do_luong,False,null,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}",False,0,0,E8,,9.4,601,609
+D25-G1,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,"Từ phương trình vi phân $y'(t) = k \cdot y(t)$ với $y(t) > 0$, lấy nguyên hàm hai vế ta được $\ln y(t) = kt + C$, suy ra $y(t) = \mathrm{e}^{kt+C}$. Do $y(t) = \mathrm{e}^{g(t)}$ nên $g(t) = kt + C$ với $C$ là hằng số.\n\na) Đúng. $g(t) = kt + C$ với $C$ là một hằng số xác định.\n\nb) Theo đề bài:\n- Tại $t = 6$: $y(6) = \mathrm{e}^{6k+C} = 2 \Rightarrow 6k + C = \ln 2$.\n- Tại $t = 12$: $y(12) = \mathrm{e}^{12k+C} = 1 \Rightarrow 12k + C = \ln 1 = 0 \Rightarrow C = -12k$.\n\nThay $C = -12k$ vào phương trình thứ nhất:\n$6k - 12k = \ln 2 \Rightarrow -6k = \ln 2 \Rightarrow k = -\frac{\ln 2}{6}$.\nDo đó mệnh đề b Sai (thiếu dấu âm).\n\nc) Tính $C = -12k = -12 \left(-\frac{\ln 2}{6}\right) = 2\ln 2$. Do đó mệnh đề c Đúng.\n\nd) Nồng độ thuốc tại thời điểm $t = 25$ ngày là:\n$y(25) = \mathrm{e}^{25k + C} = \mathrm{e}^{25\left(-\frac{\ln 2}{6}\right) + 2\ln 2} = \mathrm{e}^{\left(2 - \frac{25}{6}\right)\ln 2} = 2^{-\frac{13}{6}} \approx 0,2227\text{ (mg/lít)}$.\nVì $0,2227 < 0,25$ nên nồng độ thuốc tại $t = 25$ nhỏ hơn $0,25\text{ mg/lít}$. Do đó mệnh đề d Sai.",7.8,511,568
+D25-G1,II.3,tf,hinh_hoc_do_luong,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": false}","{""a"": true, ""b"": false, ""c"": true, ""d"": false}",True,4,1,,,9.4,601,609
 D25-G1,II.4,tf,thong_ke_xac_suat,False,"{""a"": true, ""b"": true, ""c"": false, ""d"": true}","{""a"": true, ""b"": true, ""c"": false, ""d"": true}",True,4,1,,"Gọi $M$ là biến cố tin nhắn bị đánh dấu, $A$ là biến cố tin nhắn là quảng cáo.
 Theo đề bài, ta có:
 - $P(M) = 0,15 \implies P(\overline{M}) = 1 - 0,15 = 0,85$.
@@ -98,7 +98,7 @@ Tổng số bộ $(A, B, C)$ thoả mãn là $36 + 12 = 48$. Với mỗi bộ $(
 Xác suất $a = \frac{48}{60480} = \frac{1}{1260}$.
 
 Vậy $\frac{1}{a} = 1260$.",26.6,1479,679
-D25-G1,III.2,short,dai_so_giai_tich,False,null,"""1536""",False,,0,E8,,9.4,310,424
+D25-G1,III.2,short,dai_so_giai_tich,False,"""1536""","""1536""",True,,0.5,,"Doanh thu khi bán $x$ sản phẩm là $F(x) = -0,01x^2 + 300x$ (nghìn đồng).\nTổng chi phí sản xuất $x$ sản phẩm là $C(x) = x \cdot G(x) = x\left(\frac{30\,000}{x} + 200\right) = 30\,000 + 200x$ (nghìn đồng).\nLợi nhuận thu được là:\n$P(x) = F(x) - C(x) = -0,01x^2 + 100x - 30\,000$ (nghìn đồng).\n\nĐổi $100$ triệu đồng = $100\,000$ nghìn đồng.\nĐể lợi nhuận lớn hơn $100$ triệu đồng, ta có bất phương trình:\n$P(x) > 100\,000 \iff -0,01x^2 + 100x - 130\,000 > 0 \iff x^2 - 10\,000x + 13\,000\,000 < 0$.\n\nGiải bất phương trình thu được:\n$5000 - 2000\sqrt{3} < x < 5000 + 2000\sqrt{3} \iff 1535,898... < x < 8464,101...$\n\nVì $x \in \mathbb{N}^*$ và $1 \le x \le 4\,500$, số sản phẩm ít nhất cần sản xuất là $x = 1536$.",9.4,310,424
 D25-G1,III.3,short,dai_so_giai_tich,False,"""2650""","""2650""",True,,0.5,,"Gọi $x$ và $y$ lần lượt là số lượng Thực đơn 1 và Thực đơn 2 được bán ($x, y \ge 0$).
 
 Theo bài ra, ta có hệ bất phương trình biểu diễn các điều kiện về số lượng nước chanh và khoai chiên:
@@ -119,7 +119,7 @@ Giá trị của $F(x, y)$ tại các đỉnh:
 - $F(0; 50) = 50 \cdot 50 = 2500$
 
 Do $x = 30, y = 35$ là các số nguyên thỏa mãn, số tiền lớn nhất câu lạc bộ có thể nhận được là $2650$ nghìn đồng.",6.5,301,443
-D25-G1,III.4,short,hinh_hoc_do_luong,False,null,"""1,04""",False,,0,E8,,12.4,259,568
+D25-G1,III.4,short,hinh_hoc_do_luong,False,"""1,04""","""1,04""",True,,0.5,,"Do $ABCD$ là hình thoi có $\widehat{ABC} = 60^\circ$ và $AB = 2$ nên tam giác $ABC$ đều cạnh $2$. Gọi $O$ là giao điểm của $AC$ và $BD$, ta có $AC \perp BD$, $AC = 2$, $BO = \sqrt{3}$ và $OD = \sqrt{3}$.\n\nVì $H$ là trọng tâm tam giác $ABC$ nên $H \in BO$ và $OH = \frac{1}{3}BO = \frac{\sqrt{3}}{3}$.\nDo $SH \perp (ABCD)$ nên $AC \perp SH$. Kết hợp với $AC \perp BD$, ta suy ra $AC \perp (SBD)$.\nDo đó, khoảng cách giữa hai đường thẳng $AC$ và $SD$ chính bằng khoảng cách từ điểm $O$ đến đường thẳng $SD$ trong mặt phẳng $(SBD)$.\n\nXét mặt phẳng $(SBD)$ với hệ tọa độ Oxy sao cho $O(0;0)$, $D(\sqrt{3};0)$, $H\left(-\frac{\sqrt{3}}{3};0\right)$, $S\left(-\frac{\sqrt{3}}{3};\sqrt{3}\right)$:\nPhương trình đường thẳng $SD$ đi qua $D(\sqrt{3};0)$ và $S\left(-\frac{\sqrt{3}}{3};\sqrt{3}\right)$ có vectơ chỉ phương $\vec{u}_{SD} = \left(-\frac{4\sqrt{3}}{3}; \sqrt{3}\right) \parallel (-4; 3)$.\nVectơ pháp tuyến của $SD$ là $\vec{n} = (3; 4)$.\nPhương trình đường thẳng $SD$: $3(x - \sqrt{3}) + 4(y - 0) = 0 \Leftrightarrow 3x + 4y - 3\sqrt{3} = 0$.\n\nKhoảng cách từ $O(0;0)$ đến $SD$ là:\n$$d(AC, SD) = d(O, SD) = \frac{|3 \cdot 0 + 4 \cdot 0 - 3\sqrt{3}|}{\sqrt{3^2 + 4^2}} = \frac{3\sqrt{3}}{5} \approx 1,03923$$\n\nLàm tròn đến hàng phần trăm ta được kết quả là $1,04$.",12.4,259,568
 D25-G1,III.5,short,thong_ke_xac_suat,False,"""1008""","""1008""",True,,0.5,,"Mỗi cách xếp 7 quyển sách phân biệt vào 4 ngăn sao cho mỗi ngăn có ít nhất một quyển và các quyển sách xếp theo hàng ngang tương ứng với một hoán vị của 7 quyển sách và một cách chọn 3 vị trí vách ngăn trong 6 vị trí giữa các quyển sách.
 
 Số hoán vị của 7 quyển sách là $7! = 5040$.

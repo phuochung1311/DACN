@@ -5,7 +5,7 @@ D25-G3,I.3,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Điều kiệ
 Ta có:
 $\log_3(2x-1) = 2 \iff 2x - 1 = 3^2 \iff 2x - 1 = 9 \iff 2x = 10 \iff x = 5$.
 Giá trị $x = 5$ thỏa mãn điều kiện xác định. Vậy phương trình có nghiệm $x = 5$.",2.6,200,131
-D25-G3,I.4,mcq,dai_so_giai_tich,False,null,"""B""",False,,0,E8,,2.5,198,120
+D25-G3,I.4,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Công thức số hạng tổng quát của cấp số cộng là $u_n = u_1 + (n - 1)d$.\nThay $n = 5$, $u_1 = 4$ và $d = -3$ vào công thức, ta có:\n$u_5 = u_1 + 4d = 4 + 4 \cdot (-3) = 4 - 12 = -8$.\nVậy phương án đúng là B.",2.5,198,120
 D25-G3,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Phương trình lượng giác cơ bản $\sin x = 0$ có các nghiệm là $x = k\pi$ với $k \in \mathbb{Z}$. Do đó, tập nghiệm của phương trình là $S = \{k\pi \mid k \in \mathbb{Z}\}$.",2.5,253,83
 D25-G3,I.6,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Do $ABC.A'B'C'$ là hình lăng trụ nên mặt bên $ACC'A'$ là hình bình hành, suy ra $\vec{A'C'} = \vec{AC}$.
 
@@ -46,7 +46,7 @@ $$S = \int_a^b |f(x)| \mathrm{d}x$$
 Áp dụng với $f(x) = 2x - 3$, $a = 1$, $b = 2$, ta có công thức tính diện tích là:
 $$S = \int_1^2 |2x - 3| \mathrm{d}x$$
 Do đó, phương án đúng là B.",3.4,305,164
-D25-G3,II.1,tf,dai_so_giai_tich,False,null,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}",False,0,0,E8,,9.3,510,487
+D25-G3,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": true}","{""a"": true, ""b"": false, ""c"": false, ""d"": true}",True,4,1,,"Từ $y(t) = \text{e}^{g(t)}$, ta có $y'(t) = g'(t)\text{e}^{g(t)} = g'(t)y(t)$.\nTheo giả thiết $y'(t) = k \cdot y(t)$ với $y(t) > 0$, suy ra $g'(t) = k \implies g(t) = kt + C$ ($C$ là hằng số).\nDo đó mệnh đề a) ĐÚNG.\n\nTa có $y(t) = \text{e}^{kt + C}$.\n- Tại $t = 6$: $y(6) = \text{e}^{6k + C} = 2 \implies 6k + C = \ln 2$.\n- Tại $t = 12$: $y(12) = \text{e}^{12k + C} = 1 \implies 12k + C = 0$.\n\nGiải hệ phương trình:\n$6k = -\ln 2 \implies k = -\frac{\ln 2}{6}$.\n$C = -12k = 2\ln 2$.\nDo đó mệnh đề b) và c) SAI.\n\nTại thời điểm $t = 28$ ngày:\n$y(28) = \text{e}^{28 \cdot \left(-\frac{\ln 2}{6}\right) + 2\ln 2} = \text{e}^{-\frac{8}{3}\ln 2} = 2^{-\frac{8}{3}} = \frac{1}{\sqrt[3]{256}}$.\nVì $256 > 125 = 5^3 \implies \sqrt[3]{256} > 5 \implies y(28) < \frac{1}{5} = 0{,}2\text{ mg/lít}$.\nDo đó mệnh đề d) ĐÚNG.",9.3,510,487
 D25-G3,II.2,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": false, ""d"": false}","{""a"": true, ""b"": false, ""c"": false, ""d"": false}",True,4,1,,"Xét hàm số $f(x) = x^3 - 48x - 8$:
 a) Đạo hàm của hàm số là $f'(x) = 3x^2 - 48$. Do đó mệnh đề a) Đúng.
 b) Giải phương trình $f'(x) = 0 \Leftrightarrow 3x^2 - 48 = 0 \Leftrightarrow x = \pm 4$. Tập nghiệm là $S = \{-4; 4\}$. Do đó mệnh đề b) Sai.
@@ -92,8 +92,8 @@ $$T = 7! \times \binom{6}{3} = 5040 \times 20 = 100800$$
 
 Giá trị của $\frac{T}{50}$ là:
 $$\frac{100800}{50} = 2016$$",9.7,349,250
-D25-G3,III.3,short,thong_ke_xac_suat,True,null,"""3780""",False,,0,E8,,49.0,1477,607
-D25-G3,III.4,short,hinh_hoc_do_luong,False,null,"""2,08""",False,,0,E8,,12.2,261,574
+D25-G3,III.3,short,thong_ke_xac_suat,True,"""3780""","""3780""",True,,0.5,,,49.0,1477,607
+D25-G3,III.4,short,hinh_hoc_do_luong,False,"""2,08""","""2,08""",True,,0.5,,"1. **Phân tích hình học cơ sở:**\n- Tam giác $ABC$ là tam giác đều cạnh $AB = 4$, suy ra $AC = 4$.\n- Gọi $O$ là giao điểm của $AC$ và $BD$. Ta có $AC \perp BD$ tại $O$, $BO = 2\sqrt{3}$ và $OD = 2\sqrt{3}$.\n- Trọng tâm $H$ của tam giác $ABC$ thuộc đoạn $BO$ và $HO = \frac{1}{3}BO = \frac{2\sqrt{3}}{3}$.\n- Do đó $HD = HO + OD = \frac{2\sqrt{3}}{3} + 2\sqrt{3} = \frac{8\sqrt{3}}{3}$.\n\n2. **Khoảng cách giữa hai đường thẳng $AC$ và $SD$:**\n- Vì $AC \perp BD$ và $AC \perp SH$ (do $SH \perp (ABCD)$), suy ra $AC \perp (SBD)$.\n- Do đó, khoảng cách giữa $AC$ và $SD$ chính là khoảng cách từ điểm $O$ đến đường thẳng $SD$ trong mặt phẳng $(SBD)$.\n\n3. **Tính toán:**\n- Xét tam giác $OSD$ trong mặt phẳng $(SBD)$:\n  + Diện tích tam giác $OSD$: $S_{\Delta OSD} = \frac{1}{2} \cdot OD \cdot SH = \frac{1}{2} \cdot 2\sqrt{3} \cdot 2\sqrt{3} = 6$.\n  + Độ dài cạnh $SD = \sqrt{HD^2 + SH^2} = \sqrt{\left(\frac{8\sqrt{3}}{3}\right)^2 + (2\sqrt{3})^2} = \sqrt{\frac{64}{3} + 12} = \frac{10\sqrt{3}}{3}$.\n- Khoảng cách từ $O$ đến $SD$ là: \n  $$d(O, SD) = \frac{2 S_{\Delta OSD}}{SD} = \frac{2 \cdot 6}{\frac{10\sqrt{3}}{3}} = \frac{6\sqrt{3}}{5} \approx 2,07846...$$\n\n4. **Làm tròn kết quả:**\n- Làm tròn đến hàng phần trăm thu được $2,08$.",12.2,261,574
 D25-G3,III.5,short,dai_so_giai_tich,False,"""2150""","""2150""",True,,0.5,,"Gọi $x, y$ lần lượt là số lượng thực đơn 1 và thực đơn 2 được bán ($x, y \ge 0$).
 
 Theo bài ra, ta có các hạn chế về số lượng nguyên liệu:

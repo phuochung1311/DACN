@@ -4,7 +4,7 @@ Ta có:
 $\log_3(x - 1) = 1 \iff x - 1 = 3^1 \iff x = 4$ (thỏa mãn điều kiện).
 Vậy nghiệm của phương trình là $x = 4$.",2.5,192,97
 D26-G3,I.2,mcq,hinh_hoc_do_luong,True,"""B""","""B""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, hai đoạn thẳng $AB$ và $D'C'$ song song, bằng nhau và các hướng từ $A$ đến $B$ cùng hướng với từ $D'$ đến $C'$. Do đó $\vec{D'C'} = \vec{AB}$.",8.0,1331,88
-D26-G3,I.3,mcq,thong_ke_xac_suat,False,null,"""C""",False,,0,E8,,2.0,217,67
+D26-G3,I.3,mcq,thong_ke_xac_suat,False,"""C""","""C""",True,,0.25,,"Do hai biến cố $A$ và $B$ độc lập nên $P(AB) = P(A) \cdot P(B) = 0,5 \cdot 0,4 = 0,2$.",2.0,217,67
 D26-G3,I.4,mcq,dai_so_giai_tich,True,"""C""","""C""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số, ta có:
 - $\lim_{x \to -\infty} y = -2$
 - $\lim_{x \to +\infty} y = -2$
@@ -81,7 +81,7 @@ a) Ta có $f'(x) = x^2 - 10x + 9$. (Đúng)
 b) $f'(x) = 0 \Leftrightarrow x^2 - 10x + 9 = 0 \Leftrightarrow x = 1$ hoặc $x = 9$. Tập nghiệm $S = \{1; 9\}$. (Đúng)
 c) $f'(x) < 0 \Leftrightarrow x \in (1; 9)$, nên hàm số nghịch biến trên khoảng $(1; 9)$. (Đúng)
 d) Hàm số đạt cực tiểu tại $x = 9$, giá trị cực tiểu $f(9) = -73$. Giá trị $\frac{37}{3}$ là giá trị cực đại tại $x = 1$. (Sai)",4.1,284,256
-D26-G3,III.1,short,thong_ke_xac_suat,True,null,"""1856""",False,,0,E8,,33.1,1435,437
+D26-G3,III.1,short,thong_ke_xac_suat,True,"""1856""","""1856""",True,,0.5,,"Đa giác đều 12 đỉnh $A_1A_2\ldots A_{12}$ có đúng 3 hình vuông mà các đỉnh là các đỉnh của đa giác, đó là $S_1=\{A_1, A_4, A_7, A_{10}\}$, $S_2=\{A_2, A_5, A_8, A_{11}\}$, và $S_3=\{A_3, A_6, A_9, A_{12}\}$. Ba hình vuông này tạo thành một phân hoạch gồm 3 tập hợp rời nhau, mỗi tập có 4 đỉnh.\n\nSố cách chọn vị trí lắp 4 bóng đèn màu đỏ vào 12 đỉnh là $\binom{12}{4} = 495$.\n\nĐể mỗi hình vuông đều có ít nhất một bóng đèn màu đỏ, 4 bóng đèn màu đỏ phải được phân bố vào 3 hình vuông theo dạng (2, 1, 1). Số cách chọn 4 đỉnh thoả mãn điều kiện này là:\n- Chọn 1 hình vuông chứa 2 bóng đỏ: $\binom{3}{1} = 3$ cách.\n- Chọn 2 đỉnh trong hình vuông đó: $\binom{4}{2} = 6$ cách.\n- Chọn 1 đỉnh trong mỗi hình vuông còn lại: $\binom{4}{1} \times \binom{4}{1} = 16$ cách.\n\nTổng số cách xếp thỏa mãn là $3 \times 6 \times 16 = 288$.\n\nXác suất cần tìm là $P = \frac{288}{495} = \frac{32}{55}$.\n\nDo đó, $3190P = 3190 \times \frac{32}{55} = 58 \times 32 = 1856$.",33.1,1435,437
 D26-G3,III.2,short,dai_so_giai_tich,False,"""1275""","""1275""",True,,0.5,,"Gọi $x, y, z$ (nghìn đồng/kg) lần lượt là đơn giá của Rau muống, Bí xanh, Cà chua.
 
 Từ bảng số liệu của thứ Tư, thứ Năm, thứ Sáu, ta có hệ phương trình:
@@ -101,7 +101,7 @@ $$V = \pi \int_{-\sqrt{2,16}}^{\sqrt{2,16}} \left( 1 - \frac{4x^2}{9} - 0,2^2 \r
 $$V = 2\pi \left[ 0,96x - \frac{4x^3}{27} \right]_0^{\sqrt{2,16}} = 2\pi \sqrt{2,16} \left( 0,96 - \frac{4 \cdot 2,16}{27} \right) = 1,28\pi \sqrt{2,16} \approx 5,90998978 \text{ cm}^3$$
 
 Làm tròn đến hàng phần trăm thu được kết quả $5,91$ cm$^3$.",29.5,1491,422
-D26-G3,III.4,short,dai_so_giai_tich,True,null,"""1152""",False,,0,E8,,73.2,1516,508
+D26-G3,III.4,short,dai_so_giai_tich,True,"""1152""","""1152""",True,,0.5,,"Xét dư của 15 số khi chia cho 5, ta phân hoạch tập hợp 15 số thành 5 lớp đồng dư:\n- Lớp dư 0: $\{0, 5, 10, 15, 20\}$ (5 số)\n- Lớp dư 1: $\{1, 6, 11, 16\}$ (4 số)\n- Lớp dư 2: $\{2, 7, 12\}$ (3 số)\n- Lớp dư 3: $\{3, 8\}$ (2 số)\n- Lớp dư 4: $\{4\}$ (1 số)\n\nTheo yêu cầu đề bài, hai số trên cùng một hàng hoặc cùng một cột không được có cùng số dư khi chia cho 5 (vì hiệu của chúng không chia hết cho 5).\n\nHình lưới gồm 15 ô xếp theo dạng bậc thang (Hàng 5 có 1 ô, Hàng 4 có 2 ô,..., Hàng 1 có 5 ô).\n- Do Hàng 5 chỉ có 1 ô ở Cột 1, nên 5 số dư 0 bắt buộc phải nằm trên đường chéo $i+j=6$ gồm các ô $(5,1), (4,2), (3,3), (2,4), (1,5)$.\n- Tương tự, 4 số dư 1 bắt buộc nằm trên đường chéo $i+j=5$.\n- 3 số dư 2 nằm trên đường chéo $i+j=4$.\n- 2 số dư 3 nằm trên đường chéo $i+j=3$.\n- 1 số dư 4 nằm ở ô $(1,1)$.\n\nSố cách xếp các số vào các vị trí đã định là:\n$H = 5! \times 4! \times 3! \times 2! \times 1! = 120 \times 24 \times 6 \times 2 \times 1 = 34560$.\n\nDo đó, giá trị của $\frac{H}{30} = \frac{34560}{30} = 1152$.",73.2,1516,508
 D26-G3,III.5,short,dai_so_giai_tich,False,"""1990""","""1990""",True,,0.5,,"Hàm lợi nhuận của công ty tính theo $x$ (tấn) là $P(x) = R(x) - C(x) = -0,001x^3 + 30x - 10$ trên đoạn $[1; 200]$.
 Đạo hàm $P'(x) = -0,003x^2 + 30$.
 Cho $P'(x) = 0 \iff -0,003x^2 + 30 = 0 \iff x^2 = 10000 \iff x = 100$ (do $1 \le x \le 200$).

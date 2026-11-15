@@ -1,6 +1,6 @@
 ﻿exam,id,format,topic,has_figure,pred,key,correct,tf_k,points,ma_loi,summary,latency,tok_in,tok_out
 D25-MH,I.1,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Nguyên hàm của hàm số $f(x) = \text{e}^x$ là $\int \text{e}^x \text{d}x = \text{e}^x + C$. Do đó, phương án đúng là B.",22.2,223,73
-D25-MH,I.2,mcq,dai_so_giai_tich,False,null,"""D""",False,,0,E8,,2.8,332,104
+D25-MH,I.2,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,,2.8,332,104
 D25-MH,I.3,mcq,thong_ke_xac_suat,False,"""A""","""A""",True,,0.25,,"Tần số của từng nhóm ở mẫu số liệu $M_2$ gấp 2 lần tần số của từng nhóm tương ứng ở mẫu số liệu $M_1$ (kéo theo kích thước mẫu $n_2 = 2n_1$). 
 
 Do giá trị đại diện của các nhóm ở hai mẫu số liệu là như nhau, nên:
@@ -13,7 +13,7 @@ $$\frac{x - x_0}{a} = \frac{y - y_0}{b} = \frac{z - z_0}{c}$$
 Thay tọa độ điểm $M(1; -3; 5)$ và vectơ chỉ phương $\vec{u}(2; -1; 1)$ vào công thức, ta được:
 $$\frac{x - 1}{2} = \frac{y + 3}{-1} = \frac{z - 5}{1}$$
 Do đó, phương án đúng là C.",3.1,311,198
-D25-MH,I.5,mcq,dai_so_giai_tich,True,"""C""","""B""",False,,0,,"Dựa vào đồ thị hàm số $y = \frac{ax+b}{cx+d}$:
+D25-MH,I.5,mcq,dai_so_giai_tich,True,"""C""","""B""",False,,0,E2,"Dựa vào đồ thị hàm số $y = \frac{ax+b}{cx+d}$:
 - Đường tiệm cận ngang là đường thẳng song song (hoặc trùng) với trục hoành và nằm phía dưới trục hoành ($y < 0$).
 - Từ hình vẽ, đường tiệm cận ngang có phương trình là $y = -1$.
 
@@ -31,7 +31,7 @@ D25-MH,I.11,mcq,hinh_hoc_do_luong,True,"""D""","""D""",True,,0.25,,"Áp dụng q
 $$\vec{AB} + \vec{AD} + \vec{AA'} = \vec{AC'}$$ 
 Hoặc có thể cộng từng bước: $\vec{AB} + \vec{AD} = \vec{AC}$, suy ra $\vec{AB} + \vec{AA'} + \vec{AD} = \vec{AC} + \vec{AA'} = \vec{AC} + \vec{CC'} = \vec{AC'}$.
 Do đó, phát biểu ở phương án D là đúng.",9.4,1404,170
-D25-MH,I.12,mcq,dai_so_giai_tich,True,null,"""C""",False,,0,E8,,5.6,1320,172
+D25-MH,I.12,mcq,dai_so_giai_tich,True,"""C""","""C""",True,,0.25,,"Dựa vào đồ thị hàm số ở Câu 12, ta quan sát chiều đi lên/đi xuống của đồ thị từ trái sang phải:\n- Trên khoảng $(-\infty; -1)$, đồ thị đi xuống từ trên cao đến điểm cực tiểu tại $x = -1$, nên hàm số nghịch biến.\n- Trên khoảng $(-1; 1)$, đồ thị đi lên từ điểm cực tiểu tại $x = -1$ đến điểm cực đại tại $x = 1$, nên hàm số đồng biến.\n- Trên khoảng $(1; +\infty)$, đồ thị đi xuống từ điểm cực đại tại $x = 1$, nên hàm số nghịch biến.\n\nVậy hàm số đồng biến trên khoảng $(-1; 1)$.",5.6,1320,172
 D25-MH,II.1,tf,dai_so_giai_tich,False,"{""a"": true, ""b"": false, ""c"": true, ""d"": true}","{""a"": true, ""b"": false, ""c"": true, ""d"": true}",True,4,1,,"Xét hàm số $f(x) = 2\cos x + x$ trên đoạn $\left[0;\frac{\pi}{2}\right]$:
 a) $f(0) = 2\cos 0 + 0 = 2$ và $f\left(\frac{\pi}{2}\right) = 2\cos\frac{\pi}{2} + \frac{\pi}{2} = \frac{\pi}{2}$. (Đúng)
 b) $f'(x) = -2\sin x + 1$. Mệnh đề cho $f'(x) = 2\sin x + 1$ là Sai. (Sai)
@@ -94,7 +94,7 @@ Có 3 chu trình Hamilton không hướng xuất phát từ một trụ bất k�
 3. Chu trình $A - C - B - D - A$ có tổng số thử thách: $11 + 12 + 11 + 9 = 43$.
 
 Giá trị nhỏ nhất của tổng số thử thách là 43.",71.7,1388,292
-D25-MH,III.3,short,hinh_hoc_do_luong,False,null,"""3""",False,,0,E8,,68.7,325,432
+D25-MH,III.3,short,hinh_hoc_do_luong,False,"""3""","""3""",True,,0.5,,"Gọi tọa độ của điểm $M$ là $(a; b; c)$.\nTừ giả thiết, ta có các phương trình mặt cầu:\n1) $(a-3)^2 + (b-1)^2 + c^2 = 3^2 \Leftrightarrow a^2 + b^2 + c^2 - 6a - 2b + 10 = 9$\n2) $(a-3)^2 + (b-6)^2 + (c-6)^2 = 6^2 \Leftrightarrow a^2 + b^2 + c^2 - 6a - 12b - 12c + 81 = 36$\n3) $(a-4)^2 + (b-6)^2 + (c-2)^2 = 5^2 \Leftrightarrow a^2 + b^2 + c^2 - 8a - 12b - 4c + 56 = 25$\n4) $(a-6)^2 + (b-2)^2 + (c-14)^2 = 13^2 \Leftrightarrow a^2 + b^2 + c^2 - 12a - 4b - 28c + 236 = 169$\n\nĐặt $S = a^2 + b^2 + c^2 = OM^2$. Giải hệ phương trình tuyến tính đối với $S, a, b, c$, ta tìm được:\n$a = 1$, $b = 2$, $c = 2$.\n\nDo đó, tọa độ điểm $M(1; 2; 2)$.\nKhoảng cách từ điểm $M$ đến gốc tọa độ $O(0;0;0)$ là:\n$OM = \sqrt{1^2 + 2^2 + 2^2} = 3$.",68.7,325,432
 D25-MH,III.4,short,dai_so_giai_tich,True,"""3200""","""3200""",True,,0.5,,"Diện tích hình chữ nhật là $S_{	ext{HCN}} = 60 	imes 80 = 4800	ext{ m}^2$.
 
 Mỗi phần trồng hoa là một hình phẳng giới hạn bởi cạnh của hình chữ nhật và một parabol có chiều cao $h = 20	ext{ m}$ và độ dài đáy $b = 60	ext{ m}$.

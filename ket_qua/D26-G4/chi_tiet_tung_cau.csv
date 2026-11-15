@@ -7,7 +7,7 @@ D26-G4,I.2,mcq,dai_so_giai_tich,False,"""C""","""C""",True,,0.25,,"Áp dụng c�
 Thay số: $u_2 = -2 + 3 = 1$.
 Vậy $u_2 = 1$, chọn phương án C.",6.1,195,75
 D26-G4,I.3,mcq,dai_so_giai_tich,False,"""D""","""D""",True,,0.25,,"Ta có $\int (2 + f(x))dx = \int 2dx + \int f(x)dx = 2x + \sin x + C$. Do đó, phương án đúng là D.",13.1,254,66
-D26-G4,I.4,mcq,dai_so_giai_tich,True,null,"""C""",False,,0,E8,,40.6,1356,99
+D26-G4,I.4,mcq,dai_so_giai_tich,True,"""C""","""C""",True,,0.25,,"Dựa vào bảng biến thiên của hàm số, tại $x = 1$ hàm số không xác định (có hai vạch song song) và $\lim_{x \to 1^-} y = +\infty$, $\lim_{x \to 1^+} y = -\infty$. Do đó, đường tiệm cận đứng của đồ thị hàm số là $x = 1$.",40.6,1356,99
 D26-G4,I.5,mcq,dai_so_giai_tich,False,"""B""","""B""",True,,0.25,,"Thay lần lượt các cặp số vào hệ bất phương trình:
 - Với $(-3; 0)$: $-3 + 0 - 2 = -5 < 0$ (Đúng) nhưng $-3 - 0 + 2 = -1 
 gtr 0$ (Sai).
@@ -21,7 +21,7 @@ Do đó, phương án đúng là B.",22.0,214,209
 D26-G4,I.6,mcq,hinh_hoc_do_luong,True,"""A""","""A""",True,,0.25,,"Trong hình lập phương $ABCD.A'B'C'D'$, mặt bên $ADD'A'$ và $BCC'B'$ là các hình vuông song song và bằng nhau.
 Do đó, hai vectơ $\overrightarrow{AD}$ và $\overrightarrow{B'C'}$ có cùng hướng (từ mặt sau ra mặt trước) và cùng độ dài ($AD = B'C'$).
 Vậy $\overrightarrow{AD} = \overrightarrow{B'C'}$, đáp án đúng là A.",9.2,1331,124
-D26-G4,I.7,mcq,dai_so_giai_tich,False,null,"""A""",False,,0,E8,,2.3,244,84
+D26-G4,I.7,mcq,dai_so_giai_tich,False,"""A""","""A""",True,,0.25,,"Công thức số hạng tổng quát của cấp số nhân $(u_n)$ có số hạng đầu $u_1$ và công bội $q$ là $u_n = u_1 \cdot q^{n-1}$. Do đó, số hạng $u_3 = u_1 q^2$.",2.3,244,84
 D26-G4,I.8,mcq,thong_ke_xac_suat,False,"""D""","""D""",True,,0.25,,"Tổng số học sinh là $N = 42$.
 Thứ tự của trung vị là $\frac{N}{2} = \frac{42}{2} = 21$.
 
@@ -72,16 +72,16 @@ c) Sai: Điểm $P(x; y; z)$ trên đường bay có khoảng cách đến vành
 Với $P(2+4k; 11-3k; 3)$ ($k \in [0; 3]$), ta có $x^2+y^2 = 25(k-1)^2 + 100 \ge 100 \Rightarrow \sqrt{x^2+y^2} \ge 10$.
 Do đó $d \ge \sqrt{(10-6)^2 + 3^2} = 5$ (đơn vị vị trí) = 50 mét. Vậy khoảng cách ngắn nhất là 50 mét, không phải 100 mét.
 d) Đúng: Giá trị nhỏ nhất đạt được khi $k = 1$, ứng với tọa độ máy bay là $(2+4; 11-3; 3) = (6; 8; 3)$.",9.9,508,384
-D26-G4,III.1,short,hinh_hoc_do_luong,False,null,"""17,1""",False,,0,E8,,8.4,216,399
-D26-G4,III.2,short,dai_so_giai_tich,True,"""5,91""","""6,19""",False,,0,,"1. Phương trình nửa trên elip là $y = \sqrt{1 - \frac{x^2}{1,5^2}} = \sqrt{1 - \frac{x^2}{2,25}}$ ($y \ge 0$).
+D26-G4,III.1,short,hinh_hoc_do_luong,False,"""17,1""","""17,1""",True,,0.5,,"Chọn hệ trục tọa độ $Oxyz$ sao cho $A(0,0,0)$, $B(14,0,0)$, $D(0,14,0)$ và $M(0,0,14)$.\nDo $E$ là trung điểm của $AB$ nên $E(7,0,0)$.\nĐiểm $P$ có tọa độ là $P(14,14,14)$.\n\nMặt phẳng $(MED)$ đi qua $E(7,0,0)$, $D(0,14,0)$ và $M(0,0,14)$ có cặp vectơ chỉ phương:\n$\vec{EM} = (-7; 0; 14)$, $\vec{ED} = (-7; 14; 0)$.\nVectơ pháp tuyến của mặt phẳng $(MED)$ là $\vec{n} = (2; 1; 1)$.\n\nPhương trình mặt phẳng $(MED)$ là:\n$2(x - 7) + 1(y - 0) + 1(z - 0) = 0 \Leftrightarrow 2x + y + z - 14 = 0$.\n\nKhoảng cách từ điểm $P(14,14,14)$ đến mặt phẳng $(MED)$ là:\n$d(P, (MED)) = \frac{|2 \cdot 14 + 14 + 14 - 14|}{\sqrt{2^2 + 1^2 + 1^2}} = \frac{42}{\sqrt{6}} = 7\sqrt{6} \approx 17,146... \approx 17,1$.",8.4,216,399
+D26-G4,III.2,short,dai_so_giai_tich,True,"""5,91""","""6,19""",False,,0,E2,"1. Phương trình nửa trên elip là $y = \sqrt{1 - \frac{x^2}{1,5^2}} = \sqrt{1 - \frac{x^2}{2,25}}$ ($y \ge 0$).
 2. Bán kính lỗ khoan là $r = 0,2\text{ cm}$. Hoành độ giao điểm của lỗ khoan với elip là nghiệm của phương trình $y = 0,2$:
 $$1 - \frac{x^2}{2,25} = 0,2^2 = 0,04 \implies x^2 = 2,25 \times 0,96 = 2,16 \implies x = \pm \sqrt{2,16}.$$
 3. Thể tích của hạt cườm thu được bằng thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi $y = \sqrt{1 - \frac{x^2}{2,25}}$, $y = 0,2$ quanh trục $Ox$:
 $$V = \pi \int_{-\sqrt{2,16}}^{\sqrt{2,16}} \left( 1 - \frac{x^2}{2,25} - 0,04 \right) dx = 2\pi \int_{0}^{\sqrt{2,16}} \left( 0,96 - \frac{x^2}{2,25} \right) dx$$
 $$V = 2\pi \left[ 0,96x - \frac{x^3}{6,75} \right]_0^{\sqrt{2,16}} = 2\pi \left( 0,96\sqrt{2,16} - 0,32\sqrt{2,16} \right) = 1,28\pi \sqrt{2,16} \approx 5,90994788\text{ cm}^3.$$
 4. Làm tròn đến hàng phần trăm thu được kết quả là $5,91\text{ cm}^3$.",127.0,1470,495
-D26-G4,III.3,short,dai_so_giai_tich,True,null,"""3456""",False,,0,E8,,37.2,1515,566
-D26-G4,III.4,short,thong_ke_xac_suat,True,null,"""2656""",False,,0,E8,,46.0,1437,393
+D26-G4,III.3,short,dai_so_giai_tich,True,"""3456""","""3456""",True,,0.5,,"Phân loại 15 số đã cho theo số dư khi chia cho 5:\n- Số dư 1 (5 số): $\{1; 6; 11; 16; 21\}$\n- Số dư 2 (4 số): $\{2; 7; 12; 17\}$\n- Số dư 3 (3 số): $\{3; 8; 13\}$\n- Số dư 4 (2 số): $\{4; 9\}$\n- Số dư 0 (1 số): $\{5\}$\n\nDo hiệu hai số ở hai ô cùng hàng hoặc cùng cột không chia hết cho 5, nên không có hai số nào có cùng số dư khi chia cho 5 được xếp trên cùng một hàng hoặc cùng một cột.\n\nXét bảng gồm 15 ô hình cầu thang (hàng 5 có 1 ô, hàng 4 có 2 ô, hàng 3 có 3 ô, hàng 2 có 4 ô, hàng 1 có 5 ô):\n- 5 số có số dư 1 bắt buộc phải điền vào 5 vị trí thuộc 5 hàng và 5 cột khác nhau. Do số lượng ô ở từng hàng giới hạn, 5 vị trí này bị cố định duy nhất là các ô $(5,1), (4,2), (3,3), (2,4), (1,5)$.\n- Tương tự, 4 số có số dư 2 bị cố định vào các ô còn lại ở 4 hàng và 4 cột là $(4,1), (3,2), (2,3), (1,4)$.\n- 3 số có số dư 3 cố định ở $(3,1), (2,2), (1,3)$.\n- 2 số có số dư 4 cố định ở $(2,1), (1,2)$.\n- 1 số có số dư 0 cố định ở $(1,1)$.\n\nSố cách điền các số vào các vị trí cố định ứng với từng nhóm số dư là:\n$H = 5! \times 4! \times 3! \times 2! \times 1! = 120 \times 24 \times 6 \times 2 \times 1 = 34560$.\n\nVậy giá trị $\frac{H}{10} = \frac{34560}{10} = 3456$.",37.2,1515,566
+D26-G4,III.4,short,thong_ke_xac_suat,True,"""2656""","""2656""",True,,0.5,,"Đa giác đều 12 đỉnh $A_1A_2\dots A_{12}$ chứa đúng 3 hình vuông phân biệt có đỉnh là các đỉnh của đa giác, phân hoạch 12 đỉnh thành 3 tập hợp rời nhau, mỗi tập gồm 4 đỉnh: $S_1 = \{A_1, A_4, A_7, A_{10}\}$, $S_2 = \{A_2, A_5, A_8, A_{11}\}$, và $S_3 = \{A_3, A_6, A_9, A_{12}\}$.\n\nTổng số cách chọn 4 đỉnh để lắp 4 bóng đèn màu đỏ là $\binom{12}{4} = 495$.\n\nĐể mỗi hình vuông có ít nhất một bóng đèn màu đỏ, số bóng đèn đỏ ở 3 hình vuông $(S_1, S_2, S_3)$ phải nhận các bộ số là một trong các hoán vị của $(2, 1, 1)$.\n- Số cách chọn đỉnh lắp đèn màu đỏ tương ứng là: $3 \times \binom{4}{2} \times \binom{4}{1} \times \binom{4}{1} = 3 \times 6 \times 4 \times 4 = 288$.\n\nXác suất cần tìm là $P = \frac{288}{495} = \frac{32}{55}$.\n\nDo đó, giá trị của $4565P = 4565 \times \frac{32}{55} = 83 \times 32 = 2656$.",46.0,1437,393
 D26-G4,III.5,short,dai_so_giai_tich,False,"""3980""","""3980""",True,,0.5,,"Hàm lợi nhuận của công ty trong một tháng là:
 $P(x) = R(x) - C(x) = 90x - (0,002x^3 + 30x + 20) = -0,002x^3 + 60x - 20$ với $x \in [1; 180]$.
 
